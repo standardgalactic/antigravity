@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>No Such Force — an entropic curvature playground</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --void: #0a0d12;
+    --void-2: #10151d;
+    --mesh: #253143;
+    --mesh-bright: #3d4f68;
+    --order: #6fb8c9;      /* low entropy / dense */
+    --order-glow: #9fd8e6;
+    --disorder: #d98a4a;   /* high entropy / diffuse */
+    --disorder-glow: #f2b57b;
+    --paper: #e9e6de;
+    --paper-dim: #a7a89f;
+    --line: #1c2430;
+  }
+
+  *{ box-sizing: border-box; }
+
+  html,body{
+    margin:0; padding:0;
+    background: var(--void);
+    color: var(--paper);
+    font-family: 'IBM Plex Mono', monospace;
+    overflow-x: hidden;
+  }
+
+  ::selection{ background: var(--order); color: var(--void); }
+
+  .wrap{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 56px 28px 90px;
+  }
+
+  header{
+    margin-bottom: 34px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 28px;
+  }
+
+  .eyebrow{
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--disorder-glow);
+    margin-bottom: 14px;
+  }
+
+  h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.05;
+    margin: 0 0 18px;
+    color: var(--paper);
+    letter-spacing: -0.01em;
+  }
+
+  h1 em{
+    font-style: normal;
+    color: var(--order-glow);
+  }
+
+  .lede{
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--paper-dim);
+    max-width: 62ch;
+  }
+
+  .stage{
+    position: relative;
+    border: 1px solid var(--line);
+    background: var(--void-2);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  canvas{
+    display: block;
+    width: 100%;
+    height: auto;
+    touch-action: none;
+    cursor: crosshair;
+  }
+
+  .hud{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 18px;
+    border-top: 1px solid var(--line);
+    flex-wrap: wrap;
+  }
+
+  .toggle-group{
+    display: flex;
+    gap: 2px;
+    background: var(--void);
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid var(--line);
+  }
+
+  button.mode{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 2px;
+    background: transparent;
+    color: var(--paper-dim);
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  button.mode.active{
+    background: var(--mesh-bright);
+    color: var(--paper);
+  }
+
+  button.mode:hover:not(.active){
+    color: var(--paper);
+  }
+
+  .hint{
+    font-size: 12px;
+    color: var(--paper-dim);
+    letter-spacing: 0.02em;
+  }
+
+  .readout{
+    font-size: 11px;
+    color: var(--paper-dim);
+    letter-spacing: 0.03em;
+  }
+
+  .readout span{ color: var(--order-glow); }
+
+  .legend{
+    display: flex;
+    gap: 22px;
+    padding: 0 18px 16px;
+    flex-wrap: wrap;
+  }
+
+  .legend-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    color: var(--paper-dim);
+    letter-spacing: 0.02em;
+  }
+
+  .swatch{
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .swatch.order{ background: var(--order-glow); }
+  .swatch.disorder{ background: var(--disorder-glow); }
+  .swatch.mesh{ background: var(--mesh-bright); }
+
+  .notes{
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+  }
+
+  @media (max-width: 640px){
+    .notes{ grid-template-columns: 1fr; }
+  }
+
+  .note h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0 0 10px;
+    color: var(--order-glow);
+  }
+
+  .note p{
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--paper-dim);
+    margin: 0;
+  }
+
+  .note.warm h2{ color: var(--disorder-glow); }
+
+  footer{
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 11px;
+    color: var(--paper-dim);
+    letter-spacing: 0.03em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  footer a{ color: var(--paper-dim); }
+
+  kbd{
+    font-family: 'IBM Plex Mono', monospace;
+    background: var(--mesh);
+    padding: 1px 6px;
+    border-radius: 2px;
+    font-size: 11px;
+    color: var(--paper);
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">field playground · not a force diagram</div>
+    <h1>No such force.<br>Only <em>entropy</em>, rearranging.</h1>
+    <p class="lede">
+      Drop a few points of order onto the mesh below. Nothing pulls on anything else here —
+      the grid just bends toward wherever the configuration is densest, and whatever drifts
+      through follows the bend. Switch to force view to see the version with arrows instead,
+      the one that implies something is reaching out and grabbing.
+    </p>
+  </header>
+
+  <div class="stage">
+    <canvas id="field" width="1200" height="720"></canvas>
+    <div class="legend">
+      <div class="legend-item"><span class="swatch order"></span> low entropy / ordered mass</div>
+      <div class="legend-item"><span class="swatch disorder"></span> drifting test particle</div>
+      <div class="legend-item"><span class="swatch mesh"></span> local curvature of the mesh</div>
+    </div>
+    <div class="hud">
+      <div class="toggle-group">
+        <button class="mode active" data-mode="entropic">entropic view</button>
+        <button class="mode" data-mode="force">force view</button>
+      </div>
+      <div class="hint">click / tap to place a mass · drag to move one · double-click to remove</div>
+      <div class="readout">masses <span id="massCount">0</span> · particles <span id="particleCount">0</span></div>
+    </div>
+  </div>
+
+  <div class="notes">
+    <div class="note">
+      <h2>What the mesh is doing</h2>
+      <p>
+        Each point of order lowers the local entropy of the field around it. The mesh simply
+        sags toward whichever region has the least of it — the same way a taut sheet sags
+        under a low spot, not because the sheet is being pulled, but because that is what
+        an unconstrained sheet does once the low spot exists. Particles crossing the mesh
+        follow the shortest path across whatever slope is already there.
+      </p>
+    </div>
+    <div class="note warm">
+      <h2>What the arrows hide</h2>
+      <p>
+        Force view draws a vector from every particle to every mass, as if each one were
+        reaching across the gap to grab the other. It is a useful shorthand for arithmetic —
+        the numbers come out the same for two ordinary masses — but nothing in this picture
+        is actually reaching. Turn the toggle back and the arrows disappear along with the
+        implication that gravity is a thing doing the pulling, rather than a shape the field
+        was always going to take.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <span>a small companion to the entropic-gravity material, not part of the argument itself</span>
+    <span>drag freely — nothing here is precise enough to cite</span>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  const canvas = document.getElementById('field');
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+  const GRID_N = 34;
+  const cellW = W / GRID_N, cellH = H / GRID_N;
+
+  let mode = 'entropic';
+  let masses = [
+    { x: W*0.35, y: H*0.45, strength: 5200 },
+    { x: W*0.68, y: H*0.6, strength: 3400 }
+  ];
+  let particles = [];
+  let dragTarget = null;
+  let dragOffset = {x:0,y:0};
+
+  const massCountEl = document.getElementById('massCount');
+  const particleCountEl = document.getElementById('particleCount');
+
+  function updateCounts(){
+    massCountEl.textContent = masses.length;
+    particleCountEl.textContent = particles.length;
+  }
+
+  // seed a handful of drifting particles
+  for(let i=0;i<26;i++){
+    particles.push(spawnParticle());
+  }
+
+  function spawnParticle(){
+    const edge = Math.floor(Math.random()*4);
+    let x,y,vx,vy;
+    const speed = 0.4 + Math.random()*0.5;
+    if(edge===0){ x=0; y=Math.random()*H; vx=speed; vy=(Math.random()-0.5)*0.3; }
+    else if(edge===1){ x=W; y=Math.random()*H; vx=-speed; vy=(Math.random()-0.5)*0.3; }
+    else if(edge===2){ x=Math.random()*W; y=0; vy=speed; vx=(Math.random()-0.5)*0.3; }
+    else { x=Math.random()*W; y=H; vy=-speed; vx=(Math.random()-0.5)*0.3; }
+    return { x, y, vx, vy, trail: [] };
+  }
+
+  function displacementAt(px, py){
+    // sum of each mass's contribution to local mesh sag (a simple falloff, not real GR)
+    let dx = 0, dy = 0;
+    for(const m of masses){
+      const rx = px - m.x, ry = py - m.y;
+      const r2 = rx*rx + ry*ry + 1800;
+      const pull = m.strength / r2;
+      dx -= rx * pull * 0.02;
+      dy -= ry * pull * 0.02;
+    }
+    return {dx, dy};
+  }
+
+  function gradientAt(px, py){
+    // direction + magnitude a particle should drift, derived from the same field
+    let ax = 0, ay = 0;
+    for(const m of masses){
+      const rx = m.x - px, ry = m.y - py;
+      const r2 = rx*rx + ry*ry + 400;
+      const r = Math.sqrt(r2);
+      const pull = m.strength / r2;
+      ax += (rx/r) * pull * 0.055;
+      ay += (ry/r) * pull * 0.055;
+    }
+    return {ax, ay};
+  }
+
+  function drawMesh(){
+    ctx.strokeStyle = 'rgba(61, 79, 104, 0.55)';
+    ctx.lineWidth = 1;
+
+    // horizontal lines
+    for(let j=0;j<=GRID_N;j++){
+      ctx.beginPath();
+      for(let i=0;i<=GRID_N;i++){
+        const bx = i*cellW, by = j*cellH;
+        const {dx,dy} = displacementAt(bx,by);
+        const x = bx+dx, y = by+dy;
+        if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+    }
+    // vertical lines
+    for(let i=0;i<=GRID_N;i++){
+      ctx.beginPath();
+      for(let j=0;j<=GRID_N;j++){
+        const bx = i*cellW, by = j*cellH;
+        const {dx,dy} = displacementAt(bx,by);
+        const x = bx+dx, y = by+dy;
+        if(j===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+    }
+  }
+
+  function drawFlatGrid(){
+    ctx.strokeStyle = 'rgba(61, 79, 104, 0.35)';
+    ctx.lineWidth = 1;
+    for(let j=0;j<=GRID_N;j++){
+      ctx.beginPath();
+      ctx.moveTo(0, j*cellH);
+      ctx.lineTo(W, j*cellH);
+      ctx.stroke();
+    }
+    for(let i=0;i<=GRID_N;i++){
+      ctx.beginPath();
+      ctx.moveTo(i*cellW, 0);
+      ctx.lineTo(i*cellW, H);
+      ctx.stroke();
+    }
+  }
+
+  function drawMasses(){
+    for(const m of masses){
+      const r = 8 + Math.sqrt(m.strength)*0.09;
+      const grad = ctx.createRadialGradient(m.x, m.y, 0, m.x, m.y, r*2.4);
+      grad.addColorStop(0, 'rgba(159, 216, 230, 0.9)');
+      grad.addColorStop(0.4, 'rgba(111, 184, 201, 0.35)');
+      grad.addColorStop(1, 'rgba(111, 184, 201, 0)');
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.arc(m.x, m.y, r*2.4, 0, Math.PI*2);
+      ctx.fill();
+
+      ctx.fillStyle = '#9fd8e6';
+      ctx.beginPath();
+      ctx.arc(m.x, m.y, r*0.35, 0, Math.PI*2);
+      ctx.fill();
+    }
+  }
+
+  function drawForceArrows(){
+    ctx.strokeStyle = 'rgba(242, 181, 123, 0.55)';
+    ctx.fillStyle = 'rgba(242, 181, 123, 0.55)';
+    ctx.lineWidth = 1.2;
+    for(const p of particles){
+      for(const m of masses){
+        const dx = m.x - p.x, dy = m.y - p.y;
+        const dist = Math.sqrt(dx*dx+dy*dy);
+        if(dist < 40) continue;
+        const len = Math.min(46, 2200 / dist);
+        const ux = dx/dist, uy = dy/dist;
+        const ex = p.x + ux*len, ey = p.y + uy*len;
+        ctx.beginPath();
+        ctx.moveTo(p.x, p.y);
+        ctx.lineTo(ex, ey);
+        ctx.stroke();
+        // arrowhead
+        const ang = Math.atan2(uy,ux);
+        ctx.beginPath();
+        ctx.moveTo(ex, ey);
+        ctx.lineTo(ex - 5*Math.cos(ang-0.35), ey - 5*Math.sin(ang-0.35));
+        ctx.lineTo(ex - 5*Math.cos(ang+0.35), ey - 5*Math.sin(ang+0.35));
+        ctx.closePath();
+        ctx.fill();
+      }
+    }
+  }
+
+  function drawParticles(){
+    for(const p of particles){
+      ctx.strokeStyle = 'rgba(242, 181, 123, 0.28)';
+      ctx.lineWidth = 1.4;
+      ctx.beginPath();
+      for(let i=0;i<p.trail.length;i++){
+        const t = p.trail[i];
+        if(i===0) ctx.moveTo(t.x,t.y); else ctx.lineTo(t.x,t.y);
+      }
+      ctx.stroke();
+
+      ctx.fillStyle = '#f2b57b';
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, 2.6, 0, Math.PI*2);
+      ctx.fill();
+    }
+  }
+
+  function step(){
+    for(const p of particles){
+      const {ax, ay} = gradientAt(p.x, p.y);
+      p.vx += ax * 0.5;
+      p.vy += ay * 0.5;
+      // gentle damping so orbits don't blow up
+      p.vx *= 0.998;
+      p.vy *= 0.998;
+      p.x += p.vx;
+      p.y += p.vy;
+
+      p.trail.push({x:p.x, y:p.y});
+      if(p.trail.length > 70) p.trail.shift();
+
+      if(p.x < -40 || p.x > W+40 || p.y < -40 || p.y > H+40){
+        Object.assign(p, spawnParticle());
+        p.trail = [];
+      }
+    }
+  }
+
+  function render(){
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle = '#0a0d12';
+    ctx.fillRect(0,0,W,H);
+
+    if(mode === 'entropic'){
+      drawMesh();
+      drawParticles();
+      drawMasses();
+    } else {
+      drawFlatGrid();
+      drawParticles();
+      drawForceArrows();
+      drawMasses();
+    }
+  }
+
+  function loop(){
+    step();
+    render();
+    requestAnimationFrame(loop);
+  }
+
+  // --- interaction ---
+
+  function toCanvasCoords(evt){
+    const rect = canvas.getBoundingClientRect();
+    const scaleX = W / rect.width, scaleY = H / rect.height;
+    const clientX = evt.touches ? evt.touches[0].clientX : evt.clientX;
+    const clientY = evt.touches ? evt.touches[0].clientY : evt.clientY;
+    return { x: (clientX - rect.left) * scaleX, y: (clientY - rect.top) * scaleY };
+  }
+
+  function findMassNear(x,y){
+    for(const m of masses){
+      const d = Math.hypot(m.x-x, m.y-y);
+      if(d < 34) return m;
+    }
+    return null;
+  }
+
+  let downPos = null, moved = false;
+
+  canvas.addEventListener('pointerdown', (e)=>{
+    const {x,y} = toCanvasCoords(e);
+    downPos = {x,y};
+    moved = false;
+    const hit = findMassNear(x,y);
+    if(hit){
+      dragTarget = hit;
+      dragOffset = { x: hit.x - x, y: hit.y - y };
+    }
+  });
+
+  canvas.addEventListener('pointermove', (e)=>{
+    if(!downPos) return;
+    const {x,y} = toCanvasCoords(e);
+    if(Math.hypot(x-downPos.x, y-downPos.y) > 3) moved = true;
+    if(dragTarget){
+      dragTarget.x = x + dragOffset.x;
+      dragTarget.y = y + dragOffset.y;
+      dragTarget.x = Math.max(20, Math.min(W-20, dragTarget.x));
+      dragTarget.y = Math.max(20, Math.min(H-20, dragTarget.y));
+    }
+  });
+
+  window.addEventListener('pointerup', (e)=>{
+    if(downPos && !moved && !dragTarget){
+      const {x,y} = toCanvasCoords(e);
+      const hit = findMassNear(x,y);
+      if(!hit && masses.length < 6){
+        masses.push({ x, y, strength: 2600 + Math.random()*2400 });
+        updateCounts();
+      }
+    }
+    downPos = null;
+    dragTarget = null;
+    moved = false;
+  });
+
+  canvas.addEventListener('dblclick', (e)=>{
+    const {x,y} = toCanvasCoords(e);
+    const hit = findMassNear(x,y);
+    if(hit){
+      masses = masses.filter(m => m !== hit);
+      updateCounts();
+    }
+  });
+
+  document.querySelectorAll('button.mode').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      document.querySelectorAll('button.mode').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      mode = btn.dataset.mode;
+    });
+  });
+
+  updateCounts();
+  loop();
+})();
+</script>
+
+</body>
+</html>

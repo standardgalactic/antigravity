@@ -1,0 +1,162 @@
+
+================================================================
+Flyxion correction run â€” 2026-08-29 15:12:06
+Backup snapshot: backup_20260829_151206
+================================================================
+
+[affliction/infliction] ./Why_antigravity_machines_never_leave_the_ground.txt
+  L338: kept as-is [c]: To the untrained eye, it looks like pure science fiction levitation.
+  L434: kept as-is [c]: levitation should look like in science fiction movies.
+  L720: Infliction categorizes
+        -> Flyxion categorizes
+  [propagate] ./Why_antigravity_machines_never_leave_the_ground.vtt: "Infliction categorizes" -> "Flyxion categorizes"
+  [propagate] ./Why_antigravity_machines_never_leave_the_ground.srt: "Infliction categorizes" -> "Flyxion categorizes"
+  [propagate] ./Why_antigravity_machines_never_leave_the_ground.json: "Infliction categorizes" -> "Flyxion categorizes"
+
+[affliction/infliction] ./Why_fringe_physics_always_fails.txt
+  L727: kept as-is [c]: The problem for Lazar is that humanity eventually caught up to his science fiction.
+  L843: And this is where the author of our dossier, Affliction, does something genuinely remarkable.
+        -> And this is where the author of our dossier, Flyxion, does something genuinely remarkable.
+  [propagate] ./Why_fringe_physics_always_fails.vtt: "of our dossier, Affliction, does something genuinely" -> "of our dossier, Flyxion, does something genuinely"
+  [propagate] ./Why_fringe_physics_always_fails.srt: "of our dossier, Affliction, does something genuinely" -> "of our dossier, Flyxion, does something genuinely"
+  [propagate] ./Why_fringe_physics_always_fails.json: "of our dossier, Affliction, does something genuinely" -> "of our dossier, Flyxion, does something genuinely"
+  L850: Affliction proposed a magnetic floor to propel a spaceship.
+        -> Flyxion proposed a magnetic floor to propel a spaceship.
+  [propagate] ./Why_fringe_physics_always_fails.vtt: "Affliction proposed a magnetic" -> "Flyxion proposed a magnetic"
+  [propagate] ./Why_fringe_physics_always_fails.srt: "Affliction proposed a magnetic" -> "Flyxion proposed a magnetic"
+  [propagate] ./Why_fringe_physics_always_fails.json: "Affliction proposed a magnetic" -> "Flyxion proposed a magnetic"
+
+[substitution] ./Why_antigravity_machines_never_leave_the_ground.vtt
+  L82: authored by an independent researcher named Flixian.
+  L85: Yeah. And Flixian has done something really important here.
+  L100: And what makes Flixian synthesis so valuable, it isn't just the sheer volume of the debunks,
+  L160: So, Flixian evaluates all these claims through a concept known as entropic gravity.
+  L400: And Flixian refers to this specifically as the blueprint illusion.
+  L556: But Fliction points out a massive, insurmountable hurdle here, citing the Ford and Roman quantum
+  L841: This introduces a massive conceptual failing that Flickshen calls a category and scale error.
+  L1183: Fliction highlights the ultimate, undeniable diagnostic tool for this specific claim.
+  L1267: Fliction attributes this to the seduction of the visual.
+  L1465: Flicksheen anchors the pare-down of reactionless drives
+  L1759: Fliction focuses heavily
+  L2464: Fliction uses
+  L3013: Fliction details
+  L3301: Fliction dismantles
+  L3529: Fliction highlights
+  L3646: Fliction details
+  L3988: Fliction dismantles this
+  L4606: Fliction notes
+  L5380: Flixion's work shows
+  (19 line(s) changed)
+
+[substitution] ./Why_fringe_physics_always_fails.json
+  L1: [JSON content omitted]
+  (1 line(s) changed)
+
+[substitution] ./Why_antigravity_machines_never_leave_the_ground.txt
+  L27: authored by an independent researcher named Flixian.
+  L28: Yeah. And Flixian has done something really important here.
+  L33: And what makes Flixian synthesis so valuable, it isn't just the sheer volume of the debunks,
+  L53: So, Flixian evaluates all these claims through a concept known as entropic gravity.
+  L133: And Flixian refers to this specifically as the blueprint illusion.
+  L185: But Fliction points out a massive, insurmountable hurdle here, citing the Ford and Roman quantum
+  L280: This introduces a massive conceptual failing that Flickshen calls a category and scale error.
+  L394: Fliction highlights the ultimate, undeniable diagnostic tool for this specific claim.
+  L422: Fliction attributes this to the seduction of the visual.
+  L488: Flicksheen anchors the pare-down of reactionless drives
+  L586: Fliction focuses heavily
+  L821: Fliction uses
+  L1004: Fliction details
+  L1100: Fliction dismantles
+  L1176: Fliction highlights
+  L1215: Fliction details
+  L1329: Fliction dismantles this
+  L1535: Fliction notes
+  L1793: Flixion's work shows
+  (19 line(s) changed)
+
+[substitution] ./Why_fringe_physics_always_fails.vtt
+  L97: It was compiled by an independent researcher known as Flixian.
+  L2440: As we reach the absolute bottom of Flicksheen's dossier, we leave the garage inventors behind.
+  L2602: Flickstone uses a specific unifying theoretical lens to explain why gravity cannot be tamed.
+  (3 line(s) changed)
+
+[substitution] ./Why_antigravity_machines_never_leave_the_ground.srt
+  L107: authored by an independent researcher named Flixian.
+  L111: Yeah. And Flixian has done something really important here.
+  L131: And what makes Flixian synthesis so valuable, it isn't just the sheer volume of the debunks,
+  L211: So, Flixian evaluates all these claims through a concept known as entropic gravity.
+  L531: And Flixian refers to this specifically as the blueprint illusion.
+  L739: But Fliction points out a massive, insurmountable hurdle here, citing the Ford and Roman quantum
+  L1119: This introduces a massive conceptual failing that Flickshen calls a category and scale error.
+  L1575: Fliction highlights the ultimate, undeniable diagnostic tool for this specific claim.
+  L1687: Fliction attributes this to the seduction of the visual.
+  L1951: Flicksheen anchors the pare-down of reactionless drives
+  L2343: Fliction focuses heavily
+  L3283: Fliction uses
+  L4015: Fliction details
+  L4399: Fliction dismantles
+  L4703: Fliction highlights
+  L4859: Fliction details
+  L5315: Fliction dismantles this
+  L6139: Fliction notes
+  L7171: Flixion's work shows
+  (19 line(s) changed)
+
+[substitution] ./Why_antigravity_machines_never_leave_the_ground.json
+  L1: [JSON content omitted]
+  (1 line(s) changed)
+
+[substitution] ./Why_fringe_physics_always_fails.srt
+  L127: It was compiled by an independent researcher known as Flixian.
+  L3251: As we reach the absolute bottom of Flicksheen's dossier, we leave the garage inventors behind.
+  L3467: Flickstone uses a specific unifying theoretical lens to explain why gravity cannot be tamed.
+  (3 line(s) changed)
+
+[substitution] ./Why_fringe_physics_always_fails.tsv
+  L33: 111920	115140	It was compiled by an independent researcher known as Flixian.
+  L814: 3485560	3490260	As we reach the absolute bottom of Flicksheen's dossier, we leave the garage inventors behind.
+  L868: 3788500	3794060	Flickstone uses a specific unifying theoretical lens to explain why gravity cannot be tamed.
+  (3 line(s) changed)
+
+[substitution] ./Why_fringe_physics_always_fails.txt
+  L32: It was compiled by an independent researcher known as Flixian.
+  L813: As we reach the absolute bottom of Flicksheen's dossier, we leave the garage inventors behind.
+  L867: Flickstone uses a specific unifying theoretical lens to explain why gravity cannot be tamed.
+  (3 line(s) changed)
+
+[substitution] ./Why_antigravity_machines_never_leave_the_ground.tsv
+  L28: 77080	79740	authored by an independent researcher named Flixian.
+  L29: 79740	82780	Yeah. And Flixian has done something really important here.
+  L34: 103580	108800	And what makes Flixian synthesis so valuable, it isn't just the sheer volume of the debunks,
+  L54: 173340	177820	So, Flixian evaluates all these claims through a concept known as entropic gravity.
+  L134: 388240	391920	And Flixian refers to this specifically as the blueprint illusion.
+  L186: 543360	549080	But Fliction points out a massive, insurmountable hurdle here, citing the Ford and Roman quantum
+  L281: 869040	874520	This introduces a massive conceptual failing that Flickshen calls a category and scale error.
+  L395: 1275460	1280640	Fliction highlights the ultimate, undeniable diagnostic tool for this specific claim.
+  L423: 1346400	1348800	Fliction attributes this to the seduction of the visual.
+  L489: 1499680	1502820	Flicksheen anchors the pare-down of reactionless drives
+  L587: 1719220	1720460	Fliction focuses heavily
+  L822: 2023400	2024020	Fliction uses
+  L1005: 2245860	2246820	Fliction details
+  L1101: 2354980	2356000	Fliction dismantles
+  L1177: 2447680	2448740	Fliction highlights
+  L1216: 2499320	2500160	Fliction details
+  L1330: 2663820	2665100	Fliction dismantles this
+  L1536: 2902400	2903020	Fliction notes
+  L1794: 3179140	3180860	Flixion's work shows
+  (19 line(s) changed)
+
+==== Candidate Variants (aggregated, 2 unique) ====
+     36 flying
+      6 flexionation
+
+==== Summary ====
+Files scanned        : 10
+Files updated        : 10
+Files unchanged      : 0
+Unique candidates    : 2
+Elapsed time         : 33s
+
+================================================================
+Run complete at 2026-08-29 15:12:39
+================================================================

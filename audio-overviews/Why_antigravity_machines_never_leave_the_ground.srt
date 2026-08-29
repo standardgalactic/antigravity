@@ -1,0 +1,7680 @@
+1
+00:00:00,000 --> 00:00:03,720
+Imagine, imagine walking into a sparsely lit laboratory, right?
+
+2
+00:00:04,040 --> 00:00:05,760
+The air smells faintly of ozone.
+
+3
+00:00:06,140 --> 00:00:10,240
+And you watch as a technician flips this heavy industrial switch.
+
+4
+00:00:10,320 --> 00:00:11,600
+Oh, setting the scene right away.
+
+5
+00:00:11,760 --> 00:00:12,500
+Yeah, you know me.
+
+6
+00:00:12,820 --> 00:00:15,700
+So there's a low hum, a crackle of high voltage.
+
+7
+00:00:15,700 --> 00:00:19,820
+And suddenly, this heavy metal disc sitting on a workbench,
+
+8
+00:00:19,820 --> 00:00:22,240
+it just loses its weight.
+
+9
+00:00:22,420 --> 00:00:23,940
+It rises silently into the air.
+
+10
+00:00:24,080 --> 00:00:27,180
+It's hovering there with absolutely no exhaust, no propellers,
+
+11
+00:00:27,340 --> 00:00:28,800
+no visible means of support.
+
+12
+00:00:28,800 --> 00:00:30,600
+It's the classic sci-fi dream.
+
+13
+00:00:30,600 --> 00:00:31,800
+It totally is.
+
+14
+00:00:31,800 --> 00:00:36,100
+And for over a century, inventors have claimed they've built exactly this.
+
+15
+00:00:36,100 --> 00:00:37,940
+I mean, they've submitted formal patents.
+
+16
+00:00:37,940 --> 00:00:40,140
+They've shot those greeny convincing videos.
+
+17
+00:00:40,320 --> 00:00:43,440
+And they've even managed to convince aerospace giants like Boeing
+
+18
+00:00:43,600 --> 00:00:45,860
+literally to sit down and pay attention.
+
+19
+00:00:45,860 --> 00:00:47,560
+Right. It's a phenomenal image.
+
+20
+00:00:47,560 --> 00:00:49,860
+And it's just incredibly persistent.
+
+21
+00:00:49,860 --> 00:00:53,120
+You see these claims pop up in the news cycle every few years,
+
+22
+00:00:53,860 --> 00:00:58,680
+promising this massive revolution that, well, never actually arrives.
+
+23
+00:00:58,800 --> 00:01:02,260
+Which is exactly why we have such a monumental task ahead of us today.
+
+24
+00:01:02,260 --> 00:01:06,160
+We are doing a deep dive into the underlying architecture of these claims.
+
+25
+00:01:06,360 --> 00:01:10,840
+And for you listening, we've got a massive stack of source material in front of us today.
+
+26
+00:01:11,480 --> 00:01:17,080
+Specifically, a series of 14 highly critical peer-reviewed research papers
+
+27
+00:01:17,080 --> 00:01:19,740
+authored by an independent researcher named Flyxion.
+
+28
+00:01:19,740 --> 00:01:22,780
+Yeah. And Flyxion has done something really important here.
+
+29
+00:01:22,780 --> 00:01:29,000
+Right. It's this structural deconstruction of over a hundred years of anti-gravity claims.
+
+30
+00:01:29,520 --> 00:01:32,420
+Reactionless drives, fringe propulsion physics.
+
+31
+00:01:32,560 --> 00:01:38,300
+I mean, we are talking about everything from faster-than-light-warp drives to spinning superconductors
+
+32
+00:01:38,300 --> 00:01:43,580
+down to devices that supposedly pull limitless energy straight out of the vacuum of space.
+
+33
+00:01:43,580 --> 00:01:48,800
+And what makes Flyxion synthesis so valuable, it isn't just the sheer volume of the debunks,
+
+34
+00:01:48,980 --> 00:01:52,060
+it's the architectural lens applied to the history.
+
+35
+00:01:52,260 --> 00:01:53,220
+The lens, exactly.
+
+36
+00:01:53,360 --> 00:01:57,260
+This material takes a really hard look at the theoretical blind spots that allow these concepts
+
+37
+00:01:57,260 --> 00:02:02,380
+to survive in the public imagination, often, you know, decades after the mainstream physics
+
+38
+00:02:02,380 --> 00:02:04,180
+community has completely dismantled them.
+
+39
+00:02:04,180 --> 00:02:09,360
+So, our mission today is to embark on this rigorous intellectual journey.
+
+40
+00:02:09,900 --> 00:02:13,940
+We're separating mathematical possibility from physical reality.
+
+41
+00:02:14,400 --> 00:02:18,100
+We want to understand not just why these machines fail to get off the ground,
+
+42
+00:02:18,280 --> 00:02:21,980
+but what their persistence teaches us about the true nature of gravity.
+
+43
+00:02:22,160 --> 00:02:25,120
+And the common blind spots in how we consume scientific news.
+
+44
+00:02:25,280 --> 00:02:25,800
+Exactly.
+
+45
+00:02:26,160 --> 00:02:31,700
+So, for you, listening to this right now, think of this deep dive as a shortcut.
+
+46
+00:02:31,700 --> 00:02:35,340
+It's a shortcut to becoming a highly informed critical thinker.
+
+47
+00:02:35,800 --> 00:02:40,740
+We are going to build a mental toolkit so that the next time a viral, you know,
+
+48
+00:02:40,880 --> 00:02:44,920
+anti-gravity breakthrough headline pops up in your feed, you will not be fooled.
+
+49
+00:02:45,240 --> 00:02:45,620
+Absolutely.
+
+50
+00:02:45,980 --> 00:02:49,960
+And to build that toolkit, we really have to start by establishing the foundational lens
+
+51
+00:02:49,960 --> 00:02:52,060
+that anchors all 14 of these papers.
+
+52
+00:02:52,200 --> 00:02:53,240
+Okay, let's unpack this.
+
+53
+00:02:53,340 --> 00:02:57,820
+So, Flyxion evaluates all these claims through a concept known as entropic gravity.
+
+54
+00:02:58,100 --> 00:02:58,820
+Entropic gravity.
+
+55
+00:02:58,820 --> 00:03:03,200
+I want to make sure we nail this down early because, well, we can't talk about breaking
+
+56
+00:03:03,200 --> 00:03:06,420
+gravity until we understand what we are actually trying to break.
+
+57
+00:03:06,540 --> 00:03:06,720
+Right.
+
+58
+00:03:06,880 --> 00:03:08,680
+Let's look at the conventional view first.
+
+59
+00:03:09,320 --> 00:03:14,920
+In standard, everyday physics, we tend to treat gravity as a discrete, localized force.
+
+60
+00:03:15,400 --> 00:03:22,020
+We imagine, like, invisible strings or magnetic-style field lines connecting two masses, tugging them
+
+61
+00:03:22,020 --> 00:03:22,400
+together.
+
+62
+00:03:22,520 --> 00:03:24,600
+Like the way a magnet snaps onto a refrigerator.
+
+63
+00:03:24,600 --> 00:03:28,860
+You can feel the pull, and, you know, you can slide a piece of plastic between them to
+
+64
+00:03:28,860 --> 00:03:29,360
+block it.
+
+65
+00:03:29,540 --> 00:03:30,440
+Exactly like that.
+
+66
+00:03:30,960 --> 00:03:35,720
+But the entropic gravity framing completely discards that mechanical, localized view.
+
+67
+00:03:35,900 --> 00:03:41,000
+In this model, gravity isn't a traditional force with field lines you can just block.
+
+68
+00:03:41,300 --> 00:03:41,580
+Okay.
+
+69
+00:03:42,000 --> 00:03:44,140
+It is a macro-scale emergent property.
+
+70
+00:03:44,140 --> 00:03:49,960
+So, gravitational curvature is actually tracking the redistribution of an ordered configuration
+
+71
+00:03:49,960 --> 00:03:54,440
+across coupled scalar, vector, and entropy fields.
+
+72
+00:03:54,560 --> 00:03:54,940
+Okay, wait.
+
+73
+00:03:55,020 --> 00:03:57,340
+Let me try to translate that into something I can actually visualize.
+
+74
+00:03:57,540 --> 00:03:57,880
+Go for it.
+
+75
+00:03:58,100 --> 00:04:02,020
+Because if it's not a magnetic field line, what if we think of it like the bookkeeping of
+
+76
+00:04:02,020 --> 00:04:02,420
+the universe?
+
+77
+00:04:02,480 --> 00:04:03,060
+Oh, that's your thing.
+
+78
+00:04:03,060 --> 00:04:08,000
+Like an unimaginably complex spreadsheet that tracks the arrangement of mass, energy, and
+
+79
+00:04:08,000 --> 00:04:08,420
+entropy.
+
+80
+00:04:09,060 --> 00:04:12,740
+And gravity is just the geometry of how the universe balance in those books.
+
+81
+00:04:13,020 --> 00:04:14,540
+That is a phenomenal analogy.
+
+82
+00:04:15,240 --> 00:04:18,340
+It is exactly a system of thermodynamic accounting.
+
+83
+00:04:18,960 --> 00:04:24,320
+And the implication of that bookkeeping is massive for this entire field of fringe physics.
+
+84
+00:04:24,320 --> 00:04:29,320
+Because if gravity is an emergent property of large-scale thermodynamic balances...
+
+85
+00:04:29,320 --> 00:04:29,460
+Right.
+
+86
+00:04:29,620 --> 00:04:31,620
+There is no local switch you can flip.
+
+87
+00:04:31,920 --> 00:04:32,400
+Wow.
+
+88
+00:04:32,400 --> 00:04:34,920
+There's no physical handle to grab onto.
+
+89
+00:04:35,720 --> 00:04:40,720
+You cannot build a clever little electrical circuit out of copper wiring capacitors on
+
+90
+00:04:40,720 --> 00:04:47,140
+a garage workbench and expect it to somehow interface with the fundamental geometric bookkeeping
+
+91
+00:04:47,140 --> 00:04:47,820
+of the cosmos.
+
+92
+00:04:48,100 --> 00:04:49,980
+Because you aren't fighting a local force.
+
+93
+00:04:50,100 --> 00:04:52,980
+You're fighting the statistical curvature of the arena itself.
+
+94
+00:04:53,080 --> 00:04:53,480
+Exactly.
+
+95
+00:04:53,900 --> 00:04:55,780
+Keep that spreadsheet analogy in mind.
+
+96
+00:04:56,020 --> 00:05:00,520
+Because it is the common thread that unravels almost every single machine and theory we
+
+97
+00:05:00,520 --> 00:05:01,580
+are going to explore today.
+
+98
+00:05:01,580 --> 00:05:03,380
+Okay, let's put that to the test immediately.
+
+99
+00:05:03,820 --> 00:05:07,600
+Because before we look at the physical machines, you know, the metal, the wires, the magnets,
+
+100
+00:05:07,740 --> 00:05:11,420
+we need to look at where modern anti-gravity dreams really start.
+
+101
+00:05:11,620 --> 00:05:12,740
+The theoretical physics.
+
+102
+00:05:12,900 --> 00:05:13,120
+Right.
+
+103
+00:05:13,480 --> 00:05:15,460
+Specifically, the granddaddy of them all.
+
+104
+00:05:15,940 --> 00:05:17,700
+The Alcubierre warp drive.
+
+105
+00:05:17,700 --> 00:05:18,220
+Ugh.
+
+106
+00:05:18,220 --> 00:05:18,380
+Ugh.
+
+107
+00:05:18,740 --> 00:05:18,980
+Ah.
+
+108
+00:05:19,500 --> 00:05:21,900
+Miguel Alcubierre's 1994 paper.
+
+109
+00:05:22,620 --> 00:05:25,280
+It is an absolute staple of theoretical discussions.
+
+110
+00:05:25,480 --> 00:05:27,140
+And the premise is just intoxicating.
+
+111
+00:05:28,140 --> 00:05:32,860
+Alcubierre polishes this paper, proposing a solution to Einstein's field equations and general
+
+112
+00:05:32,860 --> 00:05:33,300
+relativity.
+
+113
+00:05:33,740 --> 00:05:37,680
+And the math mathematically proves that you can create a bubble of space-time.
+
+114
+00:05:37,680 --> 00:05:38,640
+A warp bubble.
+
+115
+00:05:38,960 --> 00:05:39,200
+Yeah.
+
+116
+00:05:39,780 --> 00:05:43,560
+The space in front of the bubble contracts and the space behind the bubble expands.
+
+117
+00:05:43,980 --> 00:05:49,340
+So the ship inside sits perfectly still, but the bubble itself rides a wave of space-time,
+
+118
+00:05:49,560 --> 00:05:52,620
+potentially moving faster than the speed of light relative to Earth.
+
+119
+00:05:53,260 --> 00:05:56,660
+And all without violating the local speed limit of light inside the bubble.
+
+120
+00:05:56,740 --> 00:05:58,640
+It's the ultimate cosmic loophole.
+
+121
+00:05:58,840 --> 00:05:59,880
+It totally is.
+
+122
+00:05:59,880 --> 00:06:04,140
+Now, I have to play devil's advocate here and push back a little, because if the math
+
+123
+00:06:04,140 --> 00:06:08,240
+works, and I know the physics community widely agrees that Alcubierre's math is sound,
+
+124
+00:06:09,200 --> 00:06:11,460
+isn't this simply an engineering problem?
+
+125
+00:06:11,560 --> 00:06:12,780
+An engineering problem.
+
+126
+00:06:12,860 --> 00:06:13,060
+Yeah.
+
+127
+00:06:13,160 --> 00:06:16,220
+I mean, it feels like an architect drawing a blueprint for a house.
+
+128
+00:06:16,660 --> 00:06:18,360
+The blueprint is mathematically perfect.
+
+129
+00:06:18,520 --> 00:06:22,700
+We just have to wait for material science to invent a strong enough brick to build it.
+
+130
+00:06:22,860 --> 00:06:27,100
+You are echoing the exact sentiment that dominates popular science reporting.
+
+131
+00:06:27,360 --> 00:06:27,840
+Really?
+
+132
+00:06:27,840 --> 00:06:28,240
+Yeah.
+
+133
+00:06:28,240 --> 00:06:31,920
+And Flyxion refers to this specifically as the blueprint illusion.
+
+134
+00:06:32,720 --> 00:06:37,380
+It is a fundamental misunderstanding of what Einstein's field equations actually represent,
+
+135
+00:06:37,800 --> 00:06:41,020
+and really comes down to the direction of causality in physics.
+
+136
+00:06:41,480 --> 00:06:44,460
+So the math doesn't cause the reality.
+
+137
+00:06:44,900 --> 00:06:45,460
+Not at all.
+
+138
+00:06:45,820 --> 00:06:49,560
+General relativity's field equations act as a relationship between two things.
+
+139
+00:06:50,140 --> 00:06:54,820
+The geometry of space-time on one side, and the stress-energy content of matter on the
+
+140
+00:06:54,820 --> 00:06:55,020
+other.
+
+141
+00:06:55,700 --> 00:06:57,880
+But nature only flows in one direction.
+
+142
+00:06:57,880 --> 00:06:58,140
+Okay.
+
+143
+00:06:58,340 --> 00:06:58,720
+Which way?
+
+144
+00:06:58,720 --> 00:07:03,540
+In physical reality, the universe starts with whatever matter and energy actually exist.
+
+145
+00:07:04,220 --> 00:07:09,200
+The presence of that specific matter and energy dictates how space-time must curve in response.
+
+146
+00:07:09,760 --> 00:07:11,560
+Matter tells space-time how to curve.
+
+147
+00:07:11,920 --> 00:07:15,120
+The stuff exists first, and the shape of the universe reacts to it.
+
+148
+00:07:15,120 --> 00:07:15,600
+Exactly.
+
+149
+00:07:15,600 --> 00:07:15,720
+Exactly.
+
+150
+00:07:15,720 --> 00:07:17,840
+But Alcubier did the exact opposite.
+
+151
+00:07:17,840 --> 00:07:22,340
+He performed a perfectly valid mathematical exercise, but he worked backward.
+
+152
+00:07:22,340 --> 00:07:25,300
+He essentially said, I want a specific geometry.
+
+153
+00:07:25,300 --> 00:07:28,080
+I want space to contract here and expand there.
+
+154
+00:07:28,080 --> 00:07:28,280
+Right.
+
+155
+00:07:28,280 --> 00:07:29,620
+He defined the goal first.
+
+156
+00:07:29,620 --> 00:07:36,740
+He dictated the geometry first, and then ran the equations in reverse to calculate what kind
+
+157
+00:07:36,740 --> 00:07:40,760
+of matter in energy distribution would be required to produce that shape.
+
+158
+00:07:40,760 --> 00:07:48,000
+Going back to the blueprint analogy, he drew the house, handed the drawing to the universe, and said, what kind of bricks do I need?
+
+159
+00:07:48,000 --> 00:07:51,880
+And the universe handed him a materials list that included impossible items.
+
+160
+00:07:51,880 --> 00:07:53,200
+Impossible items?
+
+161
+00:07:53,200 --> 00:07:53,900
+Like what?
+
+162
+00:07:53,900 --> 00:07:59,540
+Well, to make the Alcubier metric work, the equations demand massive regions of negative
+
+163
+00:07:59,540 --> 00:08:00,420
+energy density.
+
+164
+00:08:00,860 --> 00:08:05,080
+This is a direct violation of what physicists call the weak energy condition.
+
+165
+00:08:05,220 --> 00:08:08,400
+Okay, let me make sure I understand negative energy, because I know we aren't talking about
+
+166
+00:08:08,400 --> 00:08:09,220
+antimatter, right?
+
+167
+00:08:09,660 --> 00:08:12,940
+Antimatter has positive mass, it just has opposite charge.
+
+168
+00:08:13,020 --> 00:08:14,680
+It falls down just like regular matter.
+
+169
+00:08:14,780 --> 00:08:15,040
+Correct.
+
+170
+00:08:15,180 --> 00:08:16,460
+Antimatter is not negative energy.
+
+171
+00:08:16,660 --> 00:08:21,860
+So if regular mass and energy are like a pile of dirt, negative energy is a literal whole.
+
+172
+00:08:21,880 --> 00:08:25,660
+That is a very accurate way to think about it.
+
+173
+00:08:25,660 --> 00:08:31,940
+It requires an energy density less than the vacuum of space itself, and, you know, early
+
+174
+00:08:31,940 --> 00:08:36,780
+estimates for the warp bubble required more of this negative energy than the mass of the
+
+175
+00:08:36,780 --> 00:08:38,140
+entire observable universe.
+
+176
+00:08:38,600 --> 00:08:39,140
+Wait, what?
+
+177
+00:08:39,300 --> 00:08:39,440
+Yeah.
+
+178
+00:08:40,000 --> 00:08:44,740
+Now, later refinements brought that number down significantly, but it still demands quantities
+
+179
+00:08:44,740 --> 00:08:48,600
+that no known macroscopic physical process can actually produce.
+
+180
+00:08:48,600 --> 00:08:53,120
+But proponents of the warp drive are always quick to point out that quantum mechanics allows
+
+181
+00:08:53,120 --> 00:08:54,340
+for negative energy, right?
+
+182
+00:08:54,760 --> 00:08:58,600
+Doesn't quantum field theory permit tiny fluctuations of negative energy?
+
+183
+00:08:58,780 --> 00:08:59,260
+It does.
+
+184
+00:08:59,520 --> 00:09:02,580
+It allows for infinitesimal transient fluctuations.
+
+185
+00:09:03,360 --> 00:09:09,080
+But Flyxion points out a massive, insurmountable hurdle here, citing the Ford and Roman quantum
+
+186
+00:09:09,080 --> 00:09:10,100
+inequality bounds.
+
+187
+00:09:10,260 --> 00:09:11,920
+The Ford and Roman bounds?
+
+188
+00:09:12,240 --> 00:09:12,980
+What are those?
+
+189
+00:09:12,980 --> 00:09:17,040
+There are strict theoretical limits developed to answer this exact kind of question.
+
+190
+00:09:17,400 --> 00:09:21,680
+The bounds dictate how much negative energy can be sustained, over how large a physical
+
+191
+00:09:21,680 --> 00:09:23,400
+region, and for how long.
+
+192
+00:09:23,920 --> 00:09:27,740
+The more negative energy you try to borrow from the quantum bank, the faster the universe
+
+193
+00:09:27,740 --> 00:09:28,940
+demands you pay it back.
+
+194
+00:09:29,180 --> 00:09:29,820
+Oh, I see.
+
+195
+00:09:29,900 --> 00:09:34,840
+So you can't just pile up these tiny quantum fluctuations to build a macroscopic warp bubble.
+
+196
+00:09:34,960 --> 00:09:35,440
+Exactly.
+
+197
+00:09:35,440 --> 00:09:40,840
+The requirements for the Alcubierre drive don't just miss the Ford-Roman bounds by a small
+
+198
+00:09:40,840 --> 00:09:41,240
+margin.
+
+199
+00:09:41,660 --> 00:09:45,440
+They violate them categorically by staggering orders of magnitude.
+
+200
+00:09:46,040 --> 00:09:46,160
+Wow.
+
+201
+00:09:46,540 --> 00:09:51,300
+And if we bring this back to our entropic gravity framework, the mismatch gets even worse,
+
+202
+00:09:51,380 --> 00:09:51,820
+doesn't it?
+
+203
+00:09:51,940 --> 00:09:52,480
+Much worse.
+
+204
+00:09:52,900 --> 00:09:58,660
+Because the Alcubierre metric requires a sustained, highly ordered, incredibly specific
+
+205
+00:09:58,660 --> 00:10:02,440
+spatial configuration of this exotic negative energy.
+
+206
+00:10:02,540 --> 00:10:02,800
+Right.
+
+207
+00:10:02,800 --> 00:10:08,240
+But gravity, in the entropic view, is driven by natural thermodynamic tendencies toward
+
+208
+00:10:08,240 --> 00:10:09,500
+disorder and balance.
+
+209
+00:10:10,200 --> 00:10:15,360
+Demanding a highly ordered, sustained structure of impossible energy runs directly contrary
+
+210
+00:10:15,360 --> 00:10:19,500
+to the entropic tendencies that give rise to space-time geometry in the first place.
+
+211
+00:10:19,600 --> 00:10:24,360
+So you are effectively asking the universe's spreadsheet to run its calculations backward,
+
+212
+00:10:24,800 --> 00:10:27,640
+using imaginary numbers and expecting a physical output.
+
+213
+00:10:27,780 --> 00:10:29,000
+That's beautifully put, yes.
+
+214
+00:10:29,000 --> 00:10:32,240
+Okay, so the warp drive is mathematically beautiful but physically bankrupt.
+
+215
+00:10:32,800 --> 00:10:36,400
+Which leads us to a really fascinating pivot point in the fringe literature.
+
+216
+00:10:36,800 --> 00:10:38,520
+Right, because inventors don't just give up.
+
+217
+00:10:38,860 --> 00:10:39,300
+Exactly.
+
+218
+00:10:39,840 --> 00:10:45,440
+If the math demands impossible exotic energy and classical physics refuses to supply it,
+
+219
+00:10:45,840 --> 00:10:47,520
+inventors start looking for loopholes.
+
+220
+00:10:47,940 --> 00:10:52,520
+They turn their attention to the literal emptiness of space, searching for hidden fuel.
+
+221
+00:10:52,520 --> 00:10:57,940
+Which brings us to the obsession with zero-point energy, or ZPE.
+
+222
+00:10:58,440 --> 00:11:01,520
+Yes, the attempt to extract energy from the quantum vacuum.
+
+223
+00:11:02,080 --> 00:11:06,660
+Because quantum mechanics tells us that a perfect vacuum isn't actually empty, right?
+
+224
+00:11:07,020 --> 00:11:13,000
+It is a boiling, chaotic sea of quantum fluctuations, particles popping in and out of existence.
+
+225
+00:11:13,260 --> 00:11:15,780
+And the undeniable proof of this is the Casimir effect.
+
+226
+00:11:16,120 --> 00:11:16,360
+Right.
+
+227
+00:11:16,440 --> 00:11:17,760
+Let's talk about the Casimir effect.
+
+228
+00:11:17,760 --> 00:11:24,020
+It was predicted by Hendrick Casimir in 1948, and it has been experimentally confirmed to incredible precision.
+
+229
+00:11:24,620 --> 00:11:26,120
+The setup is elegantly simple.
+
+230
+00:11:26,580 --> 00:11:32,900
+If you take two uncharged, perfectly conducting metallic plates and place them incredibly close together in a hard vacuum,
+
+231
+00:11:33,280 --> 00:11:38,880
+we're talking nanometers apart, they will experience a tiny, measurable, attractive force pushing them together.
+
+232
+00:11:39,000 --> 00:11:42,140
+Okay, I read an analogy for this once that really helped me visualize it.
+
+233
+00:11:42,200 --> 00:11:43,160
+Let me see if I can get this right.
+
+234
+00:11:43,220 --> 00:11:43,460
+Go ahead.
+
+235
+00:11:43,460 --> 00:11:48,820
+Imagine two huge cargo ships sitting parallel to each other on the open ocean.
+
+236
+00:11:49,000 --> 00:11:52,840
+And the ocean is full of rolling waves of all different sizes.
+
+237
+00:11:53,620 --> 00:11:56,960
+Now, the waves hitting the outside of the ships are large and powerful,
+
+238
+00:11:57,340 --> 00:12:02,540
+but the space between the ships is so incredibly narrow that the really big waves can't form there.
+
+239
+00:12:02,860 --> 00:12:03,040
+Right.
+
+240
+00:12:03,040 --> 00:12:08,480
+So there is more wave pressure on the outside than on the inside, and the ships are slowly pushed together.
+
+241
+00:12:08,600 --> 00:12:14,860
+That is the exact mechanism, just translated from ocean waves to the virtual photons of the quantum vacuum.
+
+242
+00:12:15,200 --> 00:12:16,300
+It's wild to think about.
+
+243
+00:12:16,360 --> 00:12:16,720
+It is.
+
+244
+00:12:17,160 --> 00:12:22,940
+The plates exclude certain wavelengths of vacuum fluctuations between them, which creates a difference in energy density.
+
+245
+00:12:22,940 --> 00:12:29,800
+The vacuum outside the plates has a higher energy density than the vacuum inside, so the plates are pushed together.
+
+246
+00:12:30,200 --> 00:12:32,460
+It is a brilliant demonstration of quantum mechanics.
+
+247
+00:12:32,800 --> 00:12:37,520
+But here is where the fringe community takes that experiment and just runs off a cliff with it.
+
+248
+00:12:37,600 --> 00:12:38,120
+Oh, completely.
+
+249
+00:12:38,120 --> 00:12:44,400
+You see, papers and patents claiming that because the Casimir effect proves vacuum energy exists,
+
+250
+00:12:44,880 --> 00:12:49,080
+the vacuum must be this infinite, untapped ocean of free energy.
+
+251
+00:12:49,760 --> 00:12:54,320
+They claim we can build devices to extract this energy endlessly to power starships,
+
+252
+00:12:54,500 --> 00:12:58,220
+or manipulate it to cancel out a vehicle's mass entirely.
+
+253
+00:12:58,400 --> 00:13:01,480
+Which completely ignores the fundamental laws of thermodynamics.
+
+254
+00:13:01,620 --> 00:13:01,880
+Right.
+
+255
+00:13:02,160 --> 00:13:04,160
+If I can use a mechanical analogy here.
+
+256
+00:13:04,160 --> 00:13:10,480
+Claiming you can run a starship indefinitely off the Casimir effect is exactly like pointing to a heavy,
+
+257
+00:13:10,700 --> 00:13:12,300
+stretched spring on a workbench.
+
+258
+00:13:12,400 --> 00:13:13,280
+Okay, I like where this is going.
+
+259
+00:13:13,600 --> 00:13:18,020
+You let go, the spring snacks back, and it moves a gear doing a tiny bit of physical work.
+
+260
+00:13:18,300 --> 00:13:21,580
+And then you declare you've discovered an infinite energy source,
+
+261
+00:13:21,840 --> 00:13:26,340
+while completely ignoring the calories you burn pulling the spring apart in the first place.
+
+262
+00:13:26,460 --> 00:13:30,300
+You are hitting on the exact mechanical failure of these extraction claims.
+
+263
+00:13:30,300 --> 00:13:34,960
+The Casimir effect demonstrates that a difference in vacuum energy can do work.
+
+264
+00:13:35,620 --> 00:13:39,780
+The plates move, but that movement is a one-time shift in boundary conditions.
+
+265
+00:13:40,380 --> 00:13:43,240
+The plates clap together, and the system reaches equilibrium.
+
+266
+00:13:43,460 --> 00:13:44,240
+The ride is over.
+
+267
+00:13:44,580 --> 00:13:44,940
+Exactly.
+
+268
+00:13:45,820 --> 00:13:50,880
+To extract energy from that system again, to create a continuous thermodynamic cycle,
+
+269
+00:13:51,140 --> 00:13:52,940
+you have to pry those plates back apart.
+
+270
+00:13:53,040 --> 00:13:53,200
+Right.
+
+271
+00:13:53,200 --> 00:13:59,680
+And pulling them apart against the Casimir force will cost you at least as much energy as you gained when they came together.
+
+272
+00:14:00,300 --> 00:14:03,700
+It is a basic application of the first law of thermodynamics.
+
+273
+00:14:04,460 --> 00:14:09,960
+You cannot treat a one-time boundary condition shift as if it were a continuously running tap.
+
+274
+00:14:10,300 --> 00:14:14,080
+The fringe literature just treats the universe like a battery you never have to plug in.
+
+275
+00:14:14,240 --> 00:14:14,960
+Basically, yes.
+
+276
+00:14:15,160 --> 00:14:18,120
+But what about the anti-gravity claims tied to this?
+
+277
+00:14:18,260 --> 00:14:22,360
+Because some of these researchers argue that if we can build a specialized resonant cavity
+
+278
+00:14:22,360 --> 00:14:24,420
+that manipulates this vacuum energy,
+
+279
+00:14:24,680 --> 00:14:29,040
+we can alter the local gravitational field and decouple a ship from its weight.
+
+280
+00:14:29,040 --> 00:14:34,520
+This introduces a massive conceptual failing that Flyxion calls a category and scale error.
+
+281
+00:14:35,300 --> 00:14:39,600
+The proponents of these theories will argue that because vacuum energy has energy density,
+
+282
+00:14:39,860 --> 00:14:43,740
+it must contribute to the stress-energy tensor in Einstein's equations.
+
+283
+00:14:44,040 --> 00:14:46,800
+Okay, so therefore vacuum energy affects curvature.
+
+284
+00:14:46,940 --> 00:14:47,140
+Right.
+
+285
+00:14:47,260 --> 00:14:47,900
+That's their logic.
+
+286
+00:14:48,200 --> 00:14:50,640
+Wait, are they technically corrupt on that specific point?
+
+287
+00:14:50,820 --> 00:14:53,040
+Vacuum energy does interact with gravity.
+
+288
+00:14:53,280 --> 00:14:55,020
+On a cosmological scale, yes.
+
+289
+00:14:55,080 --> 00:14:55,340
+Yeah.
+
+290
+00:14:55,340 --> 00:14:55,820
+Absolutely.
+
+291
+00:14:56,360 --> 00:15:00,820
+Vacuum energy is actually the leading candidate to explain the cosmological constant,
+
+292
+00:15:01,140 --> 00:15:04,500
+which is driving the accelerating expansion of the entire universe.
+
+293
+00:15:04,700 --> 00:15:06,980
+Okay, so where does it fall apart for starships?
+
+294
+00:15:07,320 --> 00:15:13,240
+The fatal flaw is the sheer magnitude of the gap between cosmology and a benchtop experiment.
+
+295
+00:15:13,240 --> 00:15:21,100
+The amount of vacuum energy density you can manipulate inside a laboratory Casimir cavity is astronomically small.
+
+296
+00:15:21,600 --> 00:15:22,540
+How small are we talking?
+
+297
+00:15:22,640 --> 00:15:23,420
+Give me some perspective.
+
+298
+00:15:23,900 --> 00:15:26,920
+It is often referred to as the worst prediction in physics.
+
+299
+00:15:27,580 --> 00:15:34,780
+The theoretical energy density of the vacuum is something like 120 orders of magnitude larger than what we observe cosmologically.
+
+300
+00:15:34,940 --> 00:15:36,280
+120 orders of magnitude.
+
+301
+00:15:36,280 --> 00:15:50,060
+Yes, but even ignoring that theoretical mismatch, the actual shift in energy density you achieve between two microscopic plates is so vanishingly small that it could never, ever produce a locally measurable change in gravitational curvature.
+
+302
+00:15:50,260 --> 00:15:54,980
+So we are talking about a scale gap so vast that it renders the engineering concept absurd.
+
+303
+00:15:55,260 --> 00:15:56,080
+Completely absurd.
+
+304
+00:15:56,320 --> 00:16:00,860
+It would be like trying to change the tidal patterns of the Pacific Ocean by spitting into it.
+
+305
+00:16:00,860 --> 00:16:02,040
+Yeah, that's pretty accurate.
+
+306
+00:16:02,040 --> 00:16:12,660
+The fringe literature leaps from vacuum energy as a source term in relativity directly to therefore my copper cavity can shield a spaceship from the Earth's pull.
+
+307
+00:16:13,140 --> 00:16:18,920
+They entirely ignore the billions and billions of orders of magnitude required to bridge that gap.
+
+308
+00:16:19,100 --> 00:16:19,300
+Right.
+
+309
+00:16:19,700 --> 00:16:30,840
+And returning to the entropic gravity framework, a microscopic shift in a tiny cavity is utterly negligible compared to the massive, large-scale ordered configuration that the Earth's gravity is actually in.
+
+310
+00:16:30,860 --> 00:16:31,380
+Exactly.
+
+311
+00:16:31,380 --> 00:16:40,200
+There is no physical mechanism for a microscopic vacuum shift to magically amplify into a macro-scale gravitational shield.
+
+312
+00:16:40,320 --> 00:16:41,320
+It just doesn't work that way.
+
+313
+00:16:41,440 --> 00:16:41,620
+Okay.
+
+314
+00:16:41,880 --> 00:16:45,540
+So the theoretical warp drive demands fuel that doesn't exist.
+
+315
+00:16:45,900 --> 00:16:48,760
+The quantum vacuum refuses to act as a free energy pump.
+
+316
+00:16:49,040 --> 00:16:53,600
+But this brings us to a really fascinating psychological turning point in our deep dive.
+
+317
+00:16:53,680 --> 00:16:54,740
+Oh, the visual aspect.
+
+318
+00:16:54,740 --> 00:16:55,180
+Yes.
+
+319
+00:16:55,540 --> 00:17:01,180
+Because if the math is debunked and the quantum mechanics don't add up, how do we explain the visual evidence?
+
+320
+00:17:01,740 --> 00:17:05,940
+We are moving from abstract equations on chalkboards to pure visual spectacles.
+
+321
+00:17:06,360 --> 00:17:07,120
+The viral videos.
+
+322
+00:17:07,320 --> 00:17:08,180
+The viral videos.
+
+323
+00:17:08,380 --> 00:17:13,840
+If you go online right now, you can find hundreds of videos of devices commonly called lifters.
+
+324
+00:17:14,060 --> 00:17:14,300
+Right.
+
+325
+00:17:14,420 --> 00:17:15,600
+Usually built by hobbyists.
+
+326
+00:17:15,860 --> 00:17:16,260
+Exactly.
+
+327
+00:17:16,360 --> 00:17:17,020
+In their garages.
+
+328
+00:17:17,020 --> 00:17:27,700
+They make these really delicate frames out of balsa wood, and they wrap a skirt of aluminum foil around the bottom, and they run a very thin copper wire just above the foil.
+
+329
+00:17:27,920 --> 00:17:29,100
+They look very cobbled together.
+
+330
+00:17:29,320 --> 00:17:29,640
+Very.
+
+331
+00:17:29,940 --> 00:17:37,320
+And then they hook the whole thing up to a high-voltage power supply, which is often just ripped right out of an old cathode ray tube television.
+
+332
+00:17:37,940 --> 00:17:38,720
+They turn it on.
+
+333
+00:17:38,820 --> 00:17:41,960
+There's this buzzing sound, and the device simply floats.
+
+334
+00:17:42,160 --> 00:17:43,400
+It rises right off the desk.
+
+335
+00:17:43,400 --> 00:17:45,760
+It rises off the desk and hovers near the ceiling.
+
+336
+00:17:46,160 --> 00:17:47,060
+There are no propellers.
+
+337
+00:17:47,260 --> 00:17:48,540
+There is no chemical exhaust.
+
+338
+00:17:49,020 --> 00:17:52,340
+To the untrained eye, it looks like pure science fiction levitation.
+
+339
+00:17:53,020 --> 00:17:59,740
+And honestly, it is incredibly difficult to argue with a video of a device physically defying gravity in real time.
+
+340
+00:17:59,860 --> 00:18:02,120
+You don't argue with the video because the video is real.
+
+341
+00:18:02,420 --> 00:18:02,660
+Wait.
+
+342
+00:18:02,780 --> 00:18:03,660
+The video is real.
+
+343
+00:18:03,760 --> 00:18:06,240
+The device is genuinely lifting off the desk.
+
+344
+00:18:06,600 --> 00:18:07,400
+No strings.
+
+345
+00:18:07,600 --> 00:18:08,200
+No CGI.
+
+346
+00:18:08,720 --> 00:18:11,980
+What you have to argue with is the interpretation of why it is listing.
+
+347
+00:18:11,980 --> 00:18:16,340
+Okay, so what are we actually looking at when we see a lifter floating in a garage?
+
+348
+00:18:17,300 --> 00:18:20,720
+We are looking at a class of devices known as asymmetric capacitors.
+
+349
+00:18:21,680 --> 00:18:28,880
+And the lineage of this technology traces way back to the 1920s to an observation called the Biefeld-Brown effect.
+
+350
+00:18:29,240 --> 00:18:30,000
+Biefeld-Brown.
+
+351
+00:18:30,000 --> 00:18:50,940
+Thomas Townsend-Brown, a physicist and inventor, noticed that if you apply an incredibly high voltage across a capacitor where one electrode is very sharp, like that thin copper wire, and the other electrode is very blunt or wide, like the foil skirt, the entire apparatus experiences a thrust directed toward the sharp electrode.
+
+352
+00:18:50,940 --> 00:18:56,360
+And for nearly a century, proponents have claimed this is a demonstration of electrogravetics, right?
+
+353
+00:18:56,760 --> 00:19:00,600
+They claim the high voltage is directly manipulating the local gravitational field.
+
+354
+00:19:00,740 --> 00:19:01,140
+They do.
+
+355
+00:19:01,280 --> 00:19:01,460
+Yeah.
+
+356
+00:19:01,600 --> 00:19:09,720
+But the reality is entirely mundane, heavily documented, and belongs to a completely different branch of physics called electrohydrodynamics.
+
+357
+00:19:10,500 --> 00:19:10,980
+Electrohydrodynamics.
+
+358
+00:19:10,980 --> 00:19:15,380
+Specifically, the device is operating via an effect known as the ionic wind.
+
+359
+00:19:15,740 --> 00:19:16,560
+The ionic wind.
+
+360
+00:19:16,640 --> 00:19:20,660
+Okay, let me try to walk through the mechanics of the ionic wind, and you correct me where I go off track.
+
+361
+00:19:20,740 --> 00:19:21,340
+Sure, let's hear it.
+
+362
+00:19:21,560 --> 00:19:26,300
+Okay, so you have this incredibly thin wire, and you are pumping tens of thousands of volts into it.
+
+363
+00:19:26,840 --> 00:19:30,600
+That creates a highly concentrated electric field around the wire.
+
+364
+00:19:30,820 --> 00:19:31,080
+Right.
+
+365
+00:19:31,080 --> 00:19:38,440
+And the field is so intense that it literally rips electrons away from the air molecules surrounding the wire, ionizing the air.
+
+366
+00:19:38,560 --> 00:19:39,060
+Spot on.
+
+367
+00:19:39,460 --> 00:19:41,620
+That process is called corona discharge.
+
+368
+00:19:42,160 --> 00:19:42,400
+Yeah.
+
+369
+00:19:42,580 --> 00:19:49,840
+You are creating a localized plasma, basically a cloud of positively charged air ions surrounding that thin wire.
+
+370
+00:19:50,000 --> 00:19:51,800
+Okay, so you have this cloud of positive air.
+
+371
+00:19:51,960 --> 00:19:56,540
+Now, the wide foil skirt below the wire is hooked up to the negative terminal of the power supply.
+
+372
+00:19:56,720 --> 00:19:56,960
+Yes.
+
+373
+00:19:56,960 --> 00:20:04,940
+And because opposite charges attract, that mass of electric field violently accelerates those positive air ions downward toward the foil skirt.
+
+374
+00:20:05,060 --> 00:20:06,900
+And this is exactly where the thrust is generated.
+
+375
+00:20:07,040 --> 00:20:08,200
+By the ions moving.
+
+376
+00:20:08,200 --> 00:20:09,800
+By what they hit while they move.
+
+377
+00:20:09,940 --> 00:20:10,080
+Yeah.
+
+378
+00:20:10,320 --> 00:20:14,560
+As those positive ions are accelerated downward, they don't have a clear path.
+
+379
+00:20:14,940 --> 00:20:16,000
+The atmosphere is dense.
+
+380
+00:20:16,220 --> 00:20:21,100
+So they inevitably slam into neutral, uncharged air molecules along the way.
+
+381
+00:20:21,160 --> 00:20:21,440
+Ah.
+
+382
+00:20:21,440 --> 00:20:24,600
+And during these collisions, they transfer their momentum.
+
+383
+00:20:24,600 --> 00:20:28,020
+This creates a bulk flow of air moving downward through the device.
+
+384
+00:20:28,020 --> 00:20:32,760
+So they are physically dragging the surrounding atmosphere down with them.
+
+385
+00:20:32,760 --> 00:20:39,220
+And by Newton's third law of motion, every action has an equal and opposite reaction.
+
+386
+00:20:39,220 --> 00:20:45,060
+The device pushes a mass of air downward, and in response, the air pushes the device upward.
+
+387
+00:20:45,060 --> 00:20:48,860
+The lifter moves in the opposite direction of the ejected air mass.
+
+388
+00:20:48,900 --> 00:20:49,300
+Wow.
+
+389
+00:20:50,020 --> 00:20:55,060
+It is, stripped of all the mystery, just a solid state, highly inefficient electrical fan.
+
+390
+00:20:55,080 --> 00:20:55,660
+Just a fan.
+
+391
+00:20:56,060 --> 00:20:59,660
+But the anti-gravity community is incredibly stubborn about this.
+
+392
+00:20:59,660 --> 00:21:07,620
+They will often argue, sure, there might be a little bit of ionic wind, but there is also a secondary residual gravitational effect hiding underneath it.
+
+393
+00:21:08,100 --> 00:21:15,460
+How do physicists definitively prove that it is 100% pushing air and 0% manipulating gravity?
+
+394
+00:21:15,460 --> 00:21:20,640
+Flyxion highlights the ultimate, undeniable diagnostic tool for this specific claim.
+
+395
+00:21:21,320 --> 00:21:22,640
+The vacuum chamber test.
+
+396
+00:21:22,880 --> 00:21:23,720
+The vacuum test.
+
+397
+00:21:23,780 --> 00:21:29,440
+Because if the device is truly interacting with the fundamental geometry of space-time, the environment shouldn't matter.
+
+398
+00:21:29,580 --> 00:21:29,960
+Exactly.
+
+399
+00:21:30,140 --> 00:21:34,420
+It should levitate on a desk in a garage, and it should levitate in the vacuum of deep space.
+
+400
+00:21:34,520 --> 00:21:35,340
+Okay, so what happens?
+
+401
+00:21:35,680 --> 00:21:39,240
+So researchers take a carefully calibrated B-Fill-Brown capacitor,
+
+402
+00:21:39,440 --> 00:21:42,100
+they place it inside a heavy glass bell jar,
+
+403
+00:21:42,600 --> 00:21:45,340
+and they turn on a roughing pump to pull all the atmosphere out.
+
+404
+00:21:45,740 --> 00:21:46,860
+Creating a hard vacuum.
+
+405
+00:21:47,000 --> 00:21:47,240
+Right.
+
+406
+00:21:47,320 --> 00:21:50,560
+They turn on the high voltage, and nothing happens.
+
+407
+00:21:50,660 --> 00:21:50,960
+Nothing.
+
+408
+00:21:51,120 --> 00:21:52,620
+The device sits completely inert.
+
+409
+00:21:53,000 --> 00:21:53,820
+It doesn't flutter.
+
+410
+00:21:54,020 --> 00:21:54,940
+It doesn't rise.
+
+411
+00:21:55,060 --> 00:21:57,440
+It doesn't produce a fraction of a micronewton of thrust.
+
+412
+00:21:57,560 --> 00:21:59,040
+Because you remove the air.
+
+413
+00:21:59,240 --> 00:21:59,640
+Exactly.
+
+414
+00:22:00,140 --> 00:22:02,680
+No air means no molecules to ionize,
+
+415
+00:22:02,680 --> 00:22:04,140
+no cloud to accelerate,
+
+416
+00:22:04,640 --> 00:22:06,040
+no neutral air to drag,
+
+417
+00:22:06,280 --> 00:22:08,300
+and absolutely no thrust.
+
+418
+00:22:09,160 --> 00:22:14,300
+The vacuum test decisively proves there is zero gravitational content in the B-Fill-Brown effect.
+
+419
+00:22:14,300 --> 00:22:17,160
+Which brings up a fascinating psychological question, then.
+
+420
+00:22:17,860 --> 00:22:21,280
+If this was decisively solved decades ago with a bell jar,
+
+421
+00:22:21,800 --> 00:22:26,180
+why does this specific device remain the holy grail for garage inventors?
+
+422
+00:22:26,400 --> 00:22:28,800
+Flyxion attributes this to the seduction of the visual.
+
+423
+00:22:29,140 --> 00:22:30,220
+Seduction of the visual.
+
+424
+00:22:30,340 --> 00:22:31,200
+I like that phrasing.
+
+425
+00:22:31,320 --> 00:22:34,420
+The rhetorical power of a lifter comes entirely from what it looks like,
+
+426
+00:22:34,640 --> 00:22:36,160
+rather than what it physically does.
+
+427
+00:22:36,160 --> 00:22:36,880
+Right.
+
+428
+00:22:37,180 --> 00:22:39,460
+Because a lightweight object rising silently,
+
+429
+00:22:39,720 --> 00:22:40,580
+with no moving parts,
+
+430
+00:22:40,680 --> 00:22:41,480
+no spinning blades,
+
+431
+00:22:41,620 --> 00:22:42,360
+no loud engine,
+
+432
+00:22:42,620 --> 00:22:45,360
+it triggers our intuitive sense of surprise.
+
+433
+00:22:45,840 --> 00:22:48,060
+It visually mimics everything we've been taught
+
+434
+00:22:48,060 --> 00:22:50,620
+levitation should look like in science fiction movies.
+
+435
+00:22:50,780 --> 00:22:52,080
+It's the aesthetic of magic.
+
+436
+00:22:52,280 --> 00:22:52,740
+Yes.
+
+437
+00:22:52,960 --> 00:22:55,260
+And that visual resemblance is so powerful
+
+438
+00:22:55,260 --> 00:22:57,680
+that it causes the public to cling
+
+439
+00:22:57,680 --> 00:23:01,220
+to the dramatic paradigm-shifting interpretation
+
+440
+00:23:01,220 --> 00:23:05,360
+long after the specialist literature has proven the mundane reality.
+
+441
+00:23:05,360 --> 00:23:06,720
+They just want to believe.
+
+442
+00:23:06,820 --> 00:23:07,260
+Exactly.
+
+443
+00:23:07,840 --> 00:23:10,500
+The correct explanation ionized air molecules
+
+444
+00:23:10,500 --> 00:23:12,320
+bumping into neutral air molecules.
+
+445
+00:23:12,700 --> 00:23:15,500
+It feels anticlimactic to an inventor
+
+446
+00:23:15,500 --> 00:23:17,760
+who wants to believe they just revolutionized
+
+447
+00:23:17,760 --> 00:23:19,240
+space travel in their garage.
+
+448
+00:23:19,440 --> 00:23:21,700
+The spectacle overrides the science.
+
+449
+00:23:21,940 --> 00:23:22,940
+That makes total sense.
+
+450
+00:23:23,100 --> 00:23:26,200
+But if lifters are easily debunked because they fail in a vacuum,
+
+451
+00:23:26,520 --> 00:23:28,380
+the obvious next step for an inventor
+
+452
+00:23:28,380 --> 00:23:30,720
+is to build a device that doesn't need air at all.
+
+453
+00:23:30,760 --> 00:23:30,920
+Right.
+
+454
+00:23:31,000 --> 00:23:32,760
+You take the air out of the equation entirely.
+
+455
+00:23:32,760 --> 00:23:35,420
+Which brings us to a wildly controversial area.
+
+456
+00:23:36,160 --> 00:23:39,000
+Reactionless drives and internal mass propulsion.
+
+457
+00:23:39,440 --> 00:23:42,320
+This is where we examine devices that claim to generate thrust
+
+458
+00:23:42,320 --> 00:23:44,500
+within a completely closed box,
+
+459
+00:23:44,740 --> 00:23:46,900
+without expelling any propellant whatsoever.
+
+460
+00:23:47,100 --> 00:23:47,280
+Okay.
+
+461
+00:23:47,400 --> 00:23:50,440
+The source material focuses on two heavyweights in this category.
+
+462
+00:23:51,020 --> 00:23:55,400
+The historical example is the Norman Dean Drive from the late 1950s.
+
+463
+00:23:55,540 --> 00:23:59,100
+And the modern example is the highly tublicized M Drive.
+
+464
+00:23:59,100 --> 00:24:01,980
+Let's tackle the Dean Drive first,
+
+465
+00:24:02,120 --> 00:24:05,140
+because the mechanical concept is just so audacious.
+
+466
+00:24:05,360 --> 00:24:06,020
+It really is.
+
+467
+00:24:06,280 --> 00:24:08,500
+So Norman Dean built a sealed box
+
+468
+00:24:08,500 --> 00:24:11,000
+containing a series of heavy eccentric weights.
+
+469
+00:24:11,300 --> 00:24:13,580
+And these weights were hooked up to electric motors
+
+470
+00:24:13,580 --> 00:24:15,540
+and a complex gearing system.
+
+471
+00:24:16,060 --> 00:24:18,940
+By spinning and shifting these internal masses
+
+472
+00:24:18,940 --> 00:24:21,760
+in a highly specific asymmetrical pattern,
+
+473
+00:24:22,340 --> 00:24:25,180
+Dean claimed the box would actually pull itself forward across the floor.
+
+474
+00:24:25,180 --> 00:24:28,060
+The claim is that by moving internal components,
+
+475
+00:24:28,580 --> 00:24:31,280
+you can shift the center of mass of the entire system
+
+476
+00:24:31,280 --> 00:24:33,320
+in a single direction continuously.
+
+477
+00:24:33,520 --> 00:24:33,700
+Right.
+
+478
+00:24:33,860 --> 00:24:36,080
+So if I'm sitting in the driver's seat of my car,
+
+479
+00:24:36,320 --> 00:24:37,700
+parked in my driveway in neutral,
+
+480
+00:24:38,260 --> 00:24:41,180
+the Dean Drive is effectively claiming that I can propel the car
+
+481
+00:24:41,180 --> 00:24:44,160
+out of the driveway by aggressively punching the steering wheel
+
+482
+00:24:44,160 --> 00:24:45,160
+over and over again.
+
+483
+00:24:45,440 --> 00:24:48,460
+That is a perfect translation of the physics involved.
+
+484
+00:24:48,740 --> 00:24:51,400
+And obviously, punching the steering wheel doesn't move the car.
+
+485
+00:24:51,500 --> 00:24:52,680
+Because of the laws of motion?
+
+486
+00:24:52,680 --> 00:24:57,120
+Specifically, it violates the conservation of linear momentum
+
+487
+00:24:57,120 --> 00:24:58,540
+for an isolated system.
+
+488
+00:24:59,680 --> 00:25:02,820
+Flyxion anchors the pare-down of reactionless drives
+
+489
+00:25:02,820 --> 00:25:03,980
+in Nowether's theorem,
+
+490
+00:25:04,400 --> 00:25:06,820
+which is, frankly, one of the most beautiful
+
+491
+00:25:06,820 --> 00:25:09,360
+and profound mathematical proofs in all of physics.
+
+492
+00:25:09,480 --> 00:25:11,040
+Let's spend some time on Nowether's theorem
+
+493
+00:25:11,040 --> 00:25:14,420
+because it feels like the ultimate trump card against these claims.
+
+494
+00:25:14,860 --> 00:25:18,200
+I know Emmy Nowether proved that every conservation law in physics
+
+495
+00:25:18,200 --> 00:25:21,480
+is intimately tied to a fundamental symmetry of nature.
+
+496
+00:25:21,480 --> 00:25:22,040
+Yes.
+
+497
+00:25:23,000 --> 00:25:26,640
+She proved that conservation laws aren't just arbitrary rules we invented.
+
+498
+00:25:27,240 --> 00:25:30,540
+They are inevitable consequences of the fabric of reality being uniform.
+
+499
+00:25:31,220 --> 00:25:33,240
+The conservation of momentum, specifically,
+
+500
+00:25:33,600 --> 00:25:36,740
+is tied directly to the translational symmetry of space.
+
+501
+00:25:37,160 --> 00:25:39,320
+Okay, meaning the rules of the game don't change
+
+502
+00:25:39,320 --> 00:25:40,900
+based on where the game is played.
+
+503
+00:25:41,040 --> 00:25:41,480
+Exactly.
+
+504
+00:25:41,660 --> 00:25:43,280
+The physics happening inside my house
+
+505
+00:25:43,280 --> 00:25:46,180
+are exactly the same as the physics happening one mile down the road
+
+506
+00:25:46,180 --> 00:25:48,480
+or a billion light years away in another galaxy.
+
+507
+00:25:49,120 --> 00:25:50,040
+Space is uniform.
+
+508
+00:25:50,040 --> 00:25:52,980
+Because space does not have a preferred direction
+
+509
+00:25:52,980 --> 00:25:54,560
+or a biased location,
+
+510
+00:25:55,240 --> 00:25:56,940
+momentum must be conserved.
+
+511
+00:25:57,640 --> 00:26:00,180
+To say that a closed box can generate thrust
+
+512
+00:26:00,180 --> 00:26:02,060
+without interacting with the outside environment
+
+513
+00:26:02,060 --> 00:26:05,020
+is to say that translational symmetry is false.
+
+514
+00:26:05,420 --> 00:26:05,780
+Wow.
+
+515
+00:26:05,940 --> 00:26:08,620
+It implies that space itself is somehow biased
+
+516
+00:26:08,620 --> 00:26:10,660
+in a way that we have never observed
+
+517
+00:26:10,660 --> 00:26:13,240
+in the entire history of particle physics or astronomy.
+
+518
+00:26:13,240 --> 00:26:16,440
+But this bias magically reveals itself
+
+519
+00:26:16,440 --> 00:26:19,300
+inside a gearbox built in the 1950s.
+
+520
+00:26:19,880 --> 00:26:22,080
+So how did Norman Dean convince people it worked?
+
+521
+00:26:22,240 --> 00:26:24,040
+Because he did live demonstrations, didn't he?
+
+522
+00:26:24,080 --> 00:26:25,760
+People saw the box moving across tables.
+
+523
+00:26:26,100 --> 00:26:29,460
+If the center of mass of a closed system cannot negotiate,
+
+524
+00:26:30,140 --> 00:26:30,860
+how is it moving?
+
+525
+00:26:31,120 --> 00:26:34,600
+The quiet explanation for almost all mechanical reactionless drives
+
+526
+00:26:34,600 --> 00:26:35,440
+is friction.
+
+527
+00:26:35,700 --> 00:26:36,020
+Friction.
+
+528
+00:26:36,020 --> 00:26:39,040
+The Dean drive was never a truly isolated system.
+
+529
+00:26:39,400 --> 00:26:40,340
+It was sitting on a table.
+
+530
+00:26:40,520 --> 00:26:40,940
+Ah.
+
+531
+00:26:41,240 --> 00:26:44,100
+Think about the spinning off-center weights inside the box.
+
+532
+00:26:44,460 --> 00:26:46,520
+As those heavy weights cycle up and down,
+
+533
+00:26:46,620 --> 00:26:48,320
+they change the normal force of the box.
+
+534
+00:26:48,540 --> 00:26:51,340
+Meaning they change how hard the box is pressing down
+
+535
+00:26:51,340 --> 00:26:53,440
+against the tabletop at any given millisecond.
+
+536
+00:26:53,740 --> 00:26:54,240
+Exactly.
+
+537
+00:26:54,800 --> 00:26:57,580
+And because friction is dependent on the normal force,
+
+538
+00:26:57,980 --> 00:27:01,240
+the grip the box has on the table is constantly changing.
+
+539
+00:27:01,300 --> 00:27:02,440
+Oh, I see where this is going.
+
+540
+00:27:02,440 --> 00:27:06,060
+During one part of the cycle, the weights press down hard,
+
+541
+00:27:06,340 --> 00:27:07,220
+the friction spikes,
+
+542
+00:27:07,680 --> 00:27:10,720
+and the box grips the table and pushes forward.
+
+543
+00:27:11,420 --> 00:27:14,080
+During the other half of the cycle, the weights lift up,
+
+544
+00:27:14,460 --> 00:27:17,060
+the box gets temporarily lighter on its feet,
+
+545
+00:27:17,560 --> 00:27:18,520
+the friction drops,
+
+546
+00:27:18,900 --> 00:27:21,180
+and the internal mechanism resets
+
+547
+00:27:21,180 --> 00:27:23,380
+without pulling the box backward as much.
+
+548
+00:27:23,480 --> 00:27:24,780
+It's a slip and grip cycle.
+
+549
+00:27:24,900 --> 00:27:26,800
+It's effectively crawling across the table
+
+550
+00:27:26,800 --> 00:27:28,480
+by exploiting varying friction.
+
+551
+00:27:28,800 --> 00:27:30,540
+It is entirely a frictional artifact.
+
+552
+00:27:30,540 --> 00:27:32,900
+When researchers took the Dean Drive
+
+553
+00:27:32,900 --> 00:27:34,460
+and suspended it from a pendulum
+
+554
+00:27:34,460 --> 00:27:36,800
+or tested it on a frictionless air bearing,
+
+555
+00:27:37,280 --> 00:27:39,440
+the forward thrust completely vanished.
+
+556
+00:27:39,940 --> 00:27:41,600
+It just shook violently in place.
+
+557
+00:27:41,800 --> 00:27:43,760
+It couldn't cheat by grabbing the table anymore.
+
+558
+00:27:44,040 --> 00:27:46,100
+Which brings us perfectly to the M Drive,
+
+559
+00:27:46,340 --> 00:27:47,900
+because you can't accuse the M Drive
+
+560
+00:27:47,900 --> 00:27:48,900
+of grabbing the table.
+
+561
+00:27:49,140 --> 00:27:49,960
+No, you can't.
+
+562
+00:27:50,180 --> 00:27:52,440
+This is the device proposed by Roger Scheuer,
+
+563
+00:27:52,660 --> 00:27:54,700
+a closed, tapered copper cone.
+
+564
+00:27:55,060 --> 00:27:56,760
+You pump microwaves into it,
+
+565
+00:27:56,860 --> 00:27:58,360
+they bounce around asymmetrically,
+
+566
+00:27:58,360 --> 00:28:00,740
+and it supposedly generates thrust.
+
+567
+00:28:01,620 --> 00:28:03,500
+And NASA's Eagle Works Laboratory
+
+568
+00:28:03,500 --> 00:28:06,520
+tested it on a highly sensitive torsion pendulum
+
+569
+00:28:06,520 --> 00:28:07,980
+inside a vacuum chamber.
+
+570
+00:28:08,380 --> 00:28:09,720
+It couldn't slip and grip.
+
+571
+00:28:10,220 --> 00:28:12,720
+And yet, NASA measured a positive thrust.
+
+572
+00:28:13,360 --> 00:28:13,760
+They did.
+
+573
+00:28:14,080 --> 00:28:16,860
+How do you explain anomalous measurements
+
+574
+00:28:16,860 --> 00:28:18,240
+from top-tier scientists
+
+575
+00:28:18,240 --> 00:28:21,280
+if the physics is as impossible as the Dean Drive?
+
+576
+00:28:21,420 --> 00:28:23,300
+This is where we have to dive into the reality
+
+577
+00:28:23,300 --> 00:28:24,620
+of experimental artifacts.
+
+578
+00:28:24,620 --> 00:28:27,320
+Measuring a tiny force in a laboratory
+
+579
+00:28:27,320 --> 00:28:28,420
+is not the same thing
+
+580
+00:28:28,420 --> 00:28:30,060
+as discovering a new law of physics.
+
+581
+00:28:30,780 --> 00:28:33,220
+The thrusts reported by the M Drive tests
+
+582
+00:28:33,220 --> 00:28:34,800
+were incredibly small
+
+583
+00:28:34,800 --> 00:28:36,300
+on the order of micronewtons.
+
+584
+00:28:36,580 --> 00:28:37,580
+Barely the weight of a mosquito.
+
+585
+00:28:38,120 --> 00:28:38,560
+Exactly.
+
+586
+00:28:39,220 --> 00:28:40,460
+Flyxion focuses heavily
+
+587
+00:28:40,460 --> 00:28:41,760
+on the replication attempt
+
+588
+00:28:41,760 --> 00:28:43,040
+led by Martin Tajmar
+
+589
+00:28:43,040 --> 00:28:44,840
+at TU Dresden in Germany.
+
+590
+00:28:45,340 --> 00:28:46,880
+They built an incredibly rigorous,
+
+591
+00:28:47,120 --> 00:28:48,600
+hypersensitive torsion balance
+
+592
+00:28:48,600 --> 00:28:49,600
+to test the M Drive,
+
+593
+00:28:49,880 --> 00:28:51,340
+but they designed their experiment
+
+594
+00:28:51,340 --> 00:28:53,920
+specifically to hunt down systematic errors.
+
+595
+00:28:53,920 --> 00:28:55,440
+They weren't just looking for the thrust,
+
+596
+00:28:55,540 --> 00:28:56,080
+they were looking for
+
+597
+00:28:56,080 --> 00:28:57,400
+what was faking the thrust.
+
+598
+00:28:57,480 --> 00:28:57,720
+Exactly.
+
+599
+00:28:57,840 --> 00:28:58,760
+So what did they find?
+
+600
+00:28:59,100 --> 00:29:00,600
+They found massive thermal
+
+601
+00:29:00,600 --> 00:29:01,800
+and magnetic artifacts.
+
+602
+00:29:02,480 --> 00:29:04,300
+When you pump hundreds of watts
+
+603
+00:29:04,300 --> 00:29:05,360
+of microwave power
+
+604
+00:29:05,360 --> 00:29:06,980
+into a sealed copper cavity,
+
+605
+00:29:07,400 --> 00:29:09,220
+the cavity gets incredibly hot.
+
+606
+00:29:10,060 --> 00:29:11,300
+And when copper gets hot,
+
+607
+00:29:11,420 --> 00:29:12,840
+it undergoes thermal expansion.
+
+608
+00:29:13,040 --> 00:29:14,300
+Right, the metal swells up.
+
+609
+00:29:14,560 --> 00:29:16,840
+The entire device physically warped
+
+610
+00:29:16,840 --> 00:29:17,740
+and expanded.
+
+611
+00:29:18,380 --> 00:29:20,160
+This shifted the center of gravity
+
+612
+00:29:20,160 --> 00:29:21,300
+of the mounting apparatus
+
+613
+00:29:21,300 --> 00:29:23,020
+on the pendulum ever so slightly.
+
+614
+00:29:23,920 --> 00:29:25,300
+The laser interferometers
+
+615
+00:29:25,300 --> 00:29:26,260
+measuring the pendulum
+
+616
+00:29:26,260 --> 00:29:28,500
+interpreted that physical thermal shift
+
+617
+00:29:28,500 --> 00:29:29,760
+as a micronewton,
+
+618
+00:29:29,980 --> 00:29:30,880
+a forward thrust.
+
+619
+00:29:31,160 --> 00:29:31,960
+Are you kidding me?
+
+620
+00:29:32,000 --> 00:29:33,320
+So the device was just bloating
+
+621
+00:29:33,320 --> 00:29:34,000
+from the heat
+
+622
+00:29:34,000 --> 00:29:36,080
+and the sensors read it as movement?
+
+623
+00:29:36,420 --> 00:29:37,920
+It goes even deeper than that.
+
+624
+00:29:38,340 --> 00:29:39,800
+To get power to the M Drive
+
+625
+00:29:39,800 --> 00:29:41,180
+while it was sitting on the pendulum,
+
+626
+00:29:41,560 --> 00:29:43,560
+they had to run liquid metal contacts
+
+627
+00:29:43,560 --> 00:29:44,860
+and power cables to it.
+
+628
+00:29:45,260 --> 00:29:46,620
+The TU Dresden team
+
+629
+00:29:46,620 --> 00:29:48,600
+found that the massive electrical currents
+
+630
+00:29:48,600 --> 00:29:49,640
+running through those cables
+
+631
+00:29:49,640 --> 00:29:50,860
+were interacting directly
+
+632
+00:29:50,860 --> 00:29:52,700
+with the Earth's ambient magnetic field.
+
+633
+00:29:52,920 --> 00:29:54,100
+The Lorentz force.
+
+634
+00:29:54,240 --> 00:29:54,660
+Exactly.
+
+635
+00:29:55,120 --> 00:29:56,520
+It is the exact same force
+
+636
+00:29:56,520 --> 00:29:57,780
+that causes a compass needle
+
+637
+00:29:57,780 --> 00:29:58,480
+to turn north.
+
+638
+00:29:59,060 --> 00:30:00,440
+The Earth's magnetic field
+
+639
+00:30:00,440 --> 00:30:02,300
+was gently twisting the power cables,
+
+640
+00:30:02,700 --> 00:30:03,880
+applying a tiny torque
+
+641
+00:30:03,880 --> 00:30:05,540
+to the entire pendulum assembly.
+
+642
+00:30:05,800 --> 00:30:07,780
+The device wasn't pushing against space.
+
+643
+00:30:07,860 --> 00:30:09,080
+It was acting like a giant,
+
+644
+00:30:09,240 --> 00:30:10,560
+clumsy compass needle.
+
+645
+00:30:10,780 --> 00:30:12,000
+You're hitting on the exact
+
+646
+00:30:12,000 --> 00:30:12,940
+mechanical failure.
+
+647
+00:30:12,940 --> 00:30:15,800
+And here is the defining hallmark
+
+648
+00:30:15,800 --> 00:30:16,700
+of an artifact
+
+649
+00:30:16,700 --> 00:30:19,440
+versus a genuine physical discovery.
+
+650
+00:30:20,440 --> 00:30:21,840
+As the TU Dresden team
+
+651
+00:30:21,840 --> 00:30:23,080
+improved their isolation
+
+652
+00:30:23,080 --> 00:30:24,540
+as they actively dampened
+
+653
+00:30:24,540 --> 00:30:25,520
+the thermal expansion
+
+654
+00:30:25,520 --> 00:30:27,980
+and heavily shielded the power cables,
+
+655
+00:30:28,460 --> 00:30:29,980
+the anomalous thrust shrank
+
+656
+00:30:29,980 --> 00:30:31,440
+all the way down to zero.
+
+657
+00:30:31,860 --> 00:30:32,900
+The vanishing anomaly.
+
+658
+00:30:33,400 --> 00:30:34,480
+If it were real physics,
+
+659
+00:30:34,600 --> 00:30:35,340
+a better telescope
+
+660
+00:30:35,340 --> 00:30:36,520
+gives you a sharper picture.
+
+661
+00:30:36,980 --> 00:30:38,480
+But here, a better instrument
+
+662
+00:30:38,480 --> 00:30:39,240
+makes the signal
+
+663
+00:30:39,240 --> 00:30:40,440
+completely disappear.
+
+664
+00:30:40,620 --> 00:30:41,240
+Precisely.
+
+665
+00:30:41,240 --> 00:30:43,240
+Proponents of the M-Drive
+
+666
+00:30:43,240 --> 00:30:45,060
+often try to rescue the concept
+
+667
+00:30:45,060 --> 00:30:45,840
+by claiming
+
+668
+00:30:45,840 --> 00:30:47,740
+it isn't actually reactionless.
+
+669
+00:30:48,220 --> 00:30:49,200
+They claim the microwaves
+
+670
+00:30:49,200 --> 00:30:49,960
+are pushing against
+
+671
+00:30:49,960 --> 00:30:50,880
+the quantum vacuum,
+
+672
+00:30:51,240 --> 00:30:52,560
+treating space-time like a fluid.
+
+673
+00:30:53,440 --> 00:30:54,680
+But this brings us right back
+
+674
+00:30:54,680 --> 00:30:55,540
+to our foundational
+
+675
+00:30:55,540 --> 00:30:57,120
+entropic gravity framework.
+
+676
+00:30:57,240 --> 00:30:57,420
+Right.
+
+677
+00:30:57,800 --> 00:30:59,240
+Space-time is the spreadsheet,
+
+678
+00:30:59,580 --> 00:31:00,160
+not the ocean.
+
+679
+00:31:00,560 --> 00:31:01,800
+The entropic context
+
+680
+00:31:01,800 --> 00:31:04,280
+destroys that rescue attempt entirely.
+
+681
+00:31:05,240 --> 00:31:06,480
+Space-time is not
+
+682
+00:31:06,480 --> 00:31:07,340
+a physical substrate.
+
+683
+00:31:07,940 --> 00:31:09,600
+It is not an ethereal ocean
+
+684
+00:31:09,600 --> 00:31:10,660
+that a microwave's cavity
+
+685
+00:31:10,660 --> 00:31:11,600
+can paddle against.
+
+686
+00:31:11,880 --> 00:31:13,600
+It is the geometric bookkeeping
+
+687
+00:31:13,600 --> 00:31:14,360
+of entropy.
+
+688
+00:31:15,240 --> 00:31:16,440
+There is nothing physical
+
+689
+00:31:16,440 --> 00:31:17,420
+there to push against.
+
+690
+00:31:18,180 --> 00:31:19,180
+No Eurther's theorem
+
+691
+00:31:19,180 --> 00:31:20,380
+closes the front door
+
+692
+00:31:20,380 --> 00:31:21,660
+on reactionless drives,
+
+693
+00:31:22,180 --> 00:31:23,220
+and the entropic nature
+
+694
+00:31:23,220 --> 00:31:24,820
+of gravity closes the back door.
+
+695
+00:31:25,320 --> 00:31:26,840
+This is a brilliant transition
+
+696
+00:31:26,840 --> 00:31:27,900
+into our next section.
+
+697
+00:31:28,120 --> 00:31:28,900
+We've seen devices
+
+698
+00:31:28,900 --> 00:31:30,540
+that accidentally push on air,
+
+699
+00:31:30,760 --> 00:31:32,100
+devices that secretly push
+
+700
+00:31:32,100 --> 00:31:32,640
+on the table,
+
+701
+00:31:32,640 --> 00:31:33,960
+and devices that push
+
+702
+00:31:33,960 --> 00:31:35,380
+on their own thermal expansion.
+
+703
+00:31:35,960 --> 00:31:36,760
+But what happens
+
+704
+00:31:36,760 --> 00:31:37,500
+when an inventor
+
+705
+00:31:37,500 --> 00:31:38,620
+abandons the idea
+
+706
+00:31:38,620 --> 00:31:40,360
+of generating thrust entirely?
+
+707
+00:31:40,560 --> 00:31:41,740
+Oh, the defensive strategy.
+
+708
+00:31:41,820 --> 00:31:42,080
+Yeah.
+
+709
+00:31:42,400 --> 00:31:43,360
+If hiding your engine
+
+710
+00:31:43,360 --> 00:31:44,160
+in a closed box
+
+711
+00:31:44,160 --> 00:31:44,680
+doesn't work
+
+712
+00:31:44,680 --> 00:31:45,860
+because heat betrays you,
+
+713
+00:31:46,020 --> 00:31:47,260
+the next logical step
+
+714
+00:31:47,260 --> 00:31:48,280
+is to build a wall.
+
+715
+00:31:48,400 --> 00:31:49,920
+You try to block gravity itself.
+
+716
+00:31:50,180 --> 00:31:50,960
+This introduces
+
+717
+00:31:50,960 --> 00:31:52,180
+a widespread genre
+
+718
+00:31:52,180 --> 00:31:53,220
+in the fringe literature,
+
+719
+00:31:53,940 --> 00:31:54,440
+gravity shielding.
+
+720
+00:31:55,440 --> 00:31:56,580
+Flyxion categorizes
+
+721
+00:31:56,580 --> 00:31:57,240
+these claims
+
+722
+00:31:57,240 --> 00:31:58,800
+as massive category errors
+
+723
+00:31:58,800 --> 00:32:00,160
+in kitchen sink physics.
+
+724
+00:32:00,340 --> 00:32:01,740
+Okay, the most famous example
+
+725
+00:32:01,740 --> 00:32:02,600
+in the source material
+
+726
+00:32:02,600 --> 00:32:03,840
+is Eugene Podklitnov
+
+727
+00:32:03,840 --> 00:32:05,280
+in the early 1990s.
+
+728
+00:32:05,340 --> 00:32:05,500
+Right.
+
+729
+00:32:05,620 --> 00:32:06,900
+So Podklitnov claimed
+
+730
+00:32:06,900 --> 00:32:07,640
+that if you take
+
+731
+00:32:07,640 --> 00:32:08,720
+a specially crafted
+
+732
+00:32:08,720 --> 00:32:10,540
+superconducting ceramic disc,
+
+733
+00:32:11,100 --> 00:32:11,900
+levitate it
+
+734
+00:32:11,900 --> 00:32:13,120
+using electromagnets,
+
+735
+00:32:13,300 --> 00:32:14,220
+and spin it
+
+736
+00:32:14,220 --> 00:32:15,700
+at thousands of RPMs,
+
+737
+00:32:16,000 --> 00:32:17,620
+it creates a gravity shield
+
+738
+00:32:17,620 --> 00:32:18,160
+above it.
+
+739
+00:32:18,300 --> 00:32:19,560
+A literal column
+
+740
+00:32:19,560 --> 00:32:20,660
+of reduced gravity.
+
+741
+00:32:20,800 --> 00:32:21,000
+Yeah.
+
+742
+00:32:21,380 --> 00:32:22,400
+He claimed that
+
+743
+00:32:22,400 --> 00:32:23,240
+anything placed
+
+744
+00:32:23,240 --> 00:32:24,180
+in a column of air
+
+745
+00:32:24,180 --> 00:32:25,060
+directly above
+
+746
+00:32:25,060 --> 00:32:25,940
+the spinning disc
+
+747
+00:32:25,940 --> 00:32:26,460
+would lose
+
+748
+00:32:26,460 --> 00:32:27,280
+a small percentage
+
+749
+00:32:27,280 --> 00:32:27,880
+of its weight.
+
+750
+00:32:28,380 --> 00:32:29,560
+Now, I want to explore
+
+751
+00:32:29,560 --> 00:32:30,240
+the logic here
+
+752
+00:32:30,240 --> 00:32:31,040
+because we know
+
+753
+00:32:31,040 --> 00:32:32,400
+that superconductors
+
+754
+00:32:32,400 --> 00:32:33,120
+can expel
+
+755
+00:32:33,120 --> 00:32:33,980
+magnetic fields.
+
+756
+00:32:34,440 --> 00:32:35,560
+That is a real
+
+757
+00:32:35,560 --> 00:32:36,540
+proven phenomenon
+
+758
+00:32:36,540 --> 00:32:37,900
+called the Meissner effect.
+
+759
+00:32:38,180 --> 00:32:38,740
+Very real.
+
+760
+00:32:38,960 --> 00:32:39,840
+So if we can build
+
+761
+00:32:39,840 --> 00:32:41,060
+materials that shield
+
+762
+00:32:41,060 --> 00:32:42,500
+and expel magnetism,
+
+763
+00:32:42,880 --> 00:32:43,680
+why is it considered
+
+764
+00:32:43,680 --> 00:32:44,640
+a category error
+
+765
+00:32:44,640 --> 00:32:45,240
+to suggest
+
+766
+00:32:45,240 --> 00:32:46,440
+a spinning superconductor
+
+767
+00:32:46,440 --> 00:32:47,180
+could expel
+
+768
+00:32:47,180 --> 00:32:47,780
+or shield
+
+769
+00:32:47,780 --> 00:32:48,940
+a gravitational field?
+
+770
+00:32:49,320 --> 00:32:50,200
+It is a profound
+
+771
+00:32:50,200 --> 00:32:51,000
+category error
+
+772
+00:32:51,000 --> 00:32:51,780
+because it relies
+
+773
+00:32:51,780 --> 00:32:53,020
+on a false equivalency.
+
+774
+00:32:53,720 --> 00:32:54,560
+The analogy borrows
+
+775
+00:32:54,560 --> 00:32:56,080
+heavily from electromagnetism,
+
+776
+00:32:56,240 --> 00:32:57,120
+but gravity
+
+777
+00:32:57,120 --> 00:32:58,220
+and electromagnetism
+
+778
+00:32:58,220 --> 00:32:58,820
+are fundamentally
+
+779
+00:32:58,820 --> 00:32:59,800
+different categories
+
+780
+00:32:59,800 --> 00:33:00,900
+of physical phenomena.
+
+781
+00:33:01,000 --> 00:33:01,700
+Break down the difference
+
+782
+00:33:01,700 --> 00:33:02,100
+for us.
+
+783
+00:33:02,100 --> 00:33:03,820
+Electromagnetism operates
+
+784
+00:33:03,820 --> 00:33:05,140
+via a sourced
+
+785
+00:33:05,140 --> 00:33:06,160
+propagating field.
+
+786
+00:33:07,160 --> 00:33:08,020
+A magnetic field
+
+787
+00:33:08,020 --> 00:33:08,800
+has local
+
+788
+00:33:08,800 --> 00:33:10,100
+physical flux lines.
+
+789
+00:33:10,680 --> 00:33:11,340
+A material,
+
+790
+00:33:11,740 --> 00:33:12,680
+like a piece of iron
+
+791
+00:33:12,680 --> 00:33:13,620
+or a superconductor,
+
+792
+00:33:14,060 --> 00:33:15,160
+can physically intercept
+
+793
+00:33:15,160 --> 00:33:15,940
+those flux lines.
+
+794
+00:33:16,360 --> 00:33:17,200
+It can absorb them,
+
+795
+00:33:17,360 --> 00:33:17,900
+redirect them,
+
+796
+00:33:18,000 --> 00:33:19,020
+or expel them entirely.
+
+797
+00:33:19,160 --> 00:33:19,780
+So you can build
+
+798
+00:33:19,780 --> 00:33:20,560
+a physical wall
+
+799
+00:33:20,560 --> 00:33:21,740
+like a Faraday cage
+
+800
+00:33:21,740 --> 00:33:23,520
+to block electromagnetic waves
+
+801
+00:33:23,520 --> 00:33:24,260
+because there is
+
+802
+00:33:24,260 --> 00:33:25,120
+a physical wave
+
+803
+00:33:25,120 --> 00:33:25,540
+to intercept.
+
+804
+00:33:25,740 --> 00:33:26,080
+Exactly.
+
+805
+00:33:26,440 --> 00:33:27,120
+But gravity,
+
+806
+00:33:27,500 --> 00:33:28,160
+geometrically
+
+807
+00:33:28,160 --> 00:33:29,100
+and entropically,
+
+808
+00:33:29,100 --> 00:33:30,180
+does not have
+
+809
+00:33:30,180 --> 00:33:31,100
+local flux lines
+
+810
+00:33:31,100 --> 00:33:31,780
+in that sense.
+
+811
+00:33:32,360 --> 00:33:33,460
+It is the large-scale,
+
+812
+00:33:33,780 --> 00:33:34,760
+structural organization
+
+813
+00:33:34,760 --> 00:33:35,700
+of the universe's
+
+814
+00:33:35,700 --> 00:33:36,560
+mass and energy.
+
+815
+00:33:37,360 --> 00:33:38,420
+Gravity is the geometry
+
+816
+00:33:38,420 --> 00:33:39,140
+of the space
+
+817
+00:33:39,140 --> 00:33:39,900
+the superconductor
+
+818
+00:33:39,900 --> 00:33:41,080
+is actually occupying.
+
+819
+00:33:41,300 --> 00:33:41,940
+So there is nothing
+
+820
+00:33:41,940 --> 00:33:43,000
+to physically intercept.
+
+821
+00:33:43,400 --> 00:33:44,020
+Flyxion uses
+
+822
+00:33:44,020 --> 00:33:45,360
+an incredibly striking metaphor
+
+823
+00:33:45,360 --> 00:33:46,020
+to explain
+
+824
+00:33:46,020 --> 00:33:47,180
+this conceptual failure.
+
+825
+00:33:47,900 --> 00:33:48,940
+Asking a spinning
+
+826
+00:33:48,940 --> 00:33:49,740
+superconductor
+
+827
+00:33:49,740 --> 00:33:50,620
+to shield gravity
+
+828
+00:33:50,620 --> 00:33:51,400
+is like asking
+
+829
+00:33:51,400 --> 00:33:52,760
+a copper Faraday cage
+
+830
+00:33:52,760 --> 00:33:53,640
+to block the passage
+
+831
+00:33:53,640 --> 00:33:54,140
+of time.
+
+832
+00:33:54,140 --> 00:33:54,740
+Wow.
+
+833
+00:33:55,020 --> 00:33:56,260
+Asking a Faraday cage
+
+834
+00:33:56,260 --> 00:33:57,060
+to block the passage
+
+835
+00:33:57,060 --> 00:33:57,520
+of time,
+
+836
+00:33:57,600 --> 00:33:58,700
+that perfectly captures
+
+837
+00:33:58,700 --> 00:33:59,500
+the absurdity.
+
+838
+00:33:59,880 --> 00:34:00,360
+Doesn't it?
+
+839
+00:34:00,720 --> 00:34:01,380
+It isn't that
+
+840
+00:34:01,380 --> 00:34:02,600
+building a gravity shield
+
+841
+00:34:02,600 --> 00:34:03,460
+is a difficult
+
+842
+00:34:03,460 --> 00:34:04,740
+engineering challenge
+
+843
+00:34:04,740 --> 00:34:06,480
+requiring better materials.
+
+844
+00:34:06,940 --> 00:34:07,780
+It is that
+
+845
+00:34:07,780 --> 00:34:08,900
+you are addressing
+
+846
+00:34:08,900 --> 00:34:09,660
+your request
+
+847
+00:34:09,660 --> 00:34:10,880
+to the wrong category
+
+848
+00:34:10,880 --> 00:34:12,000
+of thing entirely.
+
+849
+00:34:12,680 --> 00:34:13,480
+You are trying
+
+850
+00:34:13,480 --> 00:34:14,940
+to use a local tool
+
+851
+00:34:14,940 --> 00:34:16,660
+to fight a non-local
+
+852
+00:34:16,660 --> 00:34:18,380
+emergent geometric property.
+
+853
+00:34:18,820 --> 00:34:19,280
+But wait,
+
+854
+00:34:19,520 --> 00:34:20,280
+if the premise
+
+855
+00:34:20,280 --> 00:34:21,660
+is a category error,
+
+856
+00:34:22,000 --> 00:34:22,800
+what on earth
+
+857
+00:34:22,800 --> 00:34:24,680
+did Podklitnov actually measure?
+
+858
+00:34:25,180 --> 00:34:26,440
+Because he published papers
+
+859
+00:34:26,440 --> 00:34:27,460
+showing a weight drop
+
+860
+00:34:27,460 --> 00:34:28,100
+in the objects
+
+861
+00:34:28,100 --> 00:34:29,380
+suspended above the disk.
+
+862
+00:34:29,480 --> 00:34:30,460
+He measured exactly
+
+863
+00:34:30,460 --> 00:34:31,200
+what the M-Drive
+
+864
+00:34:31,200 --> 00:34:32,160
+researchers measured,
+
+865
+00:34:32,480 --> 00:34:33,420
+environmental noise
+
+866
+00:34:33,420 --> 00:34:34,580
+and uncontrolled variables.
+
+867
+00:34:34,720 --> 00:34:36,000
+Uncontrolled variables again.
+
+868
+00:34:36,380 --> 00:34:37,960
+When serious institutions,
+
+869
+00:34:38,220 --> 00:34:38,980
+including NASA
+
+870
+00:34:38,980 --> 00:34:40,780
+and several European laboratories,
+
+871
+00:34:40,980 --> 00:34:41,840
+attempted to replicate
+
+872
+00:34:41,840 --> 00:34:43,240
+his spinning superconductor,
+
+873
+00:34:43,740 --> 00:34:44,220
+they discovered
+
+874
+00:34:44,220 --> 00:34:45,700
+a host of mundane problems.
+
+875
+00:34:45,960 --> 00:34:46,880
+Spinning a heavy,
+
+876
+00:34:47,000 --> 00:34:47,760
+supercooled disk
+
+877
+00:34:47,760 --> 00:34:48,580
+at high speeds
+
+878
+00:34:48,580 --> 00:34:49,100
+in a room
+
+879
+00:34:49,100 --> 00:34:50,420
+induces complex
+
+880
+00:34:50,420 --> 00:34:51,660
+aerodynamic air currents.
+
+881
+00:34:51,740 --> 00:34:52,160
+Oh, sure.
+
+882
+00:34:52,160 --> 00:34:53,560
+And the mass of electromagnets
+
+883
+00:34:53,560 --> 00:34:54,680
+used to levitate the disk,
+
+884
+00:34:55,040 --> 00:34:55,840
+couple vibrations
+
+885
+00:34:55,840 --> 00:34:57,520
+straight into the sensitive scales
+
+886
+00:34:57,520 --> 00:34:58,320
+being used to weigh
+
+887
+00:34:58,320 --> 00:34:59,160
+the test objects.
+
+888
+00:34:59,200 --> 00:35:00,300
+The scales were just vibrating.
+
+889
+00:35:00,740 --> 00:35:01,160
+Exactly.
+
+890
+00:35:01,780 --> 00:35:02,620
+When later researchers
+
+891
+00:35:02,620 --> 00:35:03,980
+placed the entire apparatus
+
+892
+00:35:03,980 --> 00:35:04,980
+in a hard vacuum
+
+893
+00:35:04,980 --> 00:35:06,660
+to eliminate air currents
+
+894
+00:35:06,660 --> 00:35:08,360
+and rigorously isolated
+
+895
+00:35:08,360 --> 00:35:08,960
+the scales
+
+896
+00:35:08,960 --> 00:35:10,380
+from the magnetic vibrations,
+
+897
+00:35:11,040 --> 00:35:12,100
+the weight anomaly
+
+898
+00:35:12,100 --> 00:35:13,340
+completely vanished.
+
+899
+00:35:13,760 --> 00:35:14,600
+Of course it did.
+
+900
+00:35:14,720 --> 00:35:16,040
+The shield was nothing more
+
+901
+00:35:16,040 --> 00:35:17,460
+than an uninstrumented draft
+
+902
+00:35:17,460 --> 00:35:18,880
+and a shaky table.
+
+903
+00:35:19,540 --> 00:35:21,220
+Podklitnov isn't the only researcher
+
+904
+00:35:21,220 --> 00:35:22,360
+obsessed with rotation,
+
+905
+00:35:22,500 --> 00:35:22,680
+though.
+
+906
+00:35:22,860 --> 00:35:23,700
+The source material
+
+907
+00:35:23,700 --> 00:35:25,320
+also digs into Bruce De Palma
+
+908
+00:35:25,320 --> 00:35:26,900
+and his spinning ball experiments
+
+909
+00:35:26,900 --> 00:35:28,260
+from the 1970s.
+
+910
+00:35:28,320 --> 00:35:29,380
+Ah, De Palma.
+
+911
+00:35:29,660 --> 00:35:29,980
+Yes.
+
+912
+00:35:30,300 --> 00:35:31,200
+De Palma was convinced
+
+913
+00:35:31,200 --> 00:35:32,660
+that rotation fundamentally
+
+914
+00:35:32,660 --> 00:35:33,900
+altered the inertial
+
+915
+00:35:33,900 --> 00:35:35,320
+and gravitational mass
+
+916
+00:35:35,320 --> 00:35:36,240
+of an object.
+
+917
+00:35:36,760 --> 00:35:38,080
+He built an experiment
+
+918
+00:35:38,080 --> 00:35:39,420
+where he took a steel ball,
+
+919
+00:35:39,920 --> 00:35:41,860
+spun it up to nearly 30,000 RPM,
+
+920
+00:35:42,220 --> 00:35:43,220
+and launched it
+
+921
+00:35:43,220 --> 00:35:44,160
+straight up into the air.
+
+922
+00:35:44,300 --> 00:35:44,620
+Okay.
+
+923
+00:35:45,180 --> 00:35:45,820
+He claimed,
+
+924
+00:35:46,080 --> 00:35:47,120
+based on stroke photography,
+
+925
+00:35:47,480 --> 00:35:48,400
+that the spinning balls
+
+926
+00:35:48,400 --> 00:35:49,120
+traveled higher
+
+927
+00:35:49,120 --> 00:35:49,960
+and fell faster
+
+928
+00:35:49,960 --> 00:35:51,420
+than a non-spinning ball
+
+929
+00:35:51,420 --> 00:35:53,140
+launched with the exact same force.
+
+930
+00:35:53,560 --> 00:35:54,280
+From the outside,
+
+931
+00:35:54,280 --> 00:35:55,740
+this seems like the easiest claim
+
+932
+00:35:55,740 --> 00:35:56,700
+in the world to verify.
+
+933
+00:35:57,100 --> 00:35:58,060
+You launch two balls
+
+934
+00:35:58,060 --> 00:35:58,840
+side by side,
+
+935
+00:35:58,920 --> 00:35:59,400
+one spinning,
+
+936
+00:35:59,520 --> 00:36:00,100
+one stationary.
+
+937
+00:36:00,560 --> 00:36:01,760
+Why didn't this immediately
+
+938
+00:36:01,760 --> 00:36:03,300
+overturn classical physics?
+
+939
+00:36:03,580 --> 00:36:05,180
+Because it is a prime example
+
+940
+00:36:05,180 --> 00:36:05,960
+of the danger
+
+941
+00:36:05,960 --> 00:36:06,920
+of an uncontrolled
+
+942
+00:36:06,920 --> 00:36:07,720
+launch apparatus.
+
+943
+00:36:07,960 --> 00:36:08,880
+Okay, explain that.
+
+944
+00:36:09,140 --> 00:36:10,480
+De Palma used a physical
+
+945
+00:36:10,480 --> 00:36:11,800
+spring-loaded cup
+
+946
+00:36:11,800 --> 00:36:13,340
+to launch the balls.
+
+947
+00:36:14,300 --> 00:36:15,560
+But let's think mechanically
+
+948
+00:36:15,560 --> 00:36:16,300
+about what happens
+
+949
+00:36:16,300 --> 00:36:17,000
+during that launch.
+
+950
+00:36:17,000 --> 00:36:18,740
+You have a heavy steel ball
+
+951
+00:36:18,740 --> 00:36:20,520
+spinning at extreme velocities,
+
+952
+00:36:20,860 --> 00:36:22,180
+and you trigger a spring
+
+953
+00:36:22,180 --> 00:36:23,460
+to push it forcefully
+
+954
+00:36:23,460 --> 00:36:24,320
+out of a confined
+
+955
+00:36:24,320 --> 00:36:25,100
+physical cup.
+
+956
+00:36:25,200 --> 00:36:25,600
+Oh.
+
+957
+00:36:26,440 --> 00:36:27,260
+The spinning ball
+
+958
+00:36:27,260 --> 00:36:28,080
+is going to interact
+
+959
+00:36:28,080 --> 00:36:29,220
+with the inside walls
+
+960
+00:36:29,220 --> 00:36:30,080
+of that cup.
+
+961
+00:36:30,220 --> 00:36:30,700
+Violently.
+
+962
+00:36:31,280 --> 00:36:32,020
+It experiences
+
+963
+00:36:32,020 --> 00:36:33,560
+complex rolling friction,
+
+964
+00:36:34,240 --> 00:36:35,500
+gyroscopic precession,
+
+965
+00:36:36,040 --> 00:36:37,200
+and coriolis forces
+
+966
+00:36:37,200 --> 00:36:38,920
+against the launch track
+
+967
+00:36:38,920 --> 00:36:40,380
+that a stationary ball
+
+968
+00:36:40,380 --> 00:36:41,740
+simply does not experience.
+
+969
+00:36:41,940 --> 00:36:42,820
+So it wasn't
+
+970
+00:36:42,820 --> 00:36:43,740
+defying gravity,
+
+971
+00:36:43,840 --> 00:36:44,760
+it was just physically
+
+972
+00:36:44,760 --> 00:36:45,740
+gripping the sides
+
+973
+00:36:45,740 --> 00:36:46,140
+of the ball?
+
+974
+00:36:46,140 --> 00:36:53,660
+They replicated the experiment.
+
+975
+00:36:53,880 --> 00:36:54,360
+They didn't rely
+
+976
+00:36:54,360 --> 00:36:54,900
+on the assumption
+
+977
+00:36:54,900 --> 00:36:55,640
+that the spring
+
+978
+00:36:55,640 --> 00:36:57,080
+delivered identical force.
+
+979
+00:36:57,240 --> 00:36:58,900
+They used high-speed cameras
+
+980
+00:36:58,900 --> 00:36:59,900
+to measure the literal
+
+981
+00:36:59,900 --> 00:37:00,960
+velocity of the balls
+
+982
+00:37:00,960 --> 00:37:02,300
+the exact millisecond
+
+983
+00:37:02,300 --> 00:37:03,340
+they cleared the launch track.
+
+984
+00:37:03,880 --> 00:37:04,820
+They proved
+
+985
+00:37:04,820 --> 00:37:05,600
+that if a spinning ball
+
+986
+00:37:05,600 --> 00:37:06,480
+and a non-skidding ball
+
+987
+00:37:06,480 --> 00:37:07,100
+are confirmed
+
+988
+00:37:07,100 --> 00:37:08,120
+to have the exact same
+
+989
+00:37:08,120 --> 00:37:09,180
+initial exit velocity,
+
+990
+00:37:09,680 --> 00:37:10,660
+they rise to the exact
+
+991
+00:37:10,660 --> 00:37:11,200
+same height,
+
+992
+00:37:11,720 --> 00:37:12,980
+peak at the exact same moment,
+
+993
+00:37:12,980 --> 00:37:13,980
+and hit the floor
+
+994
+00:37:13,980 --> 00:37:15,340
+at the exact same time.
+
+995
+00:37:15,340 --> 00:37:16,720
+The anti-gravity effect
+
+996
+00:37:16,720 --> 00:37:17,940
+was just a dirty
+
+997
+00:37:17,940 --> 00:37:19,080
+launch mechanism.
+
+998
+00:37:19,240 --> 00:37:19,800
+Precisely.
+
+999
+00:37:20,380 --> 00:37:21,020
+Which brings up
+
+1000
+00:37:21,020 --> 00:37:22,120
+another massive problem
+
+1001
+00:37:22,120 --> 00:37:23,060
+in fringe research.
+
+1002
+00:37:23,220 --> 00:37:23,400
+Yeah.
+
+1003
+00:37:23,960 --> 00:37:25,260
+The kitchen sink approach.
+
+1004
+00:37:25,860 --> 00:37:26,820
+Flyxion details
+
+1005
+00:37:26,820 --> 00:37:28,060
+the John Hutchison effect
+
+1006
+00:37:28,060 --> 00:37:29,180
+to illustrate this.
+
+1007
+00:37:29,420 --> 00:37:30,520
+Oh, the Hutchison effect
+
+1008
+00:37:30,520 --> 00:37:31,340
+is legendary
+
+1009
+00:37:31,340 --> 00:37:32,140
+on the internet.
+
+1010
+00:37:32,660 --> 00:37:34,320
+This is the Canadian inventor
+
+1011
+00:37:34,320 --> 00:37:35,580
+who filled his apartment
+
+1012
+00:37:35,580 --> 00:37:36,900
+with a chaotic mix
+
+1013
+00:37:36,900 --> 00:37:38,540
+of surplus naval equipment,
+
+1014
+00:37:39,100 --> 00:37:39,900
+Tesla coils,
+
+1015
+00:37:40,280 --> 00:37:41,280
+Vinograft generators,
+
+1016
+00:37:41,540 --> 00:37:42,380
+and high-powered
+
+1017
+00:37:42,380 --> 00:37:44,160
+radio frequency transmitters.
+
+1018
+00:37:44,260 --> 00:37:44,940
+Quite the setup.
+
+1019
+00:37:45,100 --> 00:37:45,320
+Yeah.
+
+1020
+00:37:45,560 --> 00:37:46,380
+And he claimed
+
+1021
+00:37:46,380 --> 00:37:47,080
+that when he turned
+
+1022
+00:37:47,080 --> 00:37:48,620
+them all on simultaneously,
+
+1023
+00:37:49,180 --> 00:37:50,280
+he could levitate
+
+1024
+00:37:50,280 --> 00:37:51,180
+heavy tools,
+
+1025
+00:37:51,640 --> 00:37:52,560
+shatter metal bars,
+
+1026
+00:37:52,740 --> 00:37:53,260
+and meld
+
+1027
+00:37:53,260 --> 00:37:54,560
+different materials together.
+
+1028
+00:37:54,680 --> 00:37:56,100
+It is the ultimate case study
+
+1029
+00:37:56,100 --> 00:37:57,660
+in why uncontrolled variables
+
+1030
+00:37:57,660 --> 00:37:58,340
+are fatal
+
+1031
+00:37:58,340 --> 00:37:59,520
+to the scientific method.
+
+1032
+00:38:00,040 --> 00:38:00,960
+Hutchison was blasting
+
+1033
+00:38:00,960 --> 00:38:01,740
+a small room
+
+1034
+00:38:01,740 --> 00:38:02,420
+with multiple,
+
+1035
+00:38:02,720 --> 00:38:03,300
+intense,
+
+1036
+00:38:03,660 --> 00:38:04,860
+completely uninstrumented
+
+1037
+00:38:04,860 --> 00:38:06,060
+electromagnetic fields.
+
+1038
+00:38:06,220 --> 00:38:07,180
+But things are flying around.
+
+1039
+00:38:07,260 --> 00:38:08,020
+I've seen the videos.
+
+1040
+00:38:08,200 --> 00:38:09,000
+A heavy wrench
+
+1041
+00:38:09,000 --> 00:38:09,800
+shoots off a table.
+
+1042
+00:38:10,120 --> 00:38:10,960
+The effects are real,
+
+1043
+00:38:11,100 --> 00:38:11,640
+but the physics
+
+1044
+00:38:11,640 --> 00:38:12,900
+are entirely classical.
+
+1045
+00:38:13,200 --> 00:38:13,920
+If you bombard
+
+1046
+00:38:13,920 --> 00:38:14,800
+metallic objects
+
+1047
+00:38:14,800 --> 00:38:15,740
+with overlapping,
+
+1048
+00:38:16,080 --> 00:38:16,920
+intense RF
+
+1049
+00:38:16,920 --> 00:38:18,000
+and magnetic fields,
+
+1050
+00:38:18,620 --> 00:38:19,580
+you are going to induce
+
+1051
+00:38:19,580 --> 00:38:20,880
+massive eddy currents
+
+1052
+00:38:20,880 --> 00:38:21,720
+inside the metal.
+
+1053
+00:38:21,840 --> 00:38:22,020
+Right.
+
+1054
+00:38:22,020 --> 00:38:23,160
+Those eddy currents
+
+1055
+00:38:23,160 --> 00:38:24,220
+create their own
+
+1056
+00:38:24,220 --> 00:38:25,140
+magnetic fields,
+
+1057
+00:38:25,440 --> 00:38:26,880
+which react violently
+
+1058
+00:38:26,880 --> 00:38:28,200
+against the primary fields
+
+1059
+00:38:28,200 --> 00:38:28,700
+in the room,
+
+1060
+00:38:29,200 --> 00:38:30,100
+creating massive
+
+1061
+00:38:30,100 --> 00:38:31,040
+physical forces
+
+1062
+00:38:31,040 --> 00:38:32,000
+that can easily
+
+1063
+00:38:32,000 --> 00:38:32,660
+throw a wrench
+
+1064
+00:38:32,660 --> 00:38:33,420
+across a room.
+
+1065
+00:38:33,640 --> 00:38:34,900
+It's just chaotic
+
+1066
+00:38:34,900 --> 00:38:36,140
+electromagnetism.
+
+1067
+00:38:36,260 --> 00:38:37,000
+And you combine that
+
+1068
+00:38:37,000 --> 00:38:38,020
+with dielectric breakdown,
+
+1069
+00:38:38,320 --> 00:38:39,020
+where the voltage
+
+1070
+00:38:39,020 --> 00:38:39,920
+is so high,
+
+1071
+00:38:40,300 --> 00:38:41,320
+it literally tears
+
+1072
+00:38:41,320 --> 00:38:42,160
+electrons off
+
+1073
+00:38:42,160 --> 00:38:43,240
+insulating materials,
+
+1074
+00:38:43,360 --> 00:38:44,980
+creating explosive sparks
+
+1075
+00:38:44,980 --> 00:38:46,800
+and localized RF heating
+
+1076
+00:38:46,800 --> 00:38:47,560
+that can melt
+
+1077
+00:38:47,560 --> 00:38:48,360
+and warp metal.
+
+1078
+00:38:48,520 --> 00:38:50,040
+It sounds incredibly dangerous.
+
+1079
+00:38:50,040 --> 00:38:50,820
+It is.
+
+1080
+00:38:51,480 --> 00:38:52,120
+But crucially,
+
+1081
+00:38:52,320 --> 00:38:53,240
+Hutchison could almost
+
+1082
+00:38:53,240 --> 00:38:54,180
+never reproduce
+
+1083
+00:38:54,180 --> 00:38:55,440
+the effects on demand
+
+1084
+00:38:55,440 --> 00:38:56,860
+when serious scientists
+
+1085
+00:38:56,860 --> 00:38:57,700
+showed up to observe.
+
+1086
+00:38:58,280 --> 00:38:59,300
+And what is the standard
+
+1087
+00:38:59,300 --> 00:39:00,760
+defense when a demonstration
+
+1088
+00:39:00,760 --> 00:39:01,300
+fails?
+
+1089
+00:39:01,300 --> 00:39:02,180
+They claim
+
+1090
+00:39:02,180 --> 00:39:03,320
+environmental sensitivity.
+
+1091
+00:39:04,180 --> 00:39:04,560
+They argue
+
+1092
+00:39:04,560 --> 00:39:05,840
+the anti-gravity effect
+
+1093
+00:39:05,840 --> 00:39:06,660
+is so delicate
+
+1094
+00:39:06,660 --> 00:39:07,980
+that the mere presence
+
+1095
+00:39:07,980 --> 00:39:09,220
+of a skeptical observer
+
+1096
+00:39:09,220 --> 00:39:10,600
+or a slight shift
+
+1097
+00:39:10,600 --> 00:39:11,500
+in the room's humidity
+
+1098
+00:39:11,500 --> 00:39:13,520
+disrupts the quantum resonance.
+
+1099
+00:39:13,860 --> 00:39:14,720
+That is so convenient.
+
+1100
+00:39:14,980 --> 00:39:16,000
+Flyxion dismantles
+
+1101
+00:39:16,000 --> 00:39:17,120
+this logic beautifully,
+
+1102
+00:39:17,560 --> 00:39:18,160
+pointing out that
+
+1103
+00:39:18,160 --> 00:39:19,300
+it only works sometimes
+
+1104
+00:39:19,300 --> 00:39:20,360
+is not the signature
+
+1105
+00:39:20,360 --> 00:39:21,520
+of a subtle advanced
+
+1106
+00:39:21,520 --> 00:39:22,800
+paradigm shifting physics.
+
+1107
+00:39:23,100 --> 00:39:24,040
+It is the exact,
+
+1108
+00:39:24,660 --> 00:39:25,600
+expected signature
+
+1109
+00:39:25,600 --> 00:39:26,680
+of measurement noise
+
+1110
+00:39:26,680 --> 00:39:27,900
+and uncontrolled variables
+
+1111
+00:39:27,900 --> 00:39:29,440
+in a deeply flawed
+
+1112
+00:39:29,440 --> 00:39:31,060
+multi-source apparatus.
+
+1113
+00:39:31,520 --> 00:39:32,800
+And when the environmental
+
+1114
+00:39:32,800 --> 00:39:33,920
+sensitivity excuse
+
+1115
+00:39:33,920 --> 00:39:34,640
+wears thin,
+
+1116
+00:39:35,260 --> 00:39:36,020
+you get the
+
+1117
+00:39:36,020 --> 00:39:37,160
+John Searle excuse.
+
+1118
+00:39:37,480 --> 00:39:38,480
+Ah, yes.
+
+1119
+00:39:39,020 --> 00:39:40,440
+The Searle effect generator.
+
+1120
+00:39:40,440 --> 00:39:41,420
+This was a claim
+
+1121
+00:39:41,420 --> 00:39:42,720
+of a massive ring
+
+1122
+00:39:42,720 --> 00:39:44,140
+of magnetized rollers
+
+1123
+00:39:44,140 --> 00:39:45,740
+that supposedly generated
+
+1124
+00:39:45,740 --> 00:39:46,400
+free power
+
+1125
+00:39:46,400 --> 00:39:47,240
+and levitated.
+
+1126
+00:39:47,700 --> 00:39:48,920
+But whenever a physicist
+
+1127
+00:39:48,920 --> 00:39:50,020
+asked to inspect
+
+1128
+00:39:50,020 --> 00:39:50,520
+the machine,
+
+1129
+00:39:50,780 --> 00:39:51,720
+it was unavailable.
+
+1130
+00:39:51,940 --> 00:39:53,140
+The lost relic trope.
+
+1131
+00:39:53,140 --> 00:39:54,580
+It is a recurring
+
+1132
+00:39:54,580 --> 00:39:55,540
+narrative structure
+
+1133
+00:39:55,540 --> 00:39:56,480
+in fringe science.
+
+1134
+00:39:56,840 --> 00:39:57,800
+The fully operational,
+
+1135
+00:39:57,980 --> 00:39:59,220
+gravity-defying prototype
+
+1136
+00:39:59,220 --> 00:40:00,880
+is always conveniently missing.
+
+1137
+00:40:01,260 --> 00:40:01,560
+Always.
+
+1138
+00:40:01,900 --> 00:40:02,460
+It was destroyed
+
+1139
+00:40:02,460 --> 00:40:03,860
+in a tragic laboratory fire
+
+1140
+00:40:03,860 --> 00:40:04,700
+where the funding
+
+1141
+00:40:04,700 --> 00:40:05,900
+was pulled at the last second
+
+1142
+00:40:05,900 --> 00:40:07,140
+where it was confiscated
+
+1143
+00:40:07,140 --> 00:40:08,560
+by shadowy government agents
+
+1144
+00:40:08,560 --> 00:40:09,780
+right at the moment
+
+1145
+00:40:09,780 --> 00:40:10,920
+verification was requested.
+
+1146
+00:40:11,520 --> 00:40:12,540
+We have 80 years
+
+1147
+00:40:12,540 --> 00:40:13,220
+of these claims
+
+1148
+00:40:13,220 --> 00:40:14,160
+and humanity
+
+1149
+00:40:14,160 --> 00:40:15,320
+is seemingly always
+
+1150
+00:40:15,320 --> 00:40:16,340
+just one demonstration
+
+1151
+00:40:16,340 --> 00:40:17,360
+away from flying cars.
+
+1152
+00:40:17,660 --> 00:40:19,160
+It is incredibly maddening.
+
+1153
+00:40:19,260 --> 00:40:20,080
+But this brings us
+
+1154
+00:40:20,080 --> 00:40:21,360
+to a really fascinating
+
+1155
+00:40:21,360 --> 00:40:22,520
+linguistic turn
+
+1156
+00:40:22,520 --> 00:40:23,320
+in our deep dive.
+
+1157
+00:40:23,460 --> 00:40:23,940
+Linguistic.
+
+1158
+00:40:24,260 --> 00:40:24,960
+Yeah, because when
+
+1159
+00:40:24,960 --> 00:40:25,980
+the mechanical engineering
+
+1160
+00:40:25,980 --> 00:40:26,840
+clearly fails
+
+1161
+00:40:26,840 --> 00:40:28,480
+and the lost relic excuse
+
+1162
+00:40:28,480 --> 00:40:29,680
+starts to sound hollow,
+
+1163
+00:40:30,140 --> 00:40:31,620
+the fringe literature pivots.
+
+1164
+00:40:32,080 --> 00:40:32,720
+They stop trying
+
+1165
+00:40:32,720 --> 00:40:33,400
+to build gears
+
+1166
+00:40:33,400 --> 00:40:34,280
+and start borrowing
+
+1167
+00:40:34,280 --> 00:40:35,040
+the vocabulary
+
+1168
+00:40:35,040 --> 00:40:36,880
+of high-level theoretical physics
+
+1169
+00:40:36,880 --> 00:40:38,580
+to hide the complete absence
+
+1170
+00:40:38,580 --> 00:40:39,840
+of a working mechanism.
+
+1171
+00:40:40,160 --> 00:40:41,520
+This is a critical observation.
+
+1172
+00:40:41,720 --> 00:40:43,840
+It is where language itself
+
+1173
+00:40:43,840 --> 00:40:45,500
+becomes a cloaking device
+
+1174
+00:40:45,500 --> 00:40:46,780
+to avoid scrutiny.
+
+1175
+00:40:47,000 --> 00:40:47,220
+Right.
+
+1176
+00:40:47,680 --> 00:40:48,740
+Flyxion highlights
+
+1177
+00:40:48,740 --> 00:40:50,480
+two major examples
+
+1178
+00:40:50,480 --> 00:40:52,060
+of this borrowed vocabulary.
+
+1179
+00:40:52,600 --> 00:40:53,360
+Torsion fields
+
+1180
+00:40:53,360 --> 00:40:56,000
+and cold fusion hybrid claims.
+
+1181
+00:40:56,340 --> 00:40:57,480
+Let's tackle torsion first
+
+1182
+00:40:57,480 --> 00:40:58,140
+because it sounds
+
+1183
+00:40:58,140 --> 00:40:59,140
+incredibly impressive.
+
+1184
+00:40:59,540 --> 00:41:00,000
+It does.
+
+1185
+00:41:00,100 --> 00:41:01,000
+And the term torsion
+
+1186
+00:41:01,000 --> 00:41:01,960
+actually originates
+
+1187
+00:41:01,960 --> 00:41:03,900
+in legitimate differential geometry
+
+1188
+00:41:03,900 --> 00:41:05,120
+and theoretical physics.
+
+1189
+00:41:05,260 --> 00:41:05,540
+Okay.
+
+1190
+00:41:06,240 --> 00:41:07,820
+In extensions of Einstein's
+
+1191
+00:41:07,820 --> 00:41:08,740
+general relativity,
+
+1192
+00:41:09,140 --> 00:41:10,440
+like the Einstein-Karton theory,
+
+1193
+00:41:11,040 --> 00:41:11,840
+space-time can have
+
+1194
+00:41:11,840 --> 00:41:13,160
+a property called torsion,
+
+1195
+00:41:13,580 --> 00:41:14,480
+which relates mathematically
+
+1196
+00:41:15,000 --> 00:41:16,520
+to the intrinsic spin
+
+1197
+00:41:16,520 --> 00:41:17,460
+angular momentum
+
+1198
+00:41:17,460 --> 00:41:19,100
+of quantum particles.
+
+1199
+00:41:19,100 --> 00:41:20,960
+So it's a real mathematical concept.
+
+1200
+00:41:21,180 --> 00:41:21,380
+Yes.
+
+1201
+00:41:21,560 --> 00:41:22,680
+But in standard physics,
+
+1202
+00:41:23,060 --> 00:41:24,060
+the effects of torsion
+
+1203
+00:41:24,060 --> 00:41:24,580
+are predicted
+
+1204
+00:41:24,580 --> 00:41:25,900
+to be vanishingly small,
+
+1205
+00:41:26,480 --> 00:41:27,820
+remaining completely static
+
+1206
+00:41:27,820 --> 00:41:28,740
+and undetectable
+
+1207
+00:41:28,740 --> 00:41:30,780
+at macroscopic laboratory scales.
+
+1208
+00:41:31,120 --> 00:41:32,240
+It does not propagate
+
+1209
+00:41:32,240 --> 00:41:32,940
+through a vacuum
+
+1210
+00:41:32,940 --> 00:41:34,400
+like an electromagnetic wave.
+
+1211
+00:41:34,480 --> 00:41:35,500
+But that is absolutely
+
+1212
+00:41:35,500 --> 00:41:36,760
+not how the French community
+
+1213
+00:41:36,760 --> 00:41:37,560
+uses the word.
+
+1214
+00:41:37,880 --> 00:41:38,480
+Not at all.
+
+1215
+00:41:39,320 --> 00:41:40,160
+Flyxion details
+
+1216
+00:41:40,160 --> 00:41:42,300
+how a pair of post-Soviet researchers,
+
+1217
+00:41:42,880 --> 00:41:43,860
+Akamov and Shipov,
+
+1218
+00:41:44,280 --> 00:41:45,400
+completely co-opted
+
+1219
+00:41:45,400 --> 00:41:47,160
+the terminology in the 1990s.
+
+1220
+00:41:47,160 --> 00:41:49,620
+They propose a pseudoscientific version
+
+1221
+00:41:49,620 --> 00:41:50,600
+of a torsion field
+
+1222
+00:41:50,600 --> 00:41:52,280
+that supposedly propagates
+
+1223
+00:41:52,280 --> 00:41:53,620
+instantly across the universe,
+
+1224
+00:41:54,020 --> 00:41:55,140
+alters the weight of objects,
+
+1225
+00:41:55,620 --> 00:41:57,100
+and crucially for their defense,
+
+1226
+00:41:57,540 --> 00:41:59,420
+carries information without energy.
+
+1227
+00:41:59,860 --> 00:42:00,980
+Information without energy.
+
+1228
+00:42:01,120 --> 00:42:01,780
+Let's pause there
+
+1229
+00:42:01,780 --> 00:42:02,680
+because on the surface,
+
+1230
+00:42:02,940 --> 00:42:03,540
+that sounds like
+
+1231
+00:42:03,540 --> 00:42:05,500
+a profound quantum loophole.
+
+1232
+00:42:05,600 --> 00:42:06,460
+It sounds like they've hacked
+
+1233
+00:42:06,460 --> 00:42:07,360
+the fundamental rules
+
+1234
+00:42:07,360 --> 00:42:07,880
+of the universe.
+
+1235
+00:42:08,300 --> 00:42:09,840
+It sounds incredibly profound
+
+1236
+00:42:09,840 --> 00:42:11,600
+until you apply basic logic
+
+1237
+00:42:11,600 --> 00:42:12,980
+to what it actually means
+
+1238
+00:42:12,980 --> 00:42:14,220
+to make a physical measurement.
+
+1239
+00:42:14,220 --> 00:42:17,300
+Proponents of this fringe torsion theory
+
+1240
+00:42:17,300 --> 00:42:18,200
+use this phrase
+
+1241
+00:42:18,200 --> 00:42:20,180
+as an ultimate defense mechanism.
+
+1242
+00:42:20,440 --> 00:42:20,900
+How so?
+
+1243
+00:42:21,020 --> 00:42:21,960
+When standard physicists
+
+1244
+00:42:21,960 --> 00:42:23,780
+point their highly sensitive instruments
+
+1245
+00:42:23,780 --> 00:42:25,440
+at a supposed torsion generator
+
+1246
+00:42:25,440 --> 00:42:27,480
+and measure absolutely zero output,
+
+1247
+00:42:27,840 --> 00:42:29,280
+the proponents smile and say,
+
+1248
+00:42:29,700 --> 00:42:31,080
+of course your conventional instruments
+
+1249
+00:42:31,080 --> 00:42:32,300
+can't detect our field.
+
+1250
+00:42:32,800 --> 00:42:33,800
+Your instruments require
+
+1251
+00:42:33,800 --> 00:42:34,760
+a transfer of energy
+
+1252
+00:42:34,760 --> 00:42:35,860
+to register a signal.
+
+1253
+00:42:36,300 --> 00:42:37,060
+Our torsion field
+
+1254
+00:42:37,060 --> 00:42:39,160
+only transfers pure information.
+
+1255
+00:42:39,540 --> 00:42:40,940
+Which is the equivalent of saying
+
+1256
+00:42:40,940 --> 00:42:42,360
+I have an invisible dragon
+
+1257
+00:42:42,360 --> 00:42:43,160
+in my garage
+
+1258
+00:42:43,160 --> 00:42:44,700
+and it emits no heat
+
+1259
+00:42:44,700 --> 00:42:46,500
+so your thermal camera is useless.
+
+1260
+00:42:46,780 --> 00:42:48,860
+It is the exact same logical fallacy.
+
+1261
+00:42:49,700 --> 00:42:52,120
+Flexionation destroys this defense
+
+1262
+00:42:52,120 --> 00:42:53,280
+by pointing out that
+
+1263
+00:42:53,280 --> 00:42:54,720
+information transfer
+
+1264
+00:42:54,720 --> 00:42:55,900
+without energy transfer
+
+1265
+00:42:55,900 --> 00:42:57,740
+literally describes something
+
+1266
+00:42:57,740 --> 00:42:59,220
+that cannot, in principle,
+
+1267
+00:42:59,800 --> 00:43:01,440
+interact with a physical detector.
+
+1268
+00:43:01,680 --> 00:43:03,260
+Because detection is an interaction.
+
+1269
+00:43:03,780 --> 00:43:05,720
+To move a physical needle on a dial,
+
+1270
+00:43:06,040 --> 00:43:07,160
+to flip a digital bit
+
+1271
+00:43:07,160 --> 00:43:08,260
+in a computer sensor,
+
+1272
+00:43:08,600 --> 00:43:10,620
+or to cause a chemical reaction
+
+1273
+00:43:10,620 --> 00:43:11,880
+in a photographic plate,
+
+1274
+00:43:12,480 --> 00:43:13,940
+you have to do physical work.
+
+1275
+00:43:14,080 --> 00:43:15,080
+You have to transfer energy.
+
+1276
+00:43:15,080 --> 00:43:15,480
+Exactly.
+
+1277
+00:43:16,000 --> 00:43:17,700
+If a field cannot transfer energy
+
+1278
+00:43:17,700 --> 00:43:18,460
+to a detector,
+
+1279
+00:43:19,060 --> 00:43:19,900
+it cannot be measured
+
+1280
+00:43:19,900 --> 00:43:21,100
+and it cannot affect
+
+1281
+00:43:21,100 --> 00:43:21,920
+the physical world.
+
+1282
+00:43:22,800 --> 00:43:23,840
+Claiming a field transfers
+
+1283
+00:43:23,840 --> 00:43:25,040
+information with that energy
+
+1284
+00:43:25,040 --> 00:43:26,900
+is not a clever paradigm
+
+1285
+00:43:26,900 --> 00:43:27,800
+shifting loophole.
+
+1286
+00:43:28,000 --> 00:43:29,520
+It is a direct admission
+
+1287
+00:43:29,520 --> 00:43:30,980
+that you have no testable
+
+1288
+00:43:30,980 --> 00:43:31,840
+scientific claim.
+
+1289
+00:43:32,060 --> 00:43:32,340
+Wow.
+
+1290
+00:43:32,540 --> 00:43:33,680
+It is the literal absence
+
+1291
+00:43:33,680 --> 00:43:34,960
+of physics masquerading
+
+1292
+00:43:34,960 --> 00:43:35,860
+as advanced physics.
+
+1293
+00:43:35,960 --> 00:43:37,080
+It is language deployed
+
+1294
+00:43:37,080 --> 00:43:38,320
+specifically to evade
+
+1295
+00:43:38,320 --> 00:43:39,280
+the scientific method.
+
+1296
+00:43:39,280 --> 00:43:41,220
+And we see this exact same strategy
+
+1297
+00:43:41,220 --> 00:43:42,360
+of co-opting credibility
+
+1298
+00:43:42,360 --> 00:43:43,340
+in the cold fusion
+
+1299
+00:43:43,340 --> 00:43:44,920
+anti-gravity hybrid claims.
+
+1300
+00:43:45,300 --> 00:43:46,120
+The hybrid claims
+
+1301
+00:43:46,120 --> 00:43:46,900
+are fascinating
+
+1302
+00:43:46,900 --> 00:43:48,160
+because they attempt
+
+1303
+00:43:48,160 --> 00:43:49,120
+to layer one
+
+1304
+00:43:49,120 --> 00:43:50,920
+highly controversial theory
+
+1305
+00:43:50,920 --> 00:43:51,880
+on top of another.
+
+1306
+00:43:52,780 --> 00:43:53,900
+Cold fusion itself,
+
+1307
+00:43:54,360 --> 00:43:55,460
+the idea of achieving
+
+1308
+00:43:55,460 --> 00:43:57,420
+low energy nuclear reactions
+
+1309
+00:43:57,420 --> 00:43:59,120
+in a desktop palladium lattice
+
+1310
+00:43:59,120 --> 00:44:01,040
+is already heavily marginalized.
+
+1311
+00:44:01,440 --> 00:44:01,560
+Right.
+
+1312
+00:44:01,860 --> 00:44:02,860
+But some researchers
+
+1313
+00:44:02,860 --> 00:44:03,920
+attempt to revive it
+
+1314
+00:44:03,920 --> 00:44:05,300
+by bolting anti-gravity
+
+1315
+00:44:05,300 --> 00:44:06,160
+onto the side of it.
+
+1316
+00:44:06,520 --> 00:44:07,120
+The argument,
+
+1317
+00:44:07,280 --> 00:44:08,000
+as I understand it
+
+1318
+00:44:08,000 --> 00:44:08,880
+from the source material,
+
+1319
+00:44:09,320 --> 00:44:10,160
+is that the anomalous
+
+1320
+00:44:10,160 --> 00:44:11,500
+excess heat supposedly
+
+1321
+00:44:11,500 --> 00:44:13,380
+generated by a cold fusion cell
+
+1322
+00:44:13,380 --> 00:44:15,580
+is evidence of a nuclear mass defect.
+
+1323
+00:44:16,240 --> 00:44:17,060
+They claim that mass
+
+1324
+00:44:17,060 --> 00:44:18,480
+is being converted into energy
+
+1325
+00:44:18,480 --> 00:44:20,260
+and that this loss of mass
+
+1326
+00:44:20,260 --> 00:44:21,380
+somehow induces
+
+1327
+00:44:21,380 --> 00:44:22,780
+a macroscopic weight reduction
+
+1328
+00:44:22,780 --> 00:44:23,580
+in the apparatus.
+
+1329
+00:44:23,820 --> 00:44:25,100
+Flyxion dismantles this
+
+1330
+00:44:25,100 --> 00:44:26,860
+by attacking the mathematical scale,
+
+1331
+00:44:27,080 --> 00:44:28,740
+much like the Casimir effect debunk.
+
+1332
+00:44:29,180 --> 00:44:29,900
+Even if you accept
+
+1333
+00:44:29,900 --> 00:44:30,800
+the most generous,
+
+1334
+00:44:31,000 --> 00:44:32,460
+highly disputed claims
+
+1335
+00:44:32,460 --> 00:44:33,800
+of excess heat generated
+
+1336
+00:44:33,800 --> 00:44:35,180
+in a cold fusion experiment,
+
+1337
+00:44:35,180 --> 00:44:36,900
+you can simply run the math
+
+1338
+00:44:36,900 --> 00:44:38,680
+using Einstein's famous equation,
+
+1339
+00:44:39,020 --> 00:44:40,380
+E equals mc squared.
+
+1340
+00:44:40,560 --> 00:44:41,740
+You can calculate exactly
+
+1341
+00:44:41,740 --> 00:44:43,060
+how much physical mass
+
+1342
+00:44:43,060 --> 00:44:43,940
+had to be destroyed
+
+1343
+00:44:43,940 --> 00:44:45,760
+to produce that specific amount
+
+1344
+00:44:45,760 --> 00:44:46,360
+of heat energy.
+
+1345
+00:44:46,740 --> 00:44:48,220
+And when you run those numbers,
+
+1346
+00:44:48,840 --> 00:44:50,220
+the amount of mass lost
+
+1347
+00:44:50,220 --> 00:44:52,160
+is so unimaginably,
+
+1348
+00:44:52,460 --> 00:44:53,880
+infinitesimally small
+
+1349
+00:44:53,880 --> 00:44:55,420
+that it would never,
+
+1350
+00:44:55,840 --> 00:44:56,480
+ever register
+
+1351
+00:44:56,480 --> 00:44:58,080
+as a macroscopic weight reduction
+
+1352
+00:44:58,080 --> 00:44:59,680
+on a laboratory scale.
+
+1353
+00:45:00,160 --> 00:45:01,260
+The math is off
+
+1354
+00:45:01,260 --> 00:45:02,480
+by billions of times.
+
+1355
+00:45:02,480 --> 00:45:03,840
+So they are pointing
+
+1356
+00:45:03,840 --> 00:45:04,760
+to a heat anomaly
+
+1357
+00:45:04,760 --> 00:45:06,360
+and claiming it explains
+
+1358
+00:45:06,360 --> 00:45:07,620
+a levitation anomaly
+
+1359
+00:45:07,620 --> 00:45:08,560
+without ever doing
+
+1360
+00:45:08,560 --> 00:45:09,460
+the basic arithmetic
+
+1361
+00:45:09,460 --> 00:45:10,840
+to see if the two phenomena
+
+1362
+00:45:10,840 --> 00:45:12,040
+are even in the same
+
+1363
+00:45:12,040 --> 00:45:12,940
+universe of scale.
+
+1364
+00:45:13,640 --> 00:45:14,680
+It relies on a logical
+
+1365
+00:45:14,680 --> 00:45:15,900
+fallacy of proximity.
+
+1366
+00:45:17,320 --> 00:45:18,520
+The cold fusion apparatus
+
+1367
+00:45:18,520 --> 00:45:19,700
+is already associated
+
+1368
+00:45:19,700 --> 00:45:21,160
+with one fringe claim
+
+1369
+00:45:21,160 --> 00:45:21,880
+excess heat.
+
+1370
+00:45:22,820 --> 00:45:23,680
+Proponents use that
+
+1371
+00:45:23,680 --> 00:45:24,980
+existing fringe credibility
+
+1372
+00:45:24,980 --> 00:45:26,020
+to smuggle in a second
+
+1373
+00:45:26,020 --> 00:45:26,980
+entirely unrelated
+
+1374
+00:45:26,980 --> 00:45:28,600
+and mathematically impossible
+
+1375
+00:45:28,600 --> 00:45:29,580
+claim antigravity.
+
+1376
+00:45:29,600 --> 00:45:30,500
+Returning to our
+
+1377
+00:45:30,500 --> 00:45:31,740
+entropic gravity framework.
+
+1378
+00:45:31,740 --> 00:45:32,300
+Exactly.
+
+1379
+00:45:32,580 --> 00:45:33,440
+Whatever microscopic
+
+1380
+00:45:33,440 --> 00:45:34,480
+atomic interactions
+
+1381
+00:45:34,480 --> 00:45:35,160
+might be happening
+
+1382
+00:45:35,160 --> 00:45:36,300
+inside a palladium lattice,
+
+1383
+00:45:36,800 --> 00:45:38,100
+they are entirely too small
+
+1384
+00:45:38,100 --> 00:45:38,940
+and too localized
+
+1385
+00:45:38,940 --> 00:45:40,620
+to alter the macroscale
+
+1386
+00:45:40,620 --> 00:45:41,620
+geometric bookkeeping
+
+1387
+00:45:41,620 --> 00:45:42,300
+of space-time.
+
+1388
+00:45:43,380 --> 00:45:44,420
+Layering two unproven
+
+1389
+00:45:44,420 --> 00:45:45,100
+effects together
+
+1390
+00:45:45,100 --> 00:45:46,100
+does not magically
+
+1391
+00:45:46,100 --> 00:45:46,700
+average out
+
+1392
+00:45:46,700 --> 00:45:47,820
+to one proven effect.
+
+1393
+00:45:47,940 --> 00:45:48,840
+Okay, we are entering
+
+1394
+00:45:48,840 --> 00:45:50,180
+the final and perhaps
+
+1395
+00:45:50,180 --> 00:45:51,320
+most confusing stretch
+
+1396
+00:45:51,320 --> 00:45:52,320
+of our dip dive today.
+
+1397
+00:45:52,480 --> 00:45:52,920
+Let's hear it.
+
+1398
+00:45:53,060 --> 00:45:54,020
+We have aggressively
+
+1399
+00:45:54,020 --> 00:45:55,460
+debunked the theoretical
+
+1400
+00:45:55,460 --> 00:45:56,860
+math of the warp drive.
+
+1401
+00:45:57,400 --> 00:45:58,220
+We've shown the quantum
+
+1402
+00:45:58,220 --> 00:45:59,800
+vacuum does not offer
+
+1403
+00:45:59,800 --> 00:46:01,360
+a free thermodynamic lunch.
+
+1404
+00:46:01,800 --> 00:46:03,000
+We've explained that
+
+1405
+00:46:03,000 --> 00:46:03,960
+lifters just push
+
+1406
+00:46:03,960 --> 00:46:04,920
+ionized air,
+
+1407
+00:46:05,360 --> 00:46:06,280
+closed box drives
+
+1408
+00:46:06,280 --> 00:46:07,120
+push themselves
+
+1409
+00:46:07,120 --> 00:46:08,360
+via thermal expansion,
+
+1410
+00:46:09,000 --> 00:46:10,120
+spinning superconductors
+
+1411
+00:46:10,120 --> 00:46:11,000
+commit fundamental
+
+1412
+00:46:11,000 --> 00:46:12,000
+category errors,
+
+1413
+00:46:12,420 --> 00:46:13,120
+and torsion fields
+
+1414
+00:46:13,120 --> 00:46:14,460
+are just empty vocabulary.
+
+1415
+00:46:14,740 --> 00:46:15,440
+We've covered a lot
+
+1416
+00:46:15,440 --> 00:46:15,840
+of ground.
+
+1417
+00:46:15,980 --> 00:46:16,580
+We have.
+
+1418
+00:46:16,800 --> 00:46:17,820
+But here's the massive
+
+1419
+00:46:17,820 --> 00:46:18,960
+hurdle I still struggle
+
+1420
+00:46:18,960 --> 00:46:19,260
+with.
+
+1421
+00:46:19,760 --> 00:46:20,680
+This brings us to
+
+1422
+00:46:20,680 --> 00:46:21,380
+section seven.
+
+1423
+00:46:21,920 --> 00:46:23,620
+The institutional mirage.
+
+1424
+00:46:23,860 --> 00:46:25,540
+The appeal to authority.
+
+1425
+00:46:25,700 --> 00:46:26,020
+Yes.
+
+1426
+00:46:26,480 --> 00:46:27,620
+If everything we just
+
+1427
+00:46:27,620 --> 00:46:28,480
+talked about is true,
+
+1428
+00:46:28,480 --> 00:46:29,380
+if this is all just
+
+1429
+00:46:29,380 --> 00:46:30,180
+thermal expansion,
+
+1430
+00:46:30,440 --> 00:46:31,100
+ionic wind,
+
+1431
+00:46:31,200 --> 00:46:31,880
+and bad math,
+
+1432
+00:46:32,300 --> 00:46:33,460
+why do massive,
+
+1433
+00:46:33,620 --> 00:46:34,560
+incredibly serious
+
+1434
+00:46:34,560 --> 00:46:35,680
+institutions seem
+
+1435
+00:46:35,680 --> 00:46:36,740
+to validate this stuff?
+
+1436
+00:46:36,800 --> 00:46:37,620
+It's a fair question.
+
+1437
+00:46:37,740 --> 00:46:38,880
+I can go online right now
+
+1438
+00:46:38,880 --> 00:46:39,940
+and find active patents
+
+1439
+00:46:39,940 --> 00:46:41,120
+granted by the United States
+
+1440
+00:46:41,120 --> 00:46:42,340
+Patent and Trademark Office
+
+1441
+00:46:42,340 --> 00:46:43,400
+for gravity shields,
+
+1442
+00:46:43,660 --> 00:46:44,620
+inertial mass reduction
+
+1443
+00:46:44,620 --> 00:46:45,100
+devices,
+
+1444
+00:46:45,340 --> 00:46:46,640
+and reactionless drives.
+
+1445
+00:46:46,920 --> 00:46:47,920
+And it's not just
+
+1446
+00:46:47,920 --> 00:46:48,360
+the government.
+
+1447
+00:46:48,740 --> 00:46:49,740
+Why would an aerospace
+
+1448
+00:46:49,740 --> 00:46:51,080
+Titan-like Boeing
+
+1449
+00:46:51,080 --> 00:46:52,460
+sink actual money
+
+1450
+00:46:52,460 --> 00:46:53,280
+into a program
+
+1451
+00:46:53,280 --> 00:46:54,240
+called Griaspi
+
+1452
+00:46:54,240 --> 00:46:54,700
+to study
+
+1453
+00:46:54,700 --> 00:46:55,460
+Parklutnov's
+
+1454
+00:46:55,460 --> 00:46:56,360
+gravity shielding?
+
+1455
+00:46:56,700 --> 00:46:57,680
+Where there is smoke,
+
+1456
+00:46:57,780 --> 00:46:58,600
+there has to be fire,
+
+1457
+00:46:58,700 --> 00:46:58,880
+right?
+
+1458
+00:46:59,160 --> 00:47:00,460
+Serious engineers at Boeing
+
+1459
+00:47:00,460 --> 00:47:01,120
+don't waste time
+
+1460
+00:47:01,120 --> 00:47:02,080
+on garage nonsense.
+
+1461
+00:47:02,500 --> 00:47:03,240
+It is a deeply
+
+1462
+00:47:03,240 --> 00:47:04,260
+persuasive argument
+
+1463
+00:47:04,260 --> 00:47:05,780
+until you understand
+
+1464
+00:47:05,780 --> 00:47:06,900
+the internal mechanics
+
+1465
+00:47:06,900 --> 00:47:07,700
+of what those
+
+1466
+00:47:07,700 --> 00:47:09,060
+institutions actually do
+
+1467
+00:47:09,060 --> 00:47:10,320
+and what their paperwork
+
+1468
+00:47:10,320 --> 00:47:11,400
+actually signifies.
+
+1469
+00:47:12,040 --> 00:47:12,680
+Let's tackle
+
+1470
+00:47:12,680 --> 00:47:13,780
+the patent office first.
+
+1471
+00:47:14,480 --> 00:47:15,560
+What does a granted
+
+1472
+00:47:15,560 --> 00:47:17,300
+patent actually certify?
+
+1473
+00:47:17,860 --> 00:47:19,220
+I think the assumption
+
+1474
+00:47:19,220 --> 00:47:20,200
+of the general public
+
+1475
+00:47:20,200 --> 00:47:21,000
+is that a patent
+
+1476
+00:47:21,000 --> 00:47:22,140
+certifies functionality.
+
+1477
+00:47:22,140 --> 00:47:23,380
+It means a government
+
+1478
+00:47:23,380 --> 00:47:24,620
+scientist looked
+
+1479
+00:47:24,620 --> 00:47:25,280
+at the blueprint,
+
+1480
+00:47:25,820 --> 00:47:26,960
+evaluated the physics,
+
+1481
+00:47:27,120 --> 00:47:27,440
+and said,
+
+1482
+00:47:27,640 --> 00:47:29,140
+yes, this machine
+
+1483
+00:47:29,140 --> 00:47:30,400
+does what the inventor
+
+1484
+00:47:30,400 --> 00:47:31,420
+claims it does.
+
+1485
+00:47:31,940 --> 00:47:32,680
+That is the core
+
+1486
+00:47:32,680 --> 00:47:33,220
+misconception.
+
+1487
+00:47:34,160 --> 00:47:34,900
+With very few
+
+1488
+00:47:34,900 --> 00:47:35,800
+historical exceptions
+
+1489
+00:47:35,800 --> 00:47:36,800
+like perpetual motion
+
+1490
+00:47:36,800 --> 00:47:37,180
+machines,
+
+1491
+00:47:37,320 --> 00:47:38,460
+which are outright
+
+1492
+00:47:38,460 --> 00:47:39,960
+banned patent examiners,
+
+1493
+00:47:40,260 --> 00:47:40,940
+do not build
+
+1494
+00:47:40,940 --> 00:47:41,680
+working models
+
+1495
+00:47:41,680 --> 00:47:42,380
+of the devices.
+
+1496
+00:47:42,520 --> 00:47:42,820
+Really?
+
+1497
+00:47:43,040 --> 00:47:43,880
+No, they do not have
+
+1498
+00:47:43,880 --> 00:47:45,020
+the laboratory facilities,
+
+1499
+00:47:45,140 --> 00:47:45,540
+the budget,
+
+1500
+00:47:45,680 --> 00:47:46,420
+or the mandate
+
+1501
+00:47:46,420 --> 00:47:47,840
+to falsify exotic
+
+1502
+00:47:47,840 --> 00:47:48,560
+physics claims.
+
+1503
+00:47:48,600 --> 00:47:49,140
+So what are they
+
+1504
+00:47:49,140 --> 00:47:49,920
+actually checking?
+
+1505
+00:47:49,920 --> 00:47:51,080
+A patent examiner
+
+1506
+00:47:51,080 --> 00:47:51,800
+is evaluating
+
+1507
+00:47:51,800 --> 00:47:52,720
+a legal document
+
+1508
+00:47:52,720 --> 00:47:53,900
+based on three
+
+1509
+00:47:53,900 --> 00:47:54,960
+primary criteria.
+
+1510
+00:47:55,620 --> 00:47:56,080
+Novelty,
+
+1511
+00:47:56,580 --> 00:47:57,520
+non-obviousness,
+
+1512
+00:47:57,860 --> 00:47:58,540
+and enablement.
+
+1513
+00:47:59,120 --> 00:48:00,260
+Novelty just means
+
+1514
+00:48:00,260 --> 00:48:01,420
+is this configuration
+
+1515
+00:48:01,420 --> 00:48:02,860
+of parts legally new?
+
+1516
+00:48:03,500 --> 00:48:04,860
+Non-obviousness means
+
+1517
+00:48:04,860 --> 00:48:05,780
+is this a unique
+
+1518
+00:48:05,780 --> 00:48:06,660
+combination that a
+
+1519
+00:48:06,660 --> 00:48:07,360
+standard engineer
+
+1520
+00:48:07,360 --> 00:48:07,960
+wouldn't immediately
+
+1521
+00:48:07,960 --> 00:48:08,580
+think of?
+
+1522
+00:48:09,040 --> 00:48:10,040
+And enablement means
+
+1523
+00:48:10,040 --> 00:48:10,940
+did the inventor
+
+1524
+00:48:10,940 --> 00:48:12,440
+describe the physical
+
+1525
+00:48:12,440 --> 00:48:13,600
+structure of the device
+
+1526
+00:48:13,600 --> 00:48:14,600
+thoroughly enough
+
+1527
+00:48:14,600 --> 00:48:15,600
+that someone else
+
+1528
+00:48:15,600 --> 00:48:16,220
+could theoretically
+
+1529
+00:48:16,220 --> 00:48:16,800
+build it
+
+1530
+00:48:16,800 --> 00:48:17,880
+based on the drawings?
+
+1531
+00:48:17,880 --> 00:48:19,160
+They are grading
+
+1532
+00:48:19,160 --> 00:48:19,800
+the paperwork,
+
+1533
+00:48:20,240 --> 00:48:21,400
+not testing the physics.
+
+1534
+00:48:21,500 --> 00:48:22,000
+Precisely.
+
+1535
+00:48:22,400 --> 00:48:23,020
+Flyxion notes
+
+1536
+00:48:23,020 --> 00:48:23,580
+that you can
+
+1537
+00:48:23,580 --> 00:48:24,740
+successfully patent
+
+1538
+00:48:24,740 --> 00:48:26,260
+an anti-gravity device
+
+1539
+00:48:26,260 --> 00:48:27,280
+by providing
+
+1540
+00:48:27,280 --> 00:48:28,320
+a highly rigorous,
+
+1541
+00:48:28,880 --> 00:48:29,920
+exhaustively detailed
+
+1542
+00:48:29,920 --> 00:48:30,900
+mechanical description.
+
+1543
+00:48:31,440 --> 00:48:31,620
+You know,
+
+1544
+00:48:31,900 --> 00:48:32,820
+this specific gear
+
+1545
+00:48:32,820 --> 00:48:33,700
+meshes with this
+
+1546
+00:48:33,700 --> 00:48:34,540
+specific shaft,
+
+1547
+00:48:34,660 --> 00:48:35,740
+this copper coil
+
+1548
+00:48:35,740 --> 00:48:36,380
+wraps around
+
+1549
+00:48:36,380 --> 00:48:37,340
+this ceramic core,
+
+1550
+00:48:37,720 --> 00:48:38,480
+and pairing that
+
+1551
+00:48:38,480 --> 00:48:39,220
+mechanical rigor
+
+1552
+00:48:39,220 --> 00:48:40,320
+with incredibly vague
+
+1553
+00:48:40,320 --> 00:48:41,340
+hand-waving physical
+
+1554
+00:48:41,340 --> 00:48:42,000
+justifications
+
+1555
+00:48:42,000 --> 00:48:42,840
+for why it works.
+
+1556
+00:48:42,840 --> 00:48:43,520
+Because as long
+
+1557
+00:48:43,520 --> 00:48:44,140
+as the gear assembly
+
+1558
+00:48:44,140 --> 00:48:44,680
+is novel,
+
+1559
+00:48:44,920 --> 00:48:45,560
+the patent office
+
+1560
+00:48:45,560 --> 00:48:46,120
+approves it.
+
+1561
+00:48:46,120 --> 00:48:46,420
+Yes.
+
+1562
+00:48:46,920 --> 00:48:47,740
+The inventors use
+
+1563
+00:48:47,740 --> 00:48:48,640
+highly elastic,
+
+1564
+00:48:48,820 --> 00:48:49,700
+non-specific words
+
+1565
+00:48:49,700 --> 00:48:50,680
+in the mechanism section.
+
+1566
+00:48:51,340 --> 00:48:51,920
+They write that the
+
+1567
+00:48:51,920 --> 00:48:52,680
+device relies on
+
+1568
+00:48:52,680 --> 00:48:53,440
+quantum resonance,
+
+1569
+00:48:54,120 --> 00:48:54,940
+or asymmetric
+
+1570
+00:48:54,940 --> 00:48:55,620
+polarization,
+
+1571
+00:48:55,980 --> 00:48:57,000
+or scalar coupling.
+
+1572
+00:48:57,520 --> 00:48:58,000
+Exactly.
+
+1573
+00:48:58,920 --> 00:48:59,620
+If the claim
+
+1574
+00:48:59,620 --> 00:49:00,660
+isn't an obvious
+
+1575
+00:49:00,660 --> 00:49:01,740
+elementary violation
+
+1576
+00:49:01,740 --> 00:49:02,660
+of basic high school
+
+1577
+00:49:02,660 --> 00:49:03,420
+thermodynamics
+
+1578
+00:49:03,420 --> 00:49:04,300
+that the examiner
+
+1579
+00:49:04,300 --> 00:49:05,280
+can spot on paper,
+
+1580
+00:49:05,760 --> 00:49:06,440
+it slips through.
+
+1581
+00:49:07,040 --> 00:49:07,980
+A granted patent
+
+1582
+00:49:07,980 --> 00:49:08,800
+merely proves
+
+1583
+00:49:08,800 --> 00:49:09,320
+that you know
+
+1584
+00:49:09,320 --> 00:49:09,920
+how to format
+
+1585
+00:49:09,920 --> 00:49:10,820
+a legal document
+
+1586
+00:49:10,820 --> 00:49:12,400
+and pay the filing fee.
+
+1587
+00:49:12,860 --> 00:49:13,360
+It offers
+
+1588
+00:49:13,360 --> 00:49:14,840
+absolutely zero proof
+
+1589
+00:49:14,840 --> 00:49:15,880
+that your gravity shield
+
+1590
+00:49:15,880 --> 00:49:16,460
+can actually
+
+1591
+00:49:16,460 --> 00:49:17,360
+shield gravity.
+
+1592
+00:49:17,760 --> 00:49:18,340
+The persistent
+
+1593
+00:49:18,340 --> 00:49:19,000
+vagueness
+
+1594
+00:49:19,000 --> 00:49:20,260
+isn't a drafting error,
+
+1595
+00:49:20,420 --> 00:49:21,240
+it's an intentional
+
+1596
+00:49:21,240 --> 00:49:22,240
+cloaking mechanism
+
+1597
+00:49:22,240 --> 00:49:23,420
+because there is no
+
+1598
+00:49:23,420 --> 00:49:24,300
+actual physics
+
+1599
+00:49:24,300 --> 00:49:25,040
+to describe.
+
+1600
+00:49:25,580 --> 00:49:26,520
+But what about Boeing?
+
+1601
+00:49:27,260 --> 00:49:28,080
+We can't write off
+
+1602
+00:49:28,080 --> 00:49:28,840
+Boeing as just
+
+1603
+00:49:28,840 --> 00:49:29,800
+filing paperwork.
+
+1604
+00:49:30,600 --> 00:49:31,620
+Jane's Defense Weekly
+
+1605
+00:49:31,620 --> 00:49:32,540
+famously reported
+
+1606
+00:49:32,540 --> 00:49:33,900
+on their GRIASP program
+
+1607
+00:49:33,900 --> 00:49:34,700
+in 2002,
+
+1608
+00:49:35,240 --> 00:49:36,080
+Boeing was actively
+
+1609
+00:49:36,080 --> 00:49:36,720
+investigating
+
+1610
+00:49:36,720 --> 00:49:37,620
+Podklitnov's
+
+1611
+00:49:37,620 --> 00:49:38,780
+spinning superconductors.
+
+1612
+00:49:39,020 --> 00:49:39,880
+You cannot tell me
+
+1613
+00:49:39,880 --> 00:49:40,660
+the engineers at Boeing
+
+1614
+00:49:40,660 --> 00:49:41,180
+Phantom Works
+
+1615
+00:49:41,180 --> 00:49:41,840
+don't understand
+
+1616
+00:49:41,840 --> 00:49:42,680
+basic physics.
+
+1617
+00:49:42,880 --> 00:49:43,920
+The engineers at Boeing
+
+1618
+00:49:43,920 --> 00:49:44,720
+understand physics
+
+1619
+00:49:44,720 --> 00:49:45,140
+intimately.
+
+1620
+00:49:45,140 --> 00:49:46,720
+But corporate executives
+
+1621
+00:49:46,720 --> 00:49:47,700
+also understand
+
+1622
+00:49:47,700 --> 00:49:48,420
+risk management
+
+1623
+00:49:48,420 --> 00:49:49,560
+and corporate strategy.
+
+1624
+00:49:50,280 --> 00:49:51,060
+Massive aerospace
+
+1625
+00:49:51,060 --> 00:49:52,380
+and defense contractors
+
+1626
+00:49:52,380 --> 00:49:53,360
+operate specialized
+
+1627
+00:49:53,360 --> 00:49:54,300
+divisions dedicated
+
+1628
+00:49:54,300 --> 00:49:56,060
+to technology scouting
+
+1629
+00:49:56,060 --> 00:49:57,280
+and due diligence.
+
+1630
+00:49:57,480 --> 00:49:58,220
+Their job is to
+
+1631
+00:49:58,220 --> 00:49:59,120
+look over the horizon.
+
+1632
+00:49:59,580 --> 00:50:00,120
+Their mandate
+
+1633
+00:50:00,120 --> 00:50:01,020
+is to monitor
+
+1634
+00:50:01,020 --> 00:50:01,820
+emerging,
+
+1635
+00:50:02,160 --> 00:50:03,000
+highly speculative,
+
+1636
+00:50:03,520 --> 00:50:04,300
+and even seemingly
+
+1637
+00:50:04,300 --> 00:50:05,380
+crazy claims.
+
+1638
+00:50:05,800 --> 00:50:06,040
+Why?
+
+1639
+00:50:06,560 --> 00:50:07,440
+Because the financial
+
+1640
+00:50:07,440 --> 00:50:08,460
+cost of dedicating
+
+1641
+00:50:08,460 --> 00:50:09,220
+two engineers
+
+1642
+00:50:09,220 --> 00:50:10,480
+to do a low-level
+
+1643
+00:50:10,480 --> 00:50:12,340
+six-month feasibility
+
+1644
+00:50:12,340 --> 00:50:13,680
+study on a fringe paper
+
+1645
+00:50:13,680 --> 00:50:14,740
+is very small.
+
+1646
+00:50:15,360 --> 00:50:16,560
+But the strategic cost
+
+1647
+00:50:16,560 --> 00:50:17,680
+of missing a genuine
+
+1648
+00:50:17,680 --> 00:50:18,640
+paradigm-shifting
+
+1649
+00:50:18,640 --> 00:50:19,220
+breakthrough
+
+1650
+00:50:19,220 --> 00:50:20,700
+and letting Lockheed Martin
+
+1651
+00:50:20,700 --> 00:50:22,180
+or a foreign adversary
+
+1652
+00:50:22,180 --> 00:50:22,900
+get it first
+
+1653
+00:50:22,900 --> 00:50:24,920
+is existentially catastrophic.
+
+1654
+00:50:25,180 --> 00:50:25,680
+So they look at
+
+1655
+00:50:25,680 --> 00:50:26,460
+the fringe science
+
+1656
+00:50:26,460 --> 00:50:27,220
+just in case,
+
+1657
+00:50:27,400 --> 00:50:28,900
+purely as an insurance policy.
+
+1658
+00:50:28,980 --> 00:50:29,360
+Exactly.
+
+1659
+00:50:30,040 --> 00:50:30,460
+Boeing's
+
+1660
+00:50:30,460 --> 00:50:31,780
+GRASPRE program
+
+1661
+00:50:31,780 --> 00:50:32,980
+reviewed the speculative
+
+1662
+00:50:32,980 --> 00:50:34,040
+literature on gravity
+
+1663
+00:50:34,040 --> 00:50:34,720
+modification.
+
+1664
+00:50:35,300 --> 00:50:35,700
+They looked at
+
+1665
+00:50:35,700 --> 00:50:36,680
+the theoretical math,
+
+1666
+00:50:36,740 --> 00:50:37,040
+they looked at
+
+1667
+00:50:37,040 --> 00:50:38,040
+the experimental setups.
+
+1668
+00:50:38,040 --> 00:50:38,620
+They found
+
+1669
+00:50:38,620 --> 00:50:39,800
+absolutely nothing
+
+1670
+00:50:39,800 --> 00:50:40,800
+theoretically sound
+
+1671
+00:50:40,800 --> 00:50:42,360
+or experimentally workable.
+
+1672
+00:50:42,820 --> 00:50:44,060
+And so they quietly
+
+1673
+00:50:44,060 --> 00:50:45,180
+shut the program down.
+
+1674
+00:50:45,300 --> 00:50:46,140
+They just closed it.
+
+1675
+00:50:46,220 --> 00:50:47,200
+They didn't file patents,
+
+1676
+00:50:47,340 --> 00:50:48,380
+they didn't publish papers,
+
+1677
+00:50:48,620 --> 00:50:49,380
+and they certainly
+
+1678
+00:50:49,380 --> 00:50:50,760
+didn't build flying saucers.
+
+1679
+00:50:50,860 --> 00:50:51,820
+But the public reporting
+
+1680
+00:50:51,820 --> 00:50:52,620
+of these events
+
+1681
+00:50:52,620 --> 00:50:54,280
+is entirely asymmetrical,
+
+1682
+00:50:54,460 --> 00:50:54,800
+isn't it?
+
+1683
+00:50:55,000 --> 00:50:56,300
+That is the institutional
+
+1684
+00:50:56,300 --> 00:50:57,580
+mirage in a nutshell.
+
+1685
+00:50:58,620 --> 00:50:59,960
+The media widely reports
+
+1686
+00:50:59,960 --> 00:51:01,120
+the initiation of the study.
+
+1687
+00:51:01,800 --> 00:51:02,920
+Boeing investigates
+
+1688
+00:51:02,920 --> 00:51:03,860
+anti-gravity.
+
+1689
+00:51:04,200 --> 00:51:05,480
+It is an incredible headline.
+
+1690
+00:51:05,580 --> 00:51:06,440
+It sells magazines.
+
+1691
+00:51:06,440 --> 00:51:07,960
+But a low-level
+
+1692
+00:51:07,960 --> 00:51:09,140
+feasibility study
+
+1693
+00:51:09,140 --> 00:51:10,800
+quietly winding down
+
+1694
+00:51:10,800 --> 00:51:11,640
+six months later
+
+1695
+00:51:11,640 --> 00:51:12,840
+because the engineers
+
+1696
+00:51:12,840 --> 00:51:13,560
+found nothing
+
+1697
+00:51:13,560 --> 00:51:14,740
+but thermal expansion
+
+1698
+00:51:14,740 --> 00:51:15,840
+and ionic wind.
+
+1699
+00:51:16,420 --> 00:51:17,620
+That is a non-event.
+
+1700
+00:51:18,020 --> 00:51:18,680
+It doesn't generate
+
+1701
+00:51:18,680 --> 00:51:19,360
+a press release.
+
+1702
+00:51:19,460 --> 00:51:20,220
+The hype is broadcast
+
+1703
+00:51:20,220 --> 00:51:21,060
+with a megaphone
+
+1704
+00:51:21,060 --> 00:51:22,240
+and the debunk
+
+1705
+00:51:22,240 --> 00:51:22,940
+is a whisper.
+
+1706
+00:51:23,140 --> 00:51:23,460
+Always.
+
+1707
+00:51:23,760 --> 00:51:24,820
+So the public is left
+
+1708
+00:51:24,820 --> 00:51:25,520
+with the permanent
+
+1709
+00:51:25,520 --> 00:51:26,960
+lingering impression
+
+1710
+00:51:26,960 --> 00:51:28,220
+that Boeing is harboring
+
+1711
+00:51:28,220 --> 00:51:29,820
+secret anti-gravity technology
+
+1712
+00:51:29,820 --> 00:51:30,940
+when in reality
+
+1713
+00:51:30,940 --> 00:51:31,640
+they just read
+
+1714
+00:51:31,640 --> 00:51:32,500
+a few bad papers,
+
+1715
+00:51:33,000 --> 00:51:34,180
+realized it was a dead end,
+
+1716
+00:51:34,180 --> 00:51:34,940
+and went back
+
+1717
+00:51:34,940 --> 00:51:35,400
+to building
+
+1718
+00:51:35,400 --> 00:51:36,420
+commercial airliners.
+
+1719
+00:51:37,080 --> 00:51:37,640
+And if you apply
+
+1720
+00:51:37,640 --> 00:51:39,000
+the entropic gravity framework
+
+1721
+00:51:39,000 --> 00:51:40,580
+to the Gratis-P program,
+
+1722
+00:51:41,040 --> 00:51:41,660
+the conclusion
+
+1723
+00:51:41,660 --> 00:51:42,700
+makes perfect sense.
+
+1724
+00:51:43,520 --> 00:51:44,420
+Boeing evaluated
+
+1725
+00:51:44,420 --> 00:51:45,480
+a proposed mechanism,
+
+1726
+00:51:45,720 --> 00:51:46,900
+a spinning superconductor,
+
+1727
+00:51:47,140 --> 00:51:47,900
+and realized
+
+1728
+00:51:47,900 --> 00:51:49,260
+it has no available channel
+
+1729
+00:51:49,260 --> 00:51:49,800
+to affect
+
+1730
+00:51:49,800 --> 00:51:50,460
+the geometric
+
+1731
+00:51:50,460 --> 00:51:51,800
+thermodynamic bookkeeping
+
+1732
+00:51:51,800 --> 00:51:53,020
+of gravitational curvature.
+
+1733
+00:51:53,520 --> 00:51:54,660
+They looked for a mechanism,
+
+1734
+00:51:55,140 --> 00:51:56,160
+found a category error,
+
+1735
+00:51:56,400 --> 00:51:57,340
+and closed the book.
+
+1736
+00:51:57,520 --> 00:51:58,420
+Okay, we have covered
+
+1737
+00:51:58,420 --> 00:51:59,060
+an immense,
+
+1738
+00:51:59,220 --> 00:51:59,900
+almost overwhelming
+
+1739
+00:51:59,900 --> 00:52:00,900
+amount of ground today.
+
+1740
+00:52:01,100 --> 00:52:02,080
+Let's synthesize this
+
+1741
+00:52:02,080 --> 00:52:02,640
+for the listener.
+
+1742
+00:52:02,640 --> 00:52:03,420
+Good idea.
+
+1743
+00:52:03,720 --> 00:52:04,460
+We started with
+
+1744
+00:52:04,460 --> 00:52:05,600
+the Alcubierre drive,
+
+1745
+00:52:05,780 --> 00:52:07,100
+which asks the universe
+
+1746
+00:52:07,100 --> 00:52:07,900
+for impossible,
+
+1747
+00:52:08,180 --> 00:52:09,780
+highly ordered negative energy
+
+1748
+00:52:09,780 --> 00:52:10,620
+that violates
+
+1749
+00:52:10,620 --> 00:52:11,680
+thermodynamic bounds.
+
+1750
+00:52:12,100 --> 00:52:13,040
+We moved to
+
+1751
+00:52:13,040 --> 00:52:13,920
+Casimir extraction,
+
+1752
+00:52:14,160 --> 00:52:15,400
+which completely ignores
+
+1753
+00:52:15,400 --> 00:52:16,320
+the energetic cost
+
+1754
+00:52:16,320 --> 00:52:16,900
+of resetting
+
+1755
+00:52:16,900 --> 00:52:17,800
+a boundary condition.
+
+1756
+00:52:18,020 --> 00:52:18,220
+Right.
+
+1757
+00:52:18,380 --> 00:52:19,240
+We looked at lifters,
+
+1758
+00:52:19,340 --> 00:52:20,520
+which are just expensive,
+
+1759
+00:52:20,880 --> 00:52:22,220
+inefficient ionic fans
+
+1760
+00:52:22,220 --> 00:52:22,920
+pushing air.
+
+1761
+00:52:23,280 --> 00:52:25,240
+We analyzed closed box
+
+1762
+00:52:25,240 --> 00:52:26,240
+reactionless drives
+
+1763
+00:52:26,240 --> 00:52:27,120
+like the M drive
+
+1764
+00:52:27,120 --> 00:52:28,260
+and the Dean drive,
+
+1765
+00:52:28,600 --> 00:52:29,480
+proving they just push
+
+1766
+00:52:29,480 --> 00:52:30,520
+themselves across tables
+
+1767
+00:52:30,520 --> 00:52:31,220
+via friction
+
+1768
+00:52:31,220 --> 00:52:32,420
+or trick sensors
+
+1769
+00:52:32,420 --> 00:52:33,560
+by expanding due to heat.
+
+1770
+00:52:33,760 --> 00:52:34,340
+They're artifacts.
+
+1771
+00:52:34,600 --> 00:52:34,840
+Yeah.
+
+1772
+00:52:35,240 --> 00:52:36,720
+We saw how spinning magnets
+
+1773
+00:52:36,720 --> 00:52:37,780
+and superconductors
+
+1774
+00:52:37,780 --> 00:52:38,620
+commit fundamental
+
+1775
+00:52:38,620 --> 00:52:39,600
+category errors
+
+1776
+00:52:39,600 --> 00:52:40,700
+by treating gravity
+
+1777
+00:52:40,700 --> 00:52:41,500
+like a local
+
+1778
+00:52:41,500 --> 00:52:42,640
+magnetic flux line.
+
+1779
+00:52:43,080 --> 00:52:43,880
+We dismantled
+
+1780
+00:52:43,880 --> 00:52:44,940
+the empty vocabulary
+
+1781
+00:52:44,940 --> 00:52:45,960
+of torsion fields.
+
+1782
+00:52:46,420 --> 00:52:47,040
+And finally,
+
+1783
+00:52:47,040 --> 00:52:47,980
+we learned that patents
+
+1784
+00:52:47,980 --> 00:52:48,900
+just prove, you know,
+
+1785
+00:52:48,940 --> 00:52:50,280
+how to file legal paperwork
+
+1786
+00:52:50,280 --> 00:52:51,660
+and corporate due diligence
+
+1787
+00:52:51,660 --> 00:52:53,080
+is just an insurance policy
+
+1788
+00:52:53,080 --> 00:52:54,060
+against missing out.
+
+1789
+00:52:54,060 --> 00:52:55,320
+It is a comprehensive
+
+1790
+00:52:55,320 --> 00:52:56,980
+structural dismantling
+
+1791
+00:52:56,980 --> 00:52:58,040
+of the entire
+
+1792
+00:52:58,040 --> 00:52:59,140
+fringe landscape.
+
+1793
+00:52:59,140 --> 00:53:00,860
+Flyxion's work shows
+
+1794
+00:53:00,860 --> 00:53:02,340
+that while machines change,
+
+1795
+00:53:02,800 --> 00:53:04,100
+the theoretical blind spots
+
+1796
+00:53:04,100 --> 00:53:05,020
+remain identical
+
+1797
+00:53:05,020 --> 00:53:06,340
+decade after decade.
+
+1798
+00:53:06,640 --> 00:53:08,620
+So for you listening right now,
+
+1799
+00:53:08,740 --> 00:53:09,520
+why should you care
+
+1800
+00:53:09,520 --> 00:53:10,500
+about this deep dive?
+
+1801
+00:53:11,360 --> 00:53:13,060
+What is the practical application
+
+1802
+00:53:13,060 --> 00:53:14,180
+of spending an hour
+
+1803
+00:53:14,180 --> 00:53:15,800
+dismantling garage physics?
+
+1804
+00:53:16,020 --> 00:53:16,800
+It's a great question.
+
+1805
+00:53:17,220 --> 00:53:18,860
+It is about mental defense.
+
+1806
+00:53:19,040 --> 00:53:20,200
+It is about building
+
+1807
+00:53:20,200 --> 00:53:21,380
+a heuristic toolkit.
+
+1808
+00:53:21,680 --> 00:53:23,140
+The next time you see
+
+1809
+00:53:23,140 --> 00:53:24,020
+a viral video
+
+1810
+00:53:24,020 --> 00:53:25,200
+of a floating triangle
+
+1811
+00:53:25,200 --> 00:53:26,140
+on social media
+
+1812
+00:53:26,140 --> 00:53:27,960
+or a breathless news article
+
+1813
+00:53:27,960 --> 00:53:28,940
+claiming a new startup
+
+1814
+00:53:28,940 --> 00:53:30,320
+has broken the laws of motion,
+
+1815
+00:53:30,600 --> 00:53:31,980
+you now know exactly
+
+1816
+00:53:31,980 --> 00:53:32,740
+what to look for.
+
+1817
+00:53:33,100 --> 00:53:34,280
+Look for the vacuum test.
+
+1818
+00:53:34,740 --> 00:53:35,300
+Ask yourself,
+
+1819
+00:53:35,680 --> 00:53:37,240
+as their measuring instruments
+
+1820
+00:53:37,240 --> 00:53:38,040
+get more sensitive,
+
+1821
+00:53:38,580 --> 00:53:39,960
+is the anomalous effect
+
+1822
+00:53:39,960 --> 00:53:40,960
+getting stronger
+
+1823
+00:53:40,960 --> 00:53:41,940
+or is it shrinking
+
+1824
+00:53:41,940 --> 00:53:42,620
+towards zero?
+
+1825
+00:53:42,820 --> 00:53:43,820
+That's the key right there.
+
+1826
+00:53:44,100 --> 00:53:45,020
+And most importantly,
+
+1827
+00:53:45,300 --> 00:53:45,740
+ask,
+
+1828
+00:53:46,200 --> 00:53:47,760
+does the proposed mechanism
+
+1829
+00:53:47,760 --> 00:53:49,100
+actually have a logical channel
+
+1830
+00:53:49,100 --> 00:53:49,900
+to interact with
+
+1831
+00:53:49,900 --> 00:53:51,060
+the macroscale bookkeeping
+
+1832
+00:53:51,060 --> 00:53:51,640
+of gravity
+
+1833
+00:53:51,640 --> 00:53:52,700
+or are they just
+
+1834
+00:53:52,700 --> 00:53:53,480
+spinning magnets
+
+1835
+00:53:53,480 --> 00:53:54,540
+and hoping for the best?
+
+1836
+00:53:54,820 --> 00:53:56,020
+True critical thinking
+
+1837
+00:53:56,020 --> 00:53:57,360
+requires understanding
+
+1838
+00:53:57,360 --> 00:53:59,200
+not just what a claim is,
+
+1839
+00:53:59,580 --> 00:54:00,260
+but understanding
+
+1840
+00:54:00,260 --> 00:54:01,140
+what it would cost
+
+1841
+00:54:01,140 --> 00:54:02,880
+the rest of established physics
+
+1842
+00:54:02,880 --> 00:54:04,220
+if that claim
+
+1843
+00:54:04,220 --> 00:54:05,640
+were actually true.
+
+1844
+00:54:06,020 --> 00:54:06,760
+But I want to leave you
+
+1845
+00:54:06,760 --> 00:54:07,980
+with one final
+
+1846
+00:54:07,980 --> 00:54:09,280
+provocative thought.
+
+1847
+00:54:09,820 --> 00:54:10,400
+We have spent
+
+1848
+00:54:10,400 --> 00:54:11,460
+this entire deep dive
+
+1849
+00:54:11,460 --> 00:54:12,800
+talking about the physics,
+
+1850
+00:54:13,300 --> 00:54:14,200
+the rigorous math,
+
+1851
+00:54:14,280 --> 00:54:15,540
+and the engineering artifacts.
+
+1852
+00:54:16,260 --> 00:54:17,420
+But what if
+
+1853
+00:54:17,420 --> 00:54:18,560
+our century-long
+
+1854
+00:54:18,560 --> 00:54:19,800
+cultural obsession
+
+1855
+00:54:19,800 --> 00:54:21,500
+with inventing anti-gravity
+
+1856
+00:54:21,500 --> 00:54:22,640
+isn't actually about
+
+1857
+00:54:22,640 --> 00:54:23,180
+transportation
+
+1858
+00:54:23,180 --> 00:54:24,780
+or physics at all?
+
+1859
+00:54:24,860 --> 00:54:25,520
+What is the alternative?
+
+1860
+00:54:26,120 --> 00:54:27,360
+Think about the human condition.
+
+1861
+00:54:27,840 --> 00:54:28,760
+What if this obsession
+
+1862
+00:54:28,760 --> 00:54:29,400
+is actually
+
+1863
+00:54:29,400 --> 00:54:30,620
+a psychological rebellion?
+
+1864
+00:54:31,340 --> 00:54:32,760
+Gravity is the ultimate,
+
+1865
+00:54:33,080 --> 00:54:33,840
+inescapable,
+
+1866
+00:54:34,040 --> 00:54:34,740
+physical limit.
+
+1867
+00:54:35,220 --> 00:54:36,340
+It literally ties us
+
+1868
+00:54:36,340 --> 00:54:36,900
+to the dirt.
+
+1869
+00:54:37,160 --> 00:54:38,200
+It sags our bodies
+
+1870
+00:54:38,200 --> 00:54:38,780
+over time.
+
+1871
+00:54:39,160 --> 00:54:40,080
+It is the constant,
+
+1872
+00:54:40,280 --> 00:54:40,740
+invisible,
+
+1873
+00:54:41,040 --> 00:54:41,700
+heavy reminder
+
+1874
+00:54:41,700 --> 00:54:43,340
+of our physical limitation
+
+1875
+00:54:43,340 --> 00:54:44,500
+and ultimately
+
+1876
+00:54:44,500 --> 00:54:45,500
+our mortality.
+
+1877
+00:54:45,680 --> 00:54:46,120
+Oh, wow.
+
+1878
+00:54:46,460 --> 00:54:47,500
+Every time an inventor
+
+1879
+00:54:47,500 --> 00:54:48,720
+builds a glowing lifter
+
+1880
+00:54:48,720 --> 00:54:49,420
+in their garage
+
+1881
+00:54:49,420 --> 00:54:50,900
+or drafts a complex patent
+
+1882
+00:54:50,900 --> 00:54:52,260
+for a reactionless drive,
+
+1883
+00:54:52,260 --> 00:54:53,360
+maybe they aren't just
+
+1884
+00:54:53,360 --> 00:54:53,940
+trying to move
+
+1885
+00:54:53,940 --> 00:54:54,920
+a spaceship to Mars.
+
+1886
+00:54:55,240 --> 00:54:56,540
+Maybe on a subconscious level
+
+1887
+00:54:56,540 --> 00:54:57,580
+they are trying to invent
+
+1888
+00:54:57,580 --> 00:54:58,140
+a loophole
+
+1889
+00:54:58,140 --> 00:54:59,560
+to human limitation itself.
+
+1890
+00:54:59,740 --> 00:55:01,040
+We are so desperate
+
+1891
+00:55:01,040 --> 00:55:01,640
+to be free
+
+1892
+00:55:01,640 --> 00:55:02,960
+from the inescapable rules
+
+1893
+00:55:02,960 --> 00:55:03,740
+that bind us
+
+1894
+00:55:03,740 --> 00:55:04,620
+that we are willing
+
+1895
+00:55:04,620 --> 00:55:05,380
+to see magic
+
+1896
+00:55:05,380 --> 00:55:07,080
+in a gust of ionized air.
+
+1897
+00:55:07,340 --> 00:55:08,440
+That is a profoundly
+
+1898
+00:55:08,440 --> 00:55:09,900
+human way to look at it.
+
+1899
+00:55:10,600 --> 00:55:11,560
+The strict bookkeeping
+
+1900
+00:55:11,560 --> 00:55:12,640
+of classical physics
+
+1901
+00:55:12,640 --> 00:55:13,580
+and thermodynamics
+
+1902
+00:55:13,580 --> 00:55:14,620
+tells us
+
+1903
+00:55:14,620 --> 00:55:15,780
+that we are permanently
+
+1904
+00:55:15,780 --> 00:55:16,700
+bound to the Earth
+
+1905
+00:55:16,700 --> 00:55:17,480
+and that energy
+
+1906
+00:55:17,480 --> 00:55:18,740
+always costs something.
+
+1907
+00:55:19,180 --> 00:55:19,980
+And so we dive
+
+1908
+00:55:19,980 --> 00:55:20,940
+enthusiastically
+
+1909
+00:55:20,940 --> 00:55:21,900
+into the muddy waters
+
+1910
+00:55:21,900 --> 00:55:22,500
+of the fringe
+
+1911
+00:55:22,500 --> 00:55:23,500
+hoping the bookkeeping
+
+1912
+00:55:23,500 --> 00:55:24,080
+is wrong,
+
+1913
+00:55:24,580 --> 00:55:25,440
+hoping that if we just
+
+1914
+00:55:25,440 --> 00:55:26,480
+spin a piece of metal
+
+1915
+00:55:26,480 --> 00:55:27,080
+fast enough
+
+1916
+00:55:27,080 --> 00:55:28,480
+we can finally let go
+
+1917
+00:55:28,480 --> 00:55:29,480
+and float away.
+
+1918
+00:55:29,920 --> 00:55:30,540
+Something for you
+
+1919
+00:55:30,540 --> 00:55:31,100
+to mull over
+
+1920
+00:55:31,100 --> 00:55:31,980
+until next time.
+

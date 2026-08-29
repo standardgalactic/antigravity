@@ -1,0 +1,403 @@
+.
+├── README.md
+├── alcubierre.pdf
+├── biefeld-brown.pdf
+├── build
+│   ├── alcubierre.aux
+│   ├── alcubierre.log
+│   ├── alcubierre.out
+│   ├── alcubierre.pdf
+│   ├── alcubierre.tex
+│   ├── biefeld-brown.aux
+│   ├── biefeld-brown.log
+│   ├── biefeld-brown.out
+│   ├── biefeld-brown.pdf
+│   ├── biefeld-brown.tex
+│   ├── cold-fusion-antigravity.aux
+│   ├── cold-fusion-antigravity.log
+│   ├── cold-fusion-antigravity.out
+│   ├── cold-fusion-antigravity.pdf
+│   ├── cold-fusion-antigravity.tex
+│   ├── dean-drive.aux
+│   ├── dean-drive.log
+│   ├── dean-drive.out
+│   ├── dean-drive.pdf
+│   ├── dean-drive.tex
+│   ├── depalma-spinning-ball.aux
+│   ├── depalma-spinning-ball.log
+│   ├── depalma-spinning-ball.out
+│   ├── depalma-spinning-ball.pdf
+│   ├── depalma-spinning-ball.tex
+│   ├── emdrive.aux
+│   ├── emdrive.log
+│   ├── emdrive.out
+│   ├── emdrive.pdf
+│   ├── emdrive.tex
+│   ├── grasp-program.aux
+│   ├── grasp-program.log
+│   ├── grasp-program.out
+│   ├── grasp-program.pdf
+│   ├── grasp-program.tex
+│   ├── hutchison-effect.aux
+│   ├── hutchison-effect.log
+│   ├── hutchison-effect.out
+│   ├── hutchison-effect.pdf
+│   ├── hutchison-effect.tex
+│   ├── lifters.aux
+│   ├── lifters.log
+│   ├── lifters.out
+│   ├── lifters.pdf
+│   ├── lifters.tex
+│   ├── patent-antigravity.aux
+│   ├── patent-antigravity.log
+│   ├── patent-antigravity.out
+│   ├── patent-antigravity.pdf
+│   ├── patent-antigravity.tex
+│   ├── podkletnov.aux
+│   ├── podkletnov.log
+│   ├── podkletnov.out
+│   ├── podkletnov.pdf
+│   ├── podkletnov.tex
+│   ├── searl-effect.aux
+│   ├── searl-effect.log
+│   ├── searl-effect.out
+│   ├── searl-effect.pdf
+│   ├── searl-effect.tex
+│   ├── torsion-fields.aux
+│   ├── torsion-fields.log
+│   ├── torsion-fields.out
+│   ├── torsion-fields.pdf
+│   ├── torsion-fields.tex
+│   ├── zero-point-energy.aux
+│   ├── zero-point-energy.log
+│   ├── zero-point-energy.out
+│   ├── zero-point-energy.pdf
+│   └── zero-point-energy.tex
+├── cold-fusion-antigravity.pdf
+├── dean-drive.pdf
+├── depalma-spinning-ball.pdf
+├── emdrive.pdf
+├── file-list.txt
+├── full-series
+│   ├── INDEX.md
+│   ├── clean-up.sh
+│   ├── find-missing-pdfs.sh
+│   ├── organize-series.sh
+│   ├── volume-1-original-fourteen
+│   │   ├── alcubierre.aux
+│   │   ├── alcubierre.log
+│   │   ├── alcubierre.out
+│   │   ├── alcubierre.pdf
+│   │   ├── alcubierre.tex
+│   │   ├── biefeld-brown.aux
+│   │   ├── biefeld-brown.log
+│   │   ├── biefeld-brown.out
+│   │   ├── biefeld-brown.pdf
+│   │   ├── biefeld-brown.tex
+│   │   ├── cold-fusion-antigravity.aux
+│   │   ├── cold-fusion-antigravity.log
+│   │   ├── cold-fusion-antigravity.out
+│   │   ├── cold-fusion-antigravity.pdf
+│   │   ├── cold-fusion-antigravity.tex
+│   │   ├── dean-drive.aux
+│   │   ├── dean-drive.log
+│   │   ├── dean-drive.out
+│   │   ├── dean-drive.pdf
+│   │   ├── dean-drive.tex
+│   │   ├── depalma-spinning-ball.aux
+│   │   ├── depalma-spinning-ball.log
+│   │   ├── depalma-spinning-ball.out
+│   │   ├── depalma-spinning-ball.pdf
+│   │   ├── depalma-spinning-ball.tex
+│   │   ├── emdrive.aux
+│   │   ├── emdrive.log
+│   │   ├── emdrive.out
+│   │   ├── emdrive.pdf
+│   │   ├── emdrive.tex
+│   │   ├── grasp-program.aux
+│   │   ├── grasp-program.log
+│   │   ├── grasp-program.out
+│   │   ├── grasp-program.pdf
+│   │   ├── grasp-program.tex
+│   │   ├── hutchison-effect.aux
+│   │   ├── hutchison-effect.log
+│   │   ├── hutchison-effect.out
+│   │   ├── hutchison-effect.pdf
+│   │   ├── hutchison-effect.tex
+│   │   ├── lifters.aux
+│   │   ├── lifters.log
+│   │   ├── lifters.out
+│   │   ├── lifters.pdf
+│   │   ├── lifters.tex
+│   │   ├── patent-antigravity.aux
+│   │   ├── patent-antigravity.log
+│   │   ├── patent-antigravity.out
+│   │   ├── patent-antigravity.pdf
+│   │   ├── patent-antigravity.tex
+│   │   ├── podkletnov.aux
+│   │   ├── podkletnov.log
+│   │   ├── podkletnov.out
+│   │   ├── podkletnov.pdf
+│   │   ├── podkletnov.tex
+│   │   ├── searl-effect.aux
+│   │   ├── searl-effect.log
+│   │   ├── searl-effect.out
+│   │   ├── searl-effect.pdf
+│   │   ├── searl-effect.tex
+│   │   ├── torsion-fields.aux
+│   │   ├── torsion-fields.log
+│   │   ├── torsion-fields.out
+│   │   ├── torsion-fields.pdf
+│   │   ├── torsion-fields.tex
+│   │   ├── zero-point-energy.aux
+│   │   ├── zero-point-energy.log
+│   │   ├── zero-point-energy.out
+│   │   ├── zero-point-energy.pdf
+│   │   └── zero-point-energy.tex
+│   ├── volume-2-reactionless-thrust
+│   │   ├── depalma-n-machine.aux
+│   │   ├── depalma-n-machine.log
+│   │   ├── depalma-n-machine.out
+│   │   ├── depalma-n-machine.pdf
+│   │   ├── depalma-n-machine.tex
+│   │   ├── heins-perepiteia.aux
+│   │   ├── heins-perepiteia.log
+│   │   ├── heins-perepiteia.out
+│   │   ├── heins-perepiteia.pdf
+│   │   ├── heins-perepiteia.tex
+│   │   ├── mach-effect-thruster.aux
+│   │   ├── mach-effect-thruster.log
+│   │   ├── mach-effect-thruster.out
+│   │   ├── mach-effect-thruster.pdf
+│   │   ├── mach-effect-thruster.tex
+│   │   ├── nassikas-thruster.aux
+│   │   ├── nassikas-thruster.log
+│   │   ├── nassikas-thruster.out
+│   │   ├── nassikas-thruster.pdf
+│   │   ├── nassikas-thruster.tex
+│   │   ├── tewari-generator.aux
+│   │   ├── tewari-generator.log
+│   │   ├── tewari-generator.out
+│   │   ├── tewari-generator.pdf
+│   │   └── tewari-generator.tex
+│   ├── volume-3-magnet-and-coil-over-unity
+│   │   ├── bedini-motor.aux
+│   │   ├── bedini-motor.log
+│   │   ├── bedini-motor.out
+│   │   ├── bedini-motor.pdf
+│   │   ├── bedini-motor.tex
+│   │   ├── joe-newman-machine.aux
+│   │   ├── joe-newman-machine.log
+│   │   ├── joe-newman-machine.out
+│   │   ├── joe-newman-machine.pdf
+│   │   ├── joe-newman-machine.tex
+│   │   ├── kanarev-electrolysis.aux
+│   │   ├── kanarev-electrolysis.log
+│   │   ├── kanarev-electrolysis.out
+│   │   ├── kanarev-electrolysis.pdf
+│   │   ├── kanarev-electrolysis.tex
+│   │   ├── marinov-motor.aux
+│   │   ├── marinov-motor.log
+│   │   ├── marinov-motor.out
+│   │   ├── marinov-motor.pdf
+│   │   ├── marinov-motor.tex
+│   │   ├── perendev-motor.aux
+│   │   ├── perendev-motor.log
+│   │   ├── perendev-motor.out
+│   │   ├── perendev-motor.pdf
+│   │   ├── perendev-motor.tex
+│   │   ├── rodin-coil.aux
+│   │   ├── rodin-coil.log
+│   │   ├── rodin-coil.out
+│   │   ├── rodin-coil.pdf
+│   │   ├── rodin-coil.tex
+│   │   ├── steorn-orbo.aux
+│   │   ├── steorn-orbo.log
+│   │   ├── steorn-orbo.out
+│   │   ├── steorn-orbo.pdf
+│   │   ├── steorn-orbo.tex
+│   │   ├── yildiz-motor.aux
+│   │   ├── yildiz-motor.log
+│   │   ├── yildiz-motor.out
+│   │   ├── yildiz-motor.pdf
+│   │   └── yildiz-motor.tex
+│   ├── volume-4-exotic-energy-and-vacuum-theory
+│   │   ├── bearden-scalar.aux
+│   │   ├── bearden-scalar.log
+│   │   ├── bearden-scalar.out
+│   │   ├── bearden-scalar.pdf
+│   │   ├── bearden-scalar.tex
+│   │   ├── chernetsky-generator.aux
+│   │   ├── chernetsky-generator.log
+│   │   ├── chernetsky-generator.out
+│   │   ├── chernetsky-generator.pdf
+│   │   ├── chernetsky-generator.tex
+│   │   ├── hydrino-blacklight.aux
+│   │   ├── hydrino-blacklight.log
+│   │   ├── hydrino-blacklight.out
+│   │   ├── hydrino-blacklight.pdf
+│   │   ├── hydrino-blacklight.tex
+│   │   ├── kozyrev-mirrors.aux
+│   │   ├── kozyrev-mirrors.log
+│   │   ├── kozyrev-mirrors.out
+│   │   ├── kozyrev-mirrors.pdf
+│   │   ├── kozyrev-mirrors.tex
+│   │   ├── papp-engine.aux
+│   │   ├── papp-engine.log
+│   │   ├── papp-engine.out
+│   │   ├── papp-engine.pdf
+│   │   ├── papp-engine.tex
+│   │   ├── rossi-ecat.aux
+│   │   ├── rossi-ecat.log
+│   │   ├── rossi-ecat.out
+│   │   ├── rossi-ecat.pdf
+│   │   ├── rossi-ecat.tex
+│   │   ├── shipov-vacuum.aux
+│   │   ├── shipov-vacuum.log
+│   │   ├── shipov-vacuum.out
+│   │   ├── shipov-vacuum.pdf
+│   │   ├── shipov-vacuum.tex
+│   │   ├── stanley-meyer.aux
+│   │   ├── stanley-meyer.log
+│   │   ├── stanley-meyer.out
+│   │   ├── stanley-meyer.pdf
+│   │   └── stanley-meyer.tex
+│   ├── volume-5-undemonstrated-personal-claims
+│   │   ├── callahan-paramagnetism.aux
+│   │   ├── callahan-paramagnetism.log
+│   │   ├── callahan-paramagnetism.out
+│   │   ├── callahan-paramagnetism.pdf
+│   │   ├── callahan-paramagnetism.tex
+│   │   ├── coral-castle.aux
+│   │   ├── coral-castle.log
+│   │   ├── coral-castle.out
+│   │   ├── coral-castle.pdf
+│   │   ├── coral-castle.tex
+│   │   ├── grebennikov-cavity.aux
+│   │   ├── grebennikov-cavity.log
+│   │   ├── grebennikov-cavity.out
+│   │   ├── grebennikov-cavity.pdf
+│   │   ├── grebennikov-cavity.tex
+│   │   ├── hamel-spinning-wheel.aux
+│   │   ├── hamel-spinning-wheel.log
+│   │   ├── hamel-spinning-wheel.out
+│   │   ├── hamel-spinning-wheel.pdf
+│   │   ├── hamel-spinning-wheel.tex
+│   │   ├── mitogenetic-radiation.aux
+│   │   ├── mitogenetic-radiation.log
+│   │   ├── mitogenetic-radiation.out
+│   │   ├── mitogenetic-radiation.pdf
+│   │   ├── mitogenetic-radiation.tex
+│   │   ├── moray-radiant-energy.aux
+│   │   ├── moray-radiant-energy.log
+│   │   ├── moray-radiant-energy.out
+│   │   ├── moray-radiant-energy.pdf
+│   │   ├── moray-radiant-energy.tex
+│   │   ├── otis-carr-otcx1.aux
+│   │   ├── otis-carr-otcx1.log
+│   │   ├── otis-carr-otcx1.out
+│   │   ├── otis-carr-otcx1.pdf
+│   │   ├── otis-carr-otcx1.tex
+│   │   ├── reich-cloudbuster.aux
+│   │   ├── reich-cloudbuster.log
+│   │   ├── reich-cloudbuster.out
+│   │   ├── reich-cloudbuster.pdf
+│   │   ├── reich-cloudbuster.tex
+│   │   ├── reich-orgone.aux
+│   │   ├── reich-orgone.log
+│   │   ├── reich-orgone.out
+│   │   ├── reich-orgone.pdf
+│   │   ├── reich-orgone.tex
+│   │   ├── rife-machine.aux
+│   │   ├── rife-machine.log
+│   │   ├── rife-machine.out
+│   │   ├── rife-machine.pdf
+│   │   ├── rife-machine.tex
+│   │   ├── schauberger-vortex.aux
+│   │   ├── schauberger-vortex.log
+│   │   ├── schauberger-vortex.out
+│   │   ├── schauberger-vortex.pdf
+│   │   └── schauberger-vortex.tex
+│   ├── volume-6-institutional-history-and-legend
+│   │   ├── adamski-contactee.aux
+│   │   ├── adamski-contactee.log
+│   │   ├── adamski-contactee.out
+│   │   ├── adamski-contactee.pdf
+│   │   ├── adamski-contactee.tex
+│   │   ├── bob-lazar-element115.aux
+│   │   ├── bob-lazar-element115.log
+│   │   ├── bob-lazar-element115.out
+│   │   ├── bob-lazar-element115.pdf
+│   │   ├── bob-lazar-element115.tex
+│   │   ├── die-glocke.aux
+│   │   ├── die-glocke.log
+│   │   ├── die-glocke.out
+│   │   ├── die-glocke.pdf
+│   │   ├── die-glocke.tex
+│   │   ├── hendershot-generator.aux
+│   │   ├── hendershot-generator.log
+│   │   ├── hendershot-generator.out
+│   │   ├── hendershot-generator.pdf
+│   │   ├── hendershot-generator.tex
+│   │   ├── kecksburg-incident.aux
+│   │   ├── kecksburg-incident.log
+│   │   ├── kecksburg-incident.out
+│   │   ├── kecksburg-incident.pdf
+│   │   ├── kecksburg-incident.tex
+│   │   ├── n-rays-blondlot.aux
+│   │   ├── n-rays-blondlot.log
+│   │   ├── n-rays-blondlot.out
+│   │   ├── n-rays-blondlot.pdf
+│   │   ├── n-rays-blondlot.tex
+│   │   ├── pais-patents.aux
+│   │   ├── pais-patents.log
+│   │   ├── pais-patents.out
+│   │   ├── pais-patents.pdf
+│   │   ├── pais-patents.tex
+│   │   ├── philadelphia-experiment.aux
+│   │   ├── philadelphia-experiment.log
+│   │   ├── philadelphia-experiment.out
+│   │   ├── philadelphia-experiment.pdf
+│   │   ├── philadelphia-experiment.tex
+│   │   ├── tesla-suppression.aux
+│   │   ├── tesla-suppression.log
+│   │   ├── tesla-suppression.out
+│   │   ├── tesla-suppression.pdf
+│   │   ├── tesla-suppression.tex
+│   │   ├── tesla-teleforce.aux
+│   │   ├── tesla-teleforce.log
+│   │   ├── tesla-teleforce.out
+│   │   ├── tesla-teleforce.pdf
+│   │   ├── tesla-teleforce.tex
+│   │   ├── ufo-reverse-engineering.aux
+│   │   ├── ufo-reverse-engineering.log
+│   │   ├── ufo-reverse-engineering.out
+│   │   ├── ufo-reverse-engineering.pdf
+│   │   ├── ufo-reverse-engineering.tex
+│   │   ├── wilbert-smith-project-magnet.aux
+│   │   ├── wilbert-smith-project-magnet.log
+│   │   ├── wilbert-smith-project-magnet.out
+│   │   ├── wilbert-smith-project-magnet.pdf
+│   │   └── wilbert-smith-project-magnet.tex
+│   └── volume-7-companion-pieces
+│       ├── lightweight-body-engineering-critique.aux
+│       ├── lightweight-body-engineering-critique.log
+│       ├── lightweight-body-engineering-critique.out
+│       ├── lightweight-body-engineering-critique.pdf
+│       ├── lightweight-body-engineering-critique.tex
+│       ├── walking-through-walls.aux
+│       ├── walking-through-walls.log
+│       ├── walking-through-walls.out
+│       ├── walking-through-walls.pdf
+│       └── walking-through-walls.tex
+├── grasp-program.pdf
+├── hutchison-effect.pdf
+├── index.html
+├── lifters.pdf
+├── patent-antigravity.pdf
+├── podkletnov.pdf
+├── searl-effect.pdf
+├── torsion-fields.pdf
+└── zero-point-energy.pdf
+
+10 directories, 391 files

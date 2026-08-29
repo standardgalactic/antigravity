@@ -1,0 +1,44 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{times}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black}
+\title{Recharging One Battery With Another Is Not a New Category: John Bedini's Motor-Generator Claims}
+\author{Flyxion \\ \small Independent Researcher}
+\date{}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+John Bedini's motor-generator devices, promoted from the 1980s onward and widely replicated within hobbyist "free energy" communities, claim to use pulsed switching circuits to charge a secondary battery using less energy than the secondary battery ends up storing, sometimes framed as harvesting ambient or radiant energy through a specific pulse-timing technique. This paper argues that the apparent over-unity result in these devices consistently traces to a measurement error common across the genre, comparing a primary battery's coarse voltage-based discharge estimate to a secondary battery's charge as measured by a different and more favorable method, and that no independently instrumented, full energy-balance test of a Bedini-type circuit has demonstrated output energy exceeding input energy once both are measured by the same calorimetric or integrated-current standard.
+\end{abstract}
+
+\section{Introduction}
+
+John Bedini's various device designs, generally comprising a motor driven by pulsed current from one battery while a switching circuit directs induced pulses to charge a second battery, have circulated widely in hobbyist electronics and "free energy" communities since the 1980s, with builders reporting that the secondary battery appears to charge to a higher stored energy than the measured drain on the primary battery would predict, a result interpreted by Bedini and supporters as evidence of energy drawn from an unconventional source, variously described in terms of radiant energy, back-EMF recovery beyond conventional expectation, or other non-standard mechanisms.
+
+\section{The Measurement Substitution at the Center of the Claim}
+
+The apparent over-unity result in nearly every documented Bedini-style replication traces to comparing two different, non-equivalent measurements: the primary battery's energy consumption estimated from voltage sag under load, a method that systematically underestimates actual energy delivered for batteries under pulsed rather than steady discharge, against the secondary battery's charge state estimated from open-circuit voltage recovery after charging, a method that can substantially overestimate stored energy because a battery's terminal voltage recovers considerably before its actual charge state has caught up, particularly after being charged by short, high-current pulses of the kind these circuits produce. When both batteries' energy content is instead measured by the same standard, either full calorimetric measurement of heat dissipated during a complete, controlled discharge to a fixed cutoff voltage, or integrated current over time under equivalent load conditions, the apparent excess consistently disappears, a result confirmed in several independent teardown analyses conducted by electrical engineers specifically to identify where the measurement discrepancy originates.
+
+\section{Why Pulsed Charging Makes This Error Easy to Make Unintentionally}
+
+Pulsed charging circuits of the kind Bedini describes produce a battery terminal voltage that recovers unusually quickly between pulses relative to the battery's actual internal charge state, an effect well documented in battery engineering literature independent of any free-energy context, meaning a builder using a simple voltmeter to assess "how charged" the secondary battery has become, without accounting for this settling behavior, will systematically overestimate the battery's true stored energy in a way that has nothing to do with the circuit's specific pulse-timing scheme and everything to do with lead-acid or nickel-based battery chemistry's ordinary voltage relaxation behavior. This means the illusion of over-unity performance can arise from an honest measurement mistake made by a builder without specialized battery-testing equipment, rather than requiring any deliberate misrepresentation, which likely accounts for the genre's persistence across a large hobbyist replication community with generally sincere motivations.
+
+\section{What Happens Under Rigorous Full-Cycle Testing}
+
+Independent evaluations that have tested Bedini-type circuits through complete charge and discharge cycles, measuring total energy delivered to a resistive load from the "charged" secondary battery until it reaches the same cutoff voltage as the primary battery's discharge test, have found total energy delivered consistent with or somewhat less than the energy drawn from the primary battery, accounting for conversion losses in the switching circuit itself, precisely the result ordinary electromagnetic theory predicts and inconsistent with any net energy gain.
+
+\section{The Entropic Gravity Framing}
+
+Bedini's claims, like the permanent-magnet motors addressed elsewhere in this series, concern energy conservation via battery charging and pulsed induction rather than gravitational coupling, and some variants of the broader Bedini-associated community have additionally proposed weight-reduction or "radiant energy" effects tied to unspecified subtle fields, for which no coupling mechanism to gravitational curvature has been specified with enough precision to evaluate under either the standard or the entropic account, leaving those secondary claims in the same unsupported position as the torsion field and zero-point energy antigravity hybrids addressed elsewhere in this series.
+
+\section{Objections}
+
+Supporters argue that dismissing the effect as a battery-measurement artifact fails to explain why so many independent hobbyist builders across decades have reported the same apparent result using their own equipment and methodology. A shared, ordinary measurement error, terminal-voltage-based charge estimation applied to a pulse-charged battery, would be expected to produce a consistent, widely replicated illusion across independent builders using similarly simple measurement equipment precisely because the error is a property of the measurement method rather than of any individual builder's competence or honesty, making widespread replication of the illusion fully consistent with, rather than evidence against, a shared underlying measurement mistake.
+
+\section{Conclusion}
+
+The Bedini motor-generator's apparent over-unity performance traces consistently to a measurement substitution between two non-equivalent battery charge estimation methods, an error battery engineering literature independently predicts pulsed-charging circuits would tend to produce, and full-cycle energy-balance testing using consistent measurement standards has not found the claimed excess in any independently conducted evaluation.
+
+\end{document}
