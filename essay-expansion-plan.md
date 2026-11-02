@@ -10,6 +10,29 @@ This is the working roadmap for expanding the essays in `full-series` into the s
 - Stop after each volume for review before moving to the next one.
 - Use the model essays in `developed/volume-1-original-fourteen` as the reference for tone and structure.
 - If any model is missing, use `developed/volume-1-original-fourteen/podkletnov.tex` as the fallback reference.
+- Volume 2 remains awaiting its required build check because no LaTeX compiler was available. At the user's request, limited Volume 3 drafting has begun before that gate is cleared; this does not mark Volume 2 complete.
+
+## 1.1 Current Volume 2 status
+
+| Essay | Status |
+|---|---|
+| `depalma-n-machine` | Revised; shaft torque and angular speed remain central; historical details without verified sources are removed or qualified. Build not verified. |
+| `heins-perepiteia` | Revised; unsupported history and test claims are removed or qualified; test requirements are distinguished from tests actually performed. Build not verified. |
+| `tewari-generator` | Revised; unsupported design, performance, and test-history claims are removed or qualified. Build not verified. |
+| `mach-effect-thruster` | Drafted around the full Dresden torsion-balance analysis and Woodward's separately reported pendulum response. Citation review recorded. Build not verified. |
+| `nassikas-thruster` | Drafted with claims limited to the source record located; unsupported force values and replication claims removed. Build not verified. |
+
+All five Volume 2 source reviews and draft revisions are complete, but the volume has not passed its required build gate. No LaTeX compiler (`pdflatex`, `latexmk`, or `tectonic`) was available during the prior check. Volume 3 drafting is now proceeding on the user's explicit request; do not mark Volume 2 complete.
+
+## 1.2 Limited Volume 3 drafting
+
+| Essay | Status |
+|---|---|
+| `bedini-motor` | Expanded with verified Bedini patent records; the original draft's categorical claims about independent tests and a demonstrated measurement error were softened because no supporting test report was verified. |
+| `kanarev-electrolysis` | Expanded with an evidence-limited account and a verified NIST water thermochemistry source; Kanarev-specific performance, measurement-error, and publication-history claims remain unverified and are not stated as established findings. |
+| Remaining six essays | Not started. |
+
+This is a limited continuation, not a declaration that Volume 3 is complete. Pause for review after these two essays unless the user asks to continue.
 
 ## 2. Target structure for each essay
 
@@ -57,7 +80,7 @@ For each essay:
 - Keep the file self-contained with its own bibliography.
 - Ensure all titles in the bibliography are in headline case.
 - Ensure every citation key is used and every entry is used.
-- Compile with `pdflatex` twice.
+- Compile with `pdflatex` twice where the toolchain is available. If unavailable, record the blocker and do not describe the essay as built.
 - Confirm there are no errors and no undefined citations.
 - Delete `.aux`, `.log`, and `.out` files after successful compilation.
 - Leave the original files in `full-series` unchanged.
@@ -67,17 +90,18 @@ For each essay:
 
 ### Volume 2: Reactionless Thrust
 
-- depalma-n-machine
-- heins-perepiteia
-- mach-effect-thruster
-- nassikas-thruster
-- tewari-generator
+- [x] depalma-n-machine draft and source review
+- [x] heins-perepiteia draft and source review
+- [x] mach-effect-thruster draft and source review
+- [x] nassikas-thruster draft and source review
+- [x] tewari-generator draft and source review
+- [ ] Build all five files twice, check for errors and undefined citations, and remove generated auxiliary files
 
 ### Volume 3: Magnet and Coil Over Unity
 
-- bedini-motor
+- [x] bedini-motor draft and citation review
 - joe-newman-machine
-- kanarev-electrolysis
+- [x] kanarev-electrolysis draft and citation review
 - marinvov-motor
 - perendev-motor
 - rodin-coil
