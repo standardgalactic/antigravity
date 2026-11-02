@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{times}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black}
+\title{Conservation Is Not Optional: The EmDrive and the Persistence of Reactionless Thrust Claims}
+\author{Flyxion \\ \small Independent Researcher}
+\date{}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The EmDrive, a truncated conical microwave resonator claimed to produce net thrust without expelling propellant, has been reported by several laboratories to generate small forces consistent with its predicted operation, and has correspondingly been proposed as evidence that momentum conservation admits exceptions under the right cavity geometry. This paper argues that momentum conservation is not a phenomenological regularity awaiting a documented counterexample but a consequence of translational symmetry with a depth of confirmation that a millinewton-scale laboratory anomaly cannot outweigh, and that the measured thrust is far more plausibly explained by mundane interactions between the test apparatus and its environment than by a mechanism with no theoretical channel to act through. The paper follows the experimental history from the inventor's first claims through the NASA Eagleworks measurements to the Dresden campaign that traced the apparent thrust to thermal and magnetic artifacts, and it examines the quantum vacuum rescue proposed to save the device. It does not prove that no resonant cavity could ever produce a net force on its mount; it argues that the evidence offered for such a force is explained by the apparatus.
+\end{abstract}
+
+\section{Introduction}
+
+Roger Shawyer's EmDrive proposes that microwaves bounced within an asymmetric, closed, tapered cavity can produce a net thrust in the direction of the wider end, without any propellant leaving the device. Shawyer founded a company to develop the idea in 2001 and later presented a second-generation design, with claims of application to launch vehicles and interstellar probes, in the journal literature \cite{S2015}. Several laboratories have reported measuring small forces, on the order of tens to hundreds of micronewtons, consistent in sign and rough magnitude with the device's predicted thrust direction. A NASA Eagleworks team under Harold White recorded tens of micronewtons of thrust from a radio-frequency cavity in a 2013 campaign and later reported impulsive thrust from a closed cavity in vacuum \cite{B2014,W2017}. These results have been cited as evidence that the underlying theory, and by extension the conservation of momentum itself, requires revision.
+
+\section{Why the Bar Here Is Unusually High}
+
+Momentum conservation is not an empirical generalization discovered by repeated observation and subject to revision the way, say, a rate constant in chemistry might be. It follows, via Noether's theorem, from the translational symmetry of space, the fact that the laws of physics do not depend on where in space an experiment is performed \cite{N1918}. This symmetry has been tested to extraordinary precision across an enormous range of scales, from particle collider experiments to planetary orbital mechanics to the propagation of light across cosmological distances, and a violation of it would not merely require a new force or a correction term; it would require that space itself is not translationally uniform in a way that has escaped every prior experiment ever conducted at any other scale, but happens to manifest in a copper cavity roughly the size of a wastebasket. A micronewton-scale anomaly, measured at the very edge of a lab's noise floor, is not remotely sufficient evidence to overturn a symmetry this deeply and repeatedly confirmed, and treating it as sufficient inverts the appropriate burden of proof.
+
+The point does not depend on mathematics alone. A cavity that radiates no photons and ejects no matter is a closed system with respect to momentum, and the total momentum of the fields and walls inside it cannot change without an external agent. The electromagnetic field inside the cavity carries momentum, but the reflected radiation pushes on every wall and the forces on a closed surface are balanced by the momentum stored in the field, so that no net external force results. For the claim to hold, the device would have to violate the laws it is built to obey. The tests are therefore not tests of a new force. They are tests of whether a laboratory can build a force sensor free enough of artifacts that a sub-millinewton signal means what the experimenters wish it to mean.
+
+\section{What the Entropic Account of Gravity Adds}
+
+Framing gravitation as the large-scale geometric bookkeeping of an ordered configuration rather than a force transmitted by a mediating field does not, by itself, forbid reactionless thrust, since the EmDrive's claimed mechanism is electromagnetic rather than gravitational. What it does is remove one of the more common post-hoc rescues offered for the device, the suggestion that it somehow pushes against the quantum vacuum or against spacetime itself in a manner analogous to how a propeller pushes against water. The Eagleworks campaign was framed as a test of whether classical magnetoplasmadynamics could produce momentum transfer through a quantum vacuum virtual plasma, although the test report itself declined to address the physics of the proposed mechanism \cite{B2014}. On the account assumed here, spacetime geometry is not a substrate with local momentum available to be borrowed from; it is the emergent bookkeeping of an entropy gradient at scales where the device in question is entirely negligible. There is, in short, nothing there for a microwave cavity to push against, which closes off the vacuum-drag rescue at the same time that Noether's theorem closes off the more direct claim.
+
+The rescue also fails on its own terms. A virtual pair is not a reservoir of momentum that an object can exchange with while leaving no trace elsewhere; a thruster that pushed on the vacuum would impart the momentum to something, and the something would have to be a detectable field or radiation in the surroundings. Physicists working in the breakthrough propulsion field have themselves observed that the version of the quantum vacuum used in these proposals is not the vacuum of standard quantum field theory, and that if momentum conservation is to hold, an equal and opposite thrust must be exerted on the hypothetical pairs \cite{F2016}.
+
+\section{The Mundane Explanation}
+
+The most direct evidence comes from the experiments that were designed to find the artifact. Tajmar and Fiedler at the Dresden University of Technology measured thrust from an EmDrive in 2015 and evaluated in the same report the side effects that might produce an apparent force \cite{TF2015}. In the following years the group built a progressively better balance, and in 2018 reported that the dominant effect in an earlier setup could be traced to the interaction of Earth's magnetic field with power cables in the chamber. By 2021 they had tested the NASA configuration, which they chose because it was the best documented, on a balance with a point suspension below the center of mass, with the device battery-powered to remove interactions through feedthroughs, and with shielding against magnetic fields. They reported that the apparent thrust tracked a thermal effect and not the cavity's resonance, that a properly isolated device showed no thrust, and that their measurements refuted the earlier claims by at least three orders of magnitude \cite{TNW2022}.
+
+Thermal expansion of the mounting apparatus during power-up, in particular, produces a force signature that mimics genuine thrust in exactly the timescale and magnitude range the earlier positive results reported. The mechanism is easy to describe. A cavity dissipating tens of watts heats its mount and its supply cables. The heated parts expand and shift the center of mass relative to the suspension point of a torsion balance, and the balance registers a deflection that looks like a force at the moment the power is applied and decays on the thermal time constant afterward. An apparent thrust that lingers after the power is switched off, as was noted in discussion of the 2015 Dresden report, is the fingerprint of this kind of artifact and is not what a thrust that exists only while microwaves are in the cavity would produce.
+
+The Eagleworks result is a useful test case, because it is the strongest published positive. White and colleagues reported a force of roughly a millinewton per kilowatt of input in the tens-of-watts regime, measured in a vacuum chamber on a torsion pendulum, and they were careful to describe the result as a measurement of impulsive thrust from a closed cavity without claiming to explain it \cite{W2017}. The same configuration, rebuilt and measured on a better balance, gave no thrust once the thermal effect was removed \cite{TNW2022}. A claim that disappears when the instrument improves, using the same cavity design, is not a hard anomaly. It is an instrumentation story.
+
+\section{Objections}
+
+A common reply holds that a null result from one lab does not retroactively invalidate positive results from several others, and that a systematic replication effort across differently designed test stands would settle the question more conclusively than any single refutation. This is true as a general methodological point, but it also describes what has occurred: as thrust-balance isolation techniques have improved across the field, the measured effect has shrunk toward zero rather than converging on a stable, well-characterized nonzero value, which is the signature of instrumental artifact being progressively eliminated rather than of a real effect being progressively resolved.
+
+A second reply, associated with the inventor, holds that the NASA and Dresden cavities were not built to his specifications and that a null result for a mis-designed device says nothing about a correct one. The Dresden group chose the NASA configuration because it was the best documented and had been published in a peer-reviewed journal. The reply has the structure noted elsewhere in this series for other claims: the criterion for a correct device is supplied by the inventor after the fact, and no device built to that criterion by an independent group has produced a thrust that survived the controls.
+
+A third objection is that the claimed thrust is tiny, so the device could not be expected to show up against balance noise in any case, and that the right response is a more sensitive instrument. This objection supports the opposite conclusion from the one intended. A sensitive instrument is what has been built, and it is what found the artifact.
+
+\section{Conclusion}
+
+A microwave cavity with a millinewton-scale reported anomaly is not remotely sufficient grounds to revise a symmetry as deeply confirmed as momentum conservation, and the entropic account of gravitation removes even the fallback appeal to a vacuum substrate the device might be pushing against. The improving trend toward null results as measurement technique has matured is exactly what the mundane explanation predicts and exactly what the reactionless-thrust explanation does not. This paper does not offer a positive theory of the original reports and does not claim to have excluded every conceivable mechanism; it states that the evidence presented for a net force on a closed resonant cavity is accounted for by thermal and magnetic effects on the test apparatus, and that the theoretical case for the device has not produced a prediction that anyone has tested and found correct.
+
+\begin{thebibliography}{99}
+
+\bibitem{S2015} R. Shawyer, Second Generation EmDrive Propulsion Applied to SSTO Launcher and Interstellar Probe, \emph{Acta Astronautica} 116 (2015) 166--174.
+
+\bibitem{B2014} D. A. Brady, H. G. White, P. March, J. T. Lawrence and F. J. Davies, Anomalous Thrust Production from an RF Test Device Measured on a Low-Thrust Torsion Pendulum, AIAA Paper 2014-4029, 2014.
+
+\bibitem{W2017} H. White, P. March, J. Lawrence, J. Vera, A. Sylvester, D. Brady and P. Bailey, Measurement of Impulsive Thrust from a Closed Radio-Frequency Cavity in Vacuum, \emph{Journal of Propulsion and Power} 33 (2017) 830--841.
+
+\bibitem{N1918} E. Noether, Invariante Variationsprobleme, \emph{Nachrichten von der Gesellschaft der Wissenschaften zu Goettingen, Mathematisch-Physikalische Klasse} (1918) 235--257.
+
+\bibitem{F2016} H. Fearn et al., Breakthrough Propulsion I: The Quantum Vacuum, \emph{Journal of the British Interplanetary Society} 69 (2016) 155--162.
+
+\bibitem{TF2015} M. Tajmar and G. Fiedler, Direct Thrust Measurements of an EmDrive and Evaluation of Possible Side-Effects, AIAA Paper 2015-4083, 2015.
+
+\bibitem{TNW2022} M. Tajmar, O. Neunzig and M. Weikert, High-Accuracy Thrust Measurements of the EMDrive and Elimination of False-Positive Effects, \emph{CEAS Space Journal} 14 (2022), first presented at the Space Propulsion Conference 2020+1, March 2021.
+
+\end{thebibliography}
+
+\end{document}
